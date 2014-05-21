@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: myCRED\n"
 "Report-Msgid-Bugs-To: http://mycred.me\n"
 "POT-Creation-Date: 2014-03-20 14:26+0100\n"
-"PO-Revision-Date: 2014-05-18 06:59+0900\n"
-"Last-Translator: Kazumasa Iwakiri\n"
+"PO-Revision-Date: 2014-05-21 23:28+0900\n"
+"Last-Translator: Yoshihiro Imamura\n"
 "Language-Team: LANGUAGE <support@mycred.me>\n"
 "Language: ja_JP\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -58,8 +58,8 @@ msgid ""
 "Warning! All entries in your log will be permanently removed! This can not "
 "be undone!"
 msgstr ""
-"警告 ！保存されたすべてのエントリが完全に削除されます ！元に戻すことができな"
-"い ！"
+"警告 ！保存されたすべてのエントリが完全に削除されます！元に戻すことができませ"
+"ん！"
 
 #: ../mycred.php:617
 msgid ""
@@ -72,7 +72,7 @@ msgstr ""
 #: ../mycred.php:618
 msgid "Warning! All user balances will be set to zero! This can not be undone!"
 msgstr ""
-"警告 ！すべてのユーザーの残高がゼロに設定されます ！元に戻すことができない ！"
+"警告 ！すべてのユーザーの残高がゼロに設定されます！元に戻すことができません！"
 
 #: ../mycred.php:619
 msgid "Done!"
@@ -84,7 +84,7 @@ msgstr "閉じる"
 
 #: ../mycred.php:621
 msgid "Export users %plural%"
-msgstr "Export users %plural%"
+msgstr "ユーザーの %plural% をエクスポートします"
 
 #: ../mycred.php:637
 msgid "Edit Users Balance"
@@ -100,7 +100,8 @@ msgstr "更新しています…"
 
 #: ../mycred.php:659
 msgid "Are you sure you want to delete this log entry? This can not be undone!"
-msgstr "このログエントリを削除してもよろしいですか？元に戻すことができない ！"
+msgstr ""
+"このログエントリを削除してもよろしいですか？元に戻すことはできません ！"
 
 #: ../mycred.php:660
 msgid "Log entry updated"
@@ -146,7 +147,9 @@ msgstr ""
 
 #: ../abstracts/mycred-abstract-hook.php:70
 msgid "function myCRED_Hook::run() must be over-ridden in a sub-class."
-msgstr "function myCRED_Hook::run() must be over-ridden in a sub-class."
+msgstr ""
+"function myCRED_Hook::run() は、サブクラスでオーバーライドする必要がありま"
+"す。"
 
 #: ../abstracts/mycred-abstract-hook.php:79
 msgid "This Hook has no settings"
@@ -242,8 +245,8 @@ msgid ""
 "Give your users %_plural% on a regular basis with the option to set the "
 "number of times you want this payout to run (cycles)."
 msgstr ""
-"Give your users %_plural% on a regular basis with the option to set the "
-"number of times you want this payout to run (cycles)."
+"この支払いは、実行する回数(サイクル)を設定するオプションを定期的に %_plural% "
+"をユーザーに与えます。"
 
 #: ../addons/banking/myCRED-addon-banking.php:156
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:473
@@ -269,11 +272,11 @@ msgstr ""
 
 #: ../addons/banking/myCRED-addon-banking.php:171
 msgid "WP-Cron deactivation detected!"
-msgstr "WP-Cron deactivation detected!"
+msgstr "WP-Cron がアクティブではありません。"
 
 #: ../addons/banking/myCRED-addon-banking.php:172
 msgid "Warning! This add-on requires WP - Cron to work."
-msgstr "警告 ！This add-on requires WP - Cron to work."
+msgstr "警告 ！このアドオンは WP - Cron が動作している必要があります。"
 
 #: ../addons/banking/myCRED-addon-banking.php:188
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:549
@@ -288,7 +291,9 @@ msgstr "この変更を更新"
 
 #: ../addons/banking/abstracts/mycred-abstract-service.php:57
 msgid "function myCRED_Service::run() must be over-ridden in a sub-class."
-msgstr "function myCRED_Service::run() must be over-ridden in a sub-class."
+msgstr ""
+"function myCRED_Service::run() は、サブクラスでオーバーライドする必要がありま"
+"す。"
 
 #: ../addons/banking/abstracts/mycred-abstract-service.php:66
 msgid "This Service has no settings"
@@ -412,26 +417,26 @@ msgstr "数量"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:224
 msgid "Can not be zero."
-msgstr "Can not be zero."
+msgstr "ゼロにすることはできません。"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:228
 #: ../addons/banking/services/mycred-bank-service-payouts.php:241
 #: ../modules/mycred-module-hooks.php:1744
 msgid "Interval"
-msgstr "Interval"
+msgstr "間隔"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:233
 #: ../addons/banking/services/mycred-bank-service-payouts.php:242
 msgid "Cycles"
-msgstr "Cycles"
+msgstr "サイクル"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:235
 msgid "Set to -1 for unlimited"
-msgstr "Set to -1 for unlimited"
+msgstr "無制限にするには -1 を設定します"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:238
 msgid "Last Run / Activated"
-msgstr "Last Run / Activated"
+msgstr "最後に実行/活性化"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:241
 msgid ""
@@ -457,7 +462,7 @@ msgstr ""
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:243
 msgid "Important"
-msgstr "Important"
+msgstr "重要"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:243
 msgid ""
@@ -473,31 +478,31 @@ msgstr ""
 #: ../includes/mycred-install.php:559
 #: ../modules/mycred-module-settings.php:381
 msgid "Excludes"
-msgstr "Excludes"
+msgstr "除外"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:249
 msgid ""
 "Comma separated list of user IDs to exclude from this service. No spaces "
 "allowed!"
 msgstr ""
-"Comma separated list of user IDs to exclude from this service. No spaces "
-"allowed!"
+"コンマ区切りのユーザーIDリストをこのサービスから除外します。スペースは使用で"
+"きません。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:55
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:56
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:57
 msgid "Payment Gateways"
-msgstr "Payment Gateways"
+msgstr "支払いゲートウェイ"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:188
 msgid "buyCRED Purchase Log"
-msgstr "buyCRED Purchase Log"
+msgstr "buyCRED 購入ログ"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:189
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:417
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:484
 msgid "Purchase Log"
-msgstr "Purchase Log"
+msgstr "購入ログ"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:277
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:26
@@ -505,15 +510,15 @@ msgstr "Purchase Log"
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:540
 #: ../addons/sell-content/myCRED-addon-sell-content.php:361
 msgid "Payments"
-msgstr "Payments"
+msgstr "支払い"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:307
 msgid "Please login to purchase %_plural%"
-msgstr "Please login to purchase %_plural%"
+msgstr "%_plural%を購入するには、ログインしてください。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:322
 msgid "Gift purchase from %display_name%."
-msgstr "Gift purchase from %display_name%."
+msgstr "%display_name%からのギフト購入。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:338
 #: ../includes/mycred-overview.php:98 ../includes/mycred-overview.php:105
@@ -524,11 +529,12 @@ msgstr "buyCRED"
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:340
 #: ../addons/ranks/myCRED-addon-ranks.php:610
 msgid "Minimum %plural%"
-msgstr "Minimum %plural%"
+msgstr "最小 %plural%"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:344
 msgid "Minimum amount of %plural% a user must purchase. Will default to 1."
-msgstr "Minimum amount of %plural% a user must purchase. Will default to 1."
+msgstr ""
+"ユーザーは%plural% の最小量を購入する必要があります。デフォルト は1です。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:349
 #: ../addons/coupons/myCRED-addon-coupons.php:315
@@ -542,133 +548,133 @@ msgstr "Minimum amount of %plural% a user must purchase. Will default to 1."
 #: ../includes/mycred-widgets.php:204 ../includes/mycred-widgets.php:401
 #: ../includes/importers/mycred-cubepoints.php:365
 msgid "Point Type"
-msgstr "Point Type"
+msgstr "ポイントの種類"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:361
 msgid "Login Template"
-msgstr "Login Template"
+msgstr "ログインテンプレート"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:365
 msgid "Content to show when a user is not logged in."
-msgstr "Content to show when a user is not logged in."
+msgstr "ユーザーがログインしていないときに表示するコンテンツ。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:375
 msgid "Thank You Page"
-msgstr "Thank You Page"
+msgstr "サンキューページ"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:378
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:399
 msgid "Custom URL"
-msgstr "Custom URL"
+msgstr "カスタムURL"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:383
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:404
 msgid "Page"
-msgstr "Page"
+msgstr "ページ"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:396
 msgid "Cancellation Page"
-msgstr "Cancellation Page"
+msgstr "キャンセルページ"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:419
 msgid "Show seperate log for %_plural% purchases."
-msgstr "Show seperate log for %_plural% purchases."
+msgstr "%_plural% を購入のために別々のログを表示します。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:421
 msgid "Gifting"
-msgstr "Gifting"
+msgstr "ギフト"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:423
 msgid "Allow users to buy %_plural% for other users."
-msgstr "Allow users to buy %_plural% for other users."
+msgstr "他のユーザーのために %_plural % を購入するユーザーを許可します。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:424
 msgid "Allow users to buy %_plural% for content authors."
-msgstr "Allow users to buy %_plural% for content authors."
+msgstr "コンテンツ製作者のために %_plural% を購入するユーザーを許可します。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:484
 msgid "%s Payment Gateways"
-msgstr "%s Payment Gateways"
+msgstr "%s お支払いゲートウェイ"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:484
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:659
 msgid "buyCRED Settings"
-msgstr "buyCRED Settings"
+msgstr "buyCRED の設定"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:490
 msgid ""
 "Select the payment gateways you want to offer your users to buy %plural%."
 msgstr ""
-"Select the payment gateways you want to offer your users to buy %plural%."
+"%plural% を購入するユーザーに提供したいお支払いゲートウェイを選択します。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:497
 msgid "Last Payment Notification"
-msgstr "Last Payment Notification"
+msgstr "最後のお支払いの通知"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:499
 msgid ""
 "Here you can view the last payment confirmation that was sent to buyCRED for "
 "processing."
 msgstr ""
-"Here you can view the last payment confirmation that was sent to buyCRED for "
-"processing."
+"ここでは、処理のためにbuyCREDに送られた最後のお支払い確認を表示することができ"
+"ます。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:502
 msgid "Details"
-msgstr "Details"
+msgstr "詳細"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:505
 #: ../modules/mycred-module-log.php:552
 msgid "Time"
-msgstr "Time"
+msgstr "時間"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:509
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:650
 #: ../includes/mycred-overview.php:166 ../includes/mycred-overview.php:173
 #: ../modules/mycred-module-addons.php:190
 msgid "Gateway"
-msgstr "Gateway"
+msgstr "ゲートウェイ"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:513
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:655
 msgid "Transaction ID"
-msgstr "Transaction ID"
+msgstr "トランザクション ID"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:517
 msgid "Outcome"
-msgstr "Outcome"
+msgstr "結果"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:521
 msgid "Gateway Log"
-msgstr "Gateway Log"
+msgstr "ゲートウェイログ"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:529
 msgid "No recorded calls found."
-msgstr "No recorded calls found."
+msgstr "記録された呼出しはありません。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:542
 msgid "Test Mode"
-msgstr "Test Mode"
+msgstr "テストモード"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:544
 msgid "Enabled"
-msgstr "Enabled"
+msgstr "有効"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:547
 msgid "Disabled"
-msgstr "Disabled"
+msgstr "無効"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:557
 msgid "Sandbox Mode"
-msgstr "Sandbox Mode"
+msgstr "サンドボックスモード"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:560
 msgid "Enable for test purchases."
-msgstr "Enable for test purchases."
+msgstr "テスト購入を有効にする。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:577
 msgid "Update Gateway Settings"
-msgstr "Update Gateway Settings"
+msgstr "ゲートウェイ設定を更新"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:651
 #: ../addons/email-notices/myCRED-addon-email-notices.php:643
@@ -676,62 +682,64 @@ msgstr "Update Gateway Settings"
 #: ../includes/mycred-admin.php:473 ../includes/mycred-log.php:649
 #: ../modules/mycred-module-log.php:551
 msgid "User"
-msgstr "User"
+msgstr "ユーザー"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:652
 #: ../includes/mycred-log.php:650
 msgid "Date"
-msgstr "Date"
+msgstr "日付"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:654
 msgid "Payed"
-msgstr "Payed"
+msgstr "支払い"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:659
 msgid "<strong>buy</strong>CRED Purchase Log"
-msgstr "<strong>buy</strong>CRED Purchase Log"
+msgstr "<strong>buy</strong>CRED 購入ログ"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:659
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:367
 msgid "Gateway Settings"
-msgstr "Gateway Settings"
+msgstr "ゲートウェイ設定"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:663
 msgid ""
 "Only completed purchases are shown here. Purchases that were cancelled or "
 "failed are not logged."
 msgstr ""
-"Only completed purchases are shown here. Purchases that were cancelled or "
-"failed are not logged."
+"購入が完了したものだけをここに表示します。キャンセルまたは失敗した購入は記録"
+"されません。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:772
 #: ../includes/mycred-log.php:753 ../modules/mycred-module-log.php:473
 msgid "User Missing"
-msgstr "User Missing"
+msgstr "ユーザーが見つかりません"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:835
 #: ../addons/sell-content/myCRED-addon-sell-content.php:1110
 msgid "No purchases found"
-msgstr "No purchases found"
+msgstr "購入が見つかりません"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:907
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:1004
 msgid "This Add-on needs to setup before you can use this shortcode."
-msgstr "This Add-on needs to setup before you can use this shortcode."
+msgstr ""
+"このアドオンは、このショートコードを使用する前にセットアップする必要がありま"
+"す。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:925
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:1022
 msgid "No gateways installed."
-msgstr "No gateways installed."
+msgstr "ゲートウェイがインストールされていません。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:926
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:1023
 msgid "Gateway does not exist."
-msgstr "Gateway does not exist."
+msgstr "ゲートウェイが存在していません。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:962
 msgid "Yourself"
-msgstr "Yourself"
+msgstr "自分で"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:1024
 msgid "No active gateways found."
