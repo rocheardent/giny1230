@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: myCRED\n"
 "Report-Msgid-Bugs-To: http://mycred.me\n"
 "POT-Creation-Date: 2014-03-20 14:26+0100\n"
-"PO-Revision-Date: 2014-05-21 23:28+0900\n"
+"PO-Revision-Date: 2014-05-26 12:13+0900\n"
 "Last-Translator: Yoshihiro Imamura\n"
 "Language-Team: LANGUAGE <support@mycred.me>\n"
 "Language: ja_JP\n"
@@ -445,10 +445,9 @@ msgid ""
 "with a \"Daily\" interval, the first payout will occur first thing in the "
 "morning."
 msgstr ""
-"Select how often you want to award %_plural%. Note that when this service is "
-"enabled, the first payout will be in the beginning of the next period. So "
-"with a \"Daily\" interval, the first payout will occur first thing in the "
-"morning."
+"どのくらいの頻度で %_plural% を行うか選択します。このサービスが有効になってい"
+"る場合、最初のお支払いは次の期の始めになることに注意してください。そのため、"
+"頻度を\"毎日\"にしている場合、最初のお支払いは朝一番に発生します。"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:242
 msgid ""
@@ -456,9 +455,9 @@ msgid ""
 "a cycle runs, the value will decrease until it hits zero, in which case this "
 "service will deactivate itself. Use -1 to run unlimited times."
 msgstr ""
-"Cycles let you choose how many intervals this service should run. Each time "
-"a cycle runs, the value will decrease until it hits zero, in which case this "
-"service will deactivate itself. Use -1 to run unlimited times."
+"サイクルでは、このサービスを実行する頻度を選択できます。サイクルが実行される"
+"たびに値がゼロになるまで減少し、値が0になったらサービスは非アクティブになりま"
+"す。無制限に実行するには、-1を使用します。"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:243
 msgid "Important"
@@ -470,9 +469,10 @@ msgid ""
 "if you deactivate while there are cycles left, this service will continue on "
 "when it gets re-activated. Set cycles to zero to reset."
 msgstr ""
-"You can always stop payouts by deactivating this service. Just remember that "
-"if you deactivate while there are cycles left, this service will continue on "
-"when it gets re-activated. Set cycles to zero to reset."
+"このサービスを非アクティブにすることにより、いつでも、お支払いを停止すること"
+"ができます。サイクルが残っている間に非アクティブにする場合、このサービスが再"
+"アクティブ化されたときに継続することに注意してください。リセットするにはサイ"
+"クルに0を設定します。"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:245
 #: ../includes/mycred-install.php:559
@@ -743,146 +743,147 @@ msgstr "自分で"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:1024
 msgid "No active gateways found."
-msgstr "No active gateways found."
+msgstr "アクティブなゲートウェイは見つかりません。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:1025
 msgid "The selected gateway is not active."
-msgstr "The selected gateway is not active."
+msgstr "選択したゲートウェイはアクティブではありません。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:1061
 msgid "Buy with %gateway%"
-msgstr "Buy with %gateway%"
+msgstr "%gateway% で購入"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:1067
 #: ../addons/sell-content/myCRED-addon-sell-content.php:44
 msgid "Buy Now"
-msgstr "Buy Now"
+msgstr "今すぐ購入"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:1107
 msgid "No users found"
-msgstr "No users found"
+msgstr "ユーザーが見つかりません"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:1117
 msgid "To"
-msgstr "To"
+msgstr "宛先"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:1134
 msgid "Select Amount"
-msgstr "Select Amount"
+msgstr "総数を選択"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:1158
 msgid "min."
-msgstr "min."
+msgstr "最低"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:1166
 msgid "Select Gateway"
-msgstr "Select Gateway"
+msgstr "ゲートウェイを選択"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:89
 msgid ""
 "function myCRED_Payment_Gateway::process() must be over-ridden in a sub-"
 "class."
 msgstr ""
-"function myCRED_Payment_Gateway::process() must be over-ridden in a sub-"
-"class."
+"function myCRED_Payment_Gateway::process() は、サブクラスでオーバーライドする"
+"必要があります。"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:98
 msgid ""
 "function myCRED_Payment_Gateway::buy() must be over-ridden in a sub-class."
 msgstr ""
-"function myCRED_Payment_Gateway::buy() must be over-ridden in a sub-class."
+"function myCRED_Payment_Gateway::buy() は、サブクラスでオーバーライドする必要"
+"があります。"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:114
 msgid "This Payment Gateway has no settings"
-msgstr "This Payment Gateway has no settings"
+msgstr "お支払いゲートウェイの設定はありません"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:212
 msgid "Incoming confirmation call detected"
-msgstr "Incoming confirmation call detected"
+msgstr "受信確認の呼び出しが検出されました"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:213
 msgid "Gateway identified itself as \"%s\""
-msgstr "Gateway identified itself as \"%s\""
+msgstr "ゲートウェイは、 \"%s\" として識別されています"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:214
 msgid "Verifying caller"
-msgstr "Verifying caller"
+msgstr "検証の呼び出し"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:260
 msgid "Test Payment"
-msgstr "Test Payment"
+msgstr "支払いテスト"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:264
 #: ../addons/gateway/carts/mycred-marketpress.php:179
 msgid "Payment"
-msgstr "Payment"
+msgstr "お支払い"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:281
 msgid "Cancel purchase"
-msgstr "Cancel purchase"
+msgstr "購入をキャンセル"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:360
 #: ../includes/mycred-admin.php:360 ../includes/mycred-admin.php:466
 msgid "required"
-msgstr "required"
+msgstr "必須"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:361
 #: ../includes/mycred-admin.php:362 ../includes/mycred-admin.php:468
 msgid "optional"
-msgstr "optional"
+msgstr "オプション"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:366
 msgid "First Name"
-msgstr "First Name"
+msgstr "名"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:370
 msgid "Last Name"
-msgstr "Last Name"
+msgstr "性"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:374
 msgid "Address Line 1"
-msgstr "Address Line 1"
+msgstr "住所 1"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:378
 msgid "Address Line 2"
-msgstr "Address Line 2"
+msgstr "住所 2"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:382
 msgid "City"
-msgstr "City"
+msgstr "市町村"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:386
 msgid "Zip"
-msgstr "Zip"
+msgstr "郵便番号"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:390
 msgid "State"
-msgstr "State"
+msgstr "都道府県"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:394
 msgid "Country"
-msgstr "Country"
+msgstr "国"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:397
 msgid "Choose Country"
-msgstr "Choose Country"
+msgstr "国を選択してください"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:419
 msgid "%s Purchase"
-msgstr "%s Purchase"
+msgstr "%s の購入"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:424
 #: ../addons/gateway/carts/mycred-wpecommerce.php:112
 msgid "Item"
-msgstr "Item"
+msgstr "商品"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:426
 msgid "Cost"
-msgstr "Cost"
+msgstr "費用"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:447
 msgid "Debug"
-msgstr "Debug"
+msgstr "デバッグ"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:448
 msgid ""
@@ -891,92 +892,92 @@ msgid ""
 "troubleshooting / testing of this gateway. Please disable \"Sandbox Mode\" "
 "when you want to take this gateway online."
 msgstr ""
-"Here you can see information that are collected and sent to this gateway. "
-"Debug information is only visible for administrators and are intended for "
-"troubleshooting / testing of this gateway. Please disable \"Sandbox Mode\" "
-"when you want to take this gateway online."
+"ここでは、このゲートウェイに送信され、収集した情報を見ることができます。デ"
+"バッグ情報は管理者のみ閲覧可能であり、このゲートウェイのトラブルシューティン"
+"グ/テスティングのためのものです。オンラインでこのゲートウェイを利用したいとき"
+"は、「サンドボックスモード」を無効にしてください。"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:452
 msgid "Section"
-msgstr "Section"
+msgstr "セクション"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:453
 msgid "Result"
-msgstr "Result"
+msgstr "結果"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:458
 msgid "Payment Status"
-msgstr "Payment Status"
+msgstr "支払いステータス"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:462
 msgid "Request"
-msgstr "Request"
+msgstr "リクエスト"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:466
 msgid "Gateway Response"
-msgstr "Gateway Response"
+msgstr "ゲートウェイの応答"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:513
 msgid "Continue to %s"
-msgstr "Continue to %s"
+msgstr "%s を継続"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:514
 #: ../addons/buy-creds/gateways/bitpay.php:240
 msgid "Click here if you are not automatically redirected"
-msgstr "Click here if you are not automatically redirected"
+msgstr "自動的にリダイレクトされない場合は、ここをクリックしてください。"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:519
 msgid "The following information will be sent to the gateway"
-msgstr "The following information will be sent to the gateway"
+msgstr "次の情報は、ゲートウェイに送信されます"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:1154
 msgid "Outside US"
-msgstr "Outside US"
+msgstr "米国外"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:1253
 msgid "Missing required information."
-msgstr "Missing required information."
+msgstr "必要な情報がありません。"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:1273
 msgid "Validating sale"
-msgstr "Validating sale"
+msgstr "販売の検証"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:1287
 msgid "Token mismatch"
-msgstr "Token mismatch"
+msgstr "トークンが一致しません"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:1299
 msgid "Price mismatch"
-msgstr "Price mismatch"
+msgstr "価格が一致しません"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:1304
 msgid "Currency mismatch"
-msgstr "Currency mismatch"
+msgstr "通貨が一致しません"
 
 #: ../addons/buy-creds/abstracts/mycred-abstract-payment-gateway.php:1316
 msgid "Duplicate transaction"
-msgstr "Duplicate transaction"
+msgstr "トランザクションが重複しています"
 
 #: ../addons/buy-creds/gateways/bitpay.php:25
 #: ../addons/buy-creds/gateways/netbilling.php:30
 #: ../addons/buy-creds/gateways/paypal-standard.php:25
 #: ../addons/buy-creds/gateways/skrill.php:30
 msgid "Purchase of myCRED %plural%"
-msgstr "Purchase of myCRED %plural%"
+msgstr "myCRED %plural% の購入"
 
 #: ../addons/buy-creds/gateways/bitpay.php:68
 #: ../addons/buy-creds/gateways/netbilling.php:102
 #: ../addons/buy-creds/gateways/paypal-standard.php:162
 #: ../addons/buy-creds/gateways/skrill.php:134
 msgid "Sales Data is Valid"
-msgstr "Sales Data is Valid"
+msgstr "売上データは有効です"
 
 #: ../addons/buy-creds/gateways/bitpay.php:72
 #: ../addons/buy-creds/gateways/netbilling.php:106
 #: ../addons/buy-creds/gateways/paypal-standard.php:166
 #: ../addons/buy-creds/gateways/skrill.php:138
 msgid "Failed to validate sale"
-msgstr "Failed to validate sale"
+msgstr "売上の検証に失敗しました"
 
 #: ../addons/buy-creds/gateways/bitpay.php:78
 #: ../addons/buy-creds/gateways/netbilling.php:112
@@ -984,7 +985,7 @@ msgstr "Failed to validate sale"
 #: ../addons/buy-creds/gateways/skrill.php:144
 #: ../addons/buy-creds/gateways/zombaio.php:166
 msgid "Failed to verify caller"
-msgstr "Failed to verify caller"
+msgstr "呼び出し元の検証に失敗しました"
 
 #: ../addons/buy-creds/gateways/bitpay.php:86
 #: ../addons/buy-creds/gateways/netbilling.php:120
@@ -992,7 +993,7 @@ msgstr "Failed to verify caller"
 #: ../addons/buy-creds/gateways/skrill.php:152
 #: ../addons/buy-creds/gateways/zombaio.php:171
 msgid "Attempting to credit %s to users account"
-msgstr "Attempting to credit %s to users account"
+msgstr "ユーザーアカウントに %s の入金を行っています"
 
 #: ../addons/buy-creds/gateways/bitpay.php:97
 #: ../addons/buy-creds/gateways/netbilling.php:132
@@ -1000,7 +1001,7 @@ msgstr "Attempting to credit %s to users account"
 #: ../addons/buy-creds/gateways/skrill.php:164
 #: ../addons/buy-creds/gateways/zombaio.php:207
 msgid "%s was successfully credited to users account"
-msgstr "%s was successfully credited to users account"
+msgstr "ユーザーアカウントに %s が正常に入金されました"
 
 #: ../addons/buy-creds/gateways/bitpay.php:104
 #: ../addons/buy-creds/gateways/netbilling.php:139
@@ -1008,14 +1009,14 @@ msgstr "%s was successfully credited to users account"
 #: ../addons/buy-creds/gateways/skrill.php:171
 #: ../addons/buy-creds/gateways/zombaio.php:214
 msgid "Failed to credit the users account"
-msgstr "Failed to credit the users account"
+msgstr "ユーザーアカウントへの入金に失敗しました"
 
 #: ../addons/buy-creds/gateways/bitpay.php:107
 #: ../addons/buy-creds/gateways/netbilling.php:142
 #: ../addons/buy-creds/gateways/paypal-standard.php:203
 #: ../addons/buy-creds/gateways/skrill.php:174
 msgid "Purchase not paid"
-msgstr "Purchase not paid"
+msgstr "購入品の支払いが行われていません"
 
 #: ../addons/buy-creds/gateways/bitpay.php:111
 #: ../addons/buy-creds/gateways/netbilling.php:146
@@ -1023,7 +1024,7 @@ msgstr "Purchase not paid"
 #: ../addons/buy-creds/gateways/skrill.php:178
 #: ../addons/buy-creds/gateways/zombaio.php:218
 msgid "Hanging up on caller"
-msgstr "Hanging up on caller"
+msgstr "呼び出し元の電話を切ります"
 
 #: ../addons/buy-creds/gateways/bitpay.php:175
 #: ../addons/buy-creds/gateways/netbilling.php:173
@@ -1031,7 +1032,7 @@ msgstr "Hanging up on caller"
 #: ../addons/buy-creds/gateways/skrill.php:208
 #: ../addons/buy-creds/gateways/zombaio.php:241
 msgid "Please setup this gateway before attempting to make a purchase!"
-msgstr "Please setup this gateway before attempting to make a purchase!"
+msgstr "購入する前にゲートウェイを設定してください。"
 
 #: ../addons/buy-creds/gateways/bitpay.php:226
 #: ../addons/buy-creds/gateways/bitpay.php:235
@@ -1040,129 +1041,128 @@ msgstr "Please setup this gateway before attempting to make a purchase!"
 #: ../addons/buy-creds/gateways/skrill.php:301
 #: ../addons/buy-creds/gateways/zombaio.php:271
 msgid "Processing payment &hellip;"
-msgstr "Processing payment &hellip;"
+msgstr "お支払い処理 &hellip;"
 
 #: ../addons/buy-creds/gateways/bitpay.php:228
 msgid ""
 "Could not create a BitPay Invoice. Please contact the site administrator!"
-msgstr ""
-"Could not create a BitPay Invoice. Please contact the site administrator!"
+msgstr "BitPay 請求書を作成できませんでした。サイト管理者に連絡してください。"
 
 #: ../addons/buy-creds/gateways/bitpay.php:229
 msgid "Bitpay returned the following error message:"
-msgstr "Bitpay returned the following error message:"
+msgstr "Bitpay は、次のエラーメッセージを返しました："
 
 #: ../addons/buy-creds/gateways/bitpay.php:261
 msgid ""
 "Warning! - Bitpay requires your website to use SSL in order to notify you of "
 "confirmed payments! Without SSL your website will not receive updates!"
 msgstr ""
-"警告 ！- Bitpay requires your website to use SSL in order to notify you of "
-"confirmed payments!Without SSL your website will not receive updates!"
+"警告 ！- Bitpay は、支払いの確認を通知するために、ウェブサイトはSSLを使用して"
+"いる必要があります。SSLを使用していない場合、更新を受信しません。"
 
 #: ../addons/buy-creds/gateways/bitpay.php:263
 #: ../includes/mycred-remote.php:551
 msgid "API Key"
-msgstr "API Key"
+msgstr "API キー"
 
 #: ../addons/buy-creds/gateways/bitpay.php:269
 #: ../addons/buy-creds/gateways/paypal-standard.php:312
 #: ../addons/buy-creds/gateways/skrill.php:319
 msgid "Currency"
-msgstr "Currency"
+msgstr "通貨"
 
 #: ../addons/buy-creds/gateways/bitpay.php:272
 msgid "Currency Code"
-msgstr "Currency Code"
+msgstr "通貨コード"
 
 #: ../addons/buy-creds/gateways/bitpay.php:276
 #: ../addons/buy-creds/gateways/netbilling.php:260
 #: ../addons/buy-creds/gateways/paypal-standard.php:326
 #: ../addons/buy-creds/gateways/skrill.php:339
 msgid "Item Name"
-msgstr "Item Name"
+msgstr "商品名"
 
 #: ../addons/buy-creds/gateways/bitpay.php:280
 #: ../addons/buy-creds/gateways/netbilling.php:264
 #: ../addons/buy-creds/gateways/paypal-standard.php:330
 #: ../addons/buy-creds/gateways/skrill.php:343
 msgid "Description of the item being purchased by the user."
-msgstr "Description of the item being purchased by the user."
+msgstr "ユーザーが購入している商品の説明。"
 
 #: ../addons/buy-creds/gateways/bitpay.php:283
 #: ../addons/buy-creds/gateways/netbilling.php:267
 #: ../addons/buy-creds/gateways/paypal-standard.php:333
 #: ../addons/buy-creds/gateways/skrill.php:346
 msgid "%plural% Exchange Rate"
-msgstr "%plural% Exchange Rate"
+msgstr "%plural% 為替レート"
 
 #: ../addons/buy-creds/gateways/bitpay.php:286
 #: ../addons/buy-creds/gateways/paypal-standard.php:336
 #: ../addons/buy-creds/gateways/skrill.php:349
 msgid "Select currency"
-msgstr "Select currency"
+msgstr "通貨を選択します"
 
 #: ../addons/buy-creds/gateways/bitpay.php:289
 msgid "Transaction Speed"
-msgstr "Transaction Speed"
+msgstr "処理速度"
 
 #: ../addons/buy-creds/gateways/bitpay.php:296
 msgid "High"
-msgstr "High"
+msgstr "高い"
 
 #: ../addons/buy-creds/gateways/bitpay.php:297
 msgid "Medium"
-msgstr "Medium"
+msgstr "普通"
 
 #: ../addons/buy-creds/gateways/bitpay.php:298
 msgid "Low"
-msgstr "Low"
+msgstr "低い"
 
 #: ../addons/buy-creds/gateways/bitpay.php:311
 msgid "Full Notifications"
-msgstr "Full Notifications"
+msgstr "全通知"
 
 #: ../addons/buy-creds/gateways/bitpay.php:318
 #: ../includes/mycred-network.php:196 ../includes/mycred-network.php:210
 msgid "No"
-msgstr "No"
+msgstr "いいえ"
 
 #: ../addons/buy-creds/gateways/bitpay.php:319
 #: ../includes/mycred-network.php:192 ../includes/mycred-network.php:206
 msgid "Yes"
-msgstr "Yes"
+msgstr "はい"
 
 #: ../addons/buy-creds/gateways/netbilling.php:57
 #: ../addons/buy-creds/gateways/skrill.php:89
 #: ../addons/buy-creds/gateways/zombaio.php:103
 msgid "Invalid Call"
-msgstr "Invalid Call"
+msgstr "無効な呼び出し"
 
 #: ../addons/buy-creds/gateways/netbilling.php:59
 #: ../addons/buy-creds/gateways/skrill.php:91
 #: ../addons/buy-creds/gateways/zombaio.php:105
 msgid "Caller verified as \"%s\""
-msgstr "Caller verified as \"%s\""
+msgstr "\"%s\" として呼び出し元が確認しました"
 
 #: ../addons/buy-creds/gateways/netbilling.php:241
 msgid "Account ID"
-msgstr "Account ID"
+msgstr "アカウントID"
 
 #: ../addons/buy-creds/gateways/netbilling.php:247
 msgid "Site Tag"
-msgstr "Site Tag"
+msgstr "サイトタグ"
 
 #: ../addons/buy-creds/gateways/netbilling.php:253
 msgid "Order Integrity Key"
-msgstr "Order Integrity Key"
+msgstr "インテグリティキーを注文"
 
 #: ../addons/buy-creds/gateways/netbilling.php:257
 msgid "Found under Step 12 on the Fraud Defense page."
-msgstr "Found under Step 12 on the Fraud Defense page."
+msgstr "詐欺防衛ページのステップ 12の中にあります。"
 
 #: ../addons/buy-creds/gateways/netbilling.php:273
 msgid "Postback CGI URL"
-msgstr "Postback CGI URL"
+msgstr "ポストバック CGI URL"
 
 #: ../addons/buy-creds/gateways/netbilling.php:277
 msgid ""
@@ -1170,74 +1170,75 @@ msgid ""
 "your site. Under \"Default payment form settings\" make sure the Postback "
 "CGI URL is set to the above address and \"Return method\" is set to POST."
 msgstr ""
-"For this gateway to work, you must login to your NETbilling account and edit "
-"your site. Under \"Default payment form settings\" make sure the Postback "
-"CGI URL is set to the above address and \"Return method\" is set to POST."
+"ゲートウェイを機能させるためには、NETbillingアカウントへのログインおよびサイ"
+"トの編集をする必要があります。「デフォルト支払フォームの設定」にて、ポスト"
+"バック CGI URLは上記のアドレスが設定されていることを確認し、「リターンメソッ"
+"ド」はPOSTに設定されていることを確認します。"
 
 #: ../addons/buy-creds/gateways/netbilling.php:312
 msgid "Incorrect Credit Card number"
-msgstr "Incorrect Credit Card number"
+msgstr "不正なクレジットカード番号"
 
 #: ../addons/buy-creds/gateways/netbilling.php:318
 msgid "The credit card entered is past its expiration date."
-msgstr "The credit card entered is past its expiration date."
+msgstr "入力されたクレジットカードは利用期限を過ぎています。"
 
 #: ../addons/buy-creds/gateways/netbilling.php:321
 msgid "The CVV2 number entered is not valid."
-msgstr "The CVV2 number entered is not valid."
+msgstr "入力した CVV2 番号は無効です。"
 
 #: ../addons/buy-creds/gateways/netbilling.php:328
 msgid "The bank routing number entered is not valid."
-msgstr "The bank routing number entered is not valid."
+msgstr "入力した銀行番号(Routing Number)は無効です。"
 
 #: ../addons/buy-creds/gateways/netbilling.php:332
 msgid "The bank account number entered is not valid."
-msgstr "The bank account number entered is not valid."
+msgstr "入力した銀行口座番号は無効です。"
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:46
 msgid "Attempting to contact PayPal"
-msgstr "Attempting to contact PayPal"
+msgstr "PayPalに接続しています"
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:87
 msgid "Connection established"
-msgstr "Connection established"
+msgstr "接続が確立されました"
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:92
 msgid "Attempt: %d failed. Error: %s : %s"
-msgstr "Attempt: %d failed. Error: %s : %s"
+msgstr "試み： %d は失敗しました。 エラー： %s ： %s"
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:103
 msgid "Secondary systems failing. Final note: %s : %s"
-msgstr "Secondary systems failing. Final note: %s : %s"
+msgstr "セカンダリシステム失敗。 最後の注意点： %s ： %s"
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:118
 msgid "Call verified"
-msgstr "Call verified"
+msgstr "検証の呼び出し"
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:122
 msgid "Call rejected"
-msgstr "Call rejected"
+msgstr "呼び出しの拒否"
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:223
 #: ../addons/buy-creds/gateways/skrill.php:194
 msgid "Success"
-msgstr "Success"
+msgstr "成功"
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:224
 #: ../addons/buy-creds/gateways/skrill.php:195
 msgid "Thank you for your purchase"
-msgstr "Thank you for your purchase"
+msgstr "ご購入いただきありがとうございます"
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:290
 #: ../addons/buy-creds/gateways/skrill.php:247
 msgid "Return to "
-msgstr "Return to "
+msgstr "前のページに戻る "
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:317
 #: ../addons/buy-creds/gateways/skrill.php:376
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:455
 msgid "Important!"
-msgstr "Important!"
+msgstr "重要！"
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:317
 msgid ""
@@ -1245,17 +1246,17 @@ msgid ""
 "transactions will not be approved until you login to your PayPal account and "
 "Accept each transaction!"
 msgstr ""
-"Make sure you select a currency that your PayPal account supports. Otherwise "
-"transactions will not be approved until you login to your PayPal account and "
-"Accept each transaction!"
+"お客様のPayPalアカウントがサポートしている通貨を選択していることを確認してく"
+"ださい。そのほか、PayPalアカウントにログインし、各取引を受け入れるまで、取引"
+"が承認されることはありません。"
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:320
 msgid "Account Email"
-msgstr "Account Email"
+msgstr "アカウントのEメールアドレス"
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:339
 msgid "IPN Address"
-msgstr "IPN Address"
+msgstr "IPN アドレス"
 
 #: ../addons/buy-creds/gateways/paypal-standard.php:343
 msgid ""
@@ -1264,50 +1265,49 @@ msgid ""
 "Make sure the \"Notification URL\" is set to the above address and that you "
 "have selected \"Receive IPN messages (Enabled)\"."
 msgstr ""
-"For this gateway to work, you must login to your PayPal account and under "
-"\"Profile\" > \"Selling Tools\" enable \"Instant Payment Notifications\". "
-"Make sure the \"Notification URL\" is set to the above address and that you "
-"have selected \"Receive IPN messages (Enabled)\"."
+"このゲートウェイを機能させるためには、PayPalアカウントにログインし、\"プロ"
+"フィール\" > \"ツールを販売\" > \"即時支払い通知\"を有効にする必要がありま"
+"す。 \"通知URL\"は上記のアドレスが設定されていることを確認し、\"IPNメッセージ"
+"を受信（有効）\"を選択していることを確認します。"
 
 #: ../addons/buy-creds/gateways/skrill.php:284
 msgid "Product:"
-msgstr "Product:"
+msgstr "製品："
 
 #: ../addons/buy-creds/gateways/skrill.php:293
 msgid "Gift to:"
-msgstr "Gift to:"
+msgstr "ギフト："
 
 #: ../addons/buy-creds/gateways/skrill.php:294
 msgid "(author)"
-msgstr "(author)"
+msgstr "(著者)"
 
 #: ../addons/buy-creds/gateways/skrill.php:326
 msgid "Merchant Account Email"
-msgstr "Merchant Account Email"
+msgstr "商アカウントのEメールアドレス"
 
 #: ../addons/buy-creds/gateways/skrill.php:332
 msgid "Secret Word"
-msgstr "Secret Word"
+msgstr "秘密の合言葉"
 
 #: ../addons/buy-creds/gateways/skrill.php:336
 msgid ""
 "You can set your secret word under \"Merchant Tools\" in your Skrill Account."
 msgstr ""
-"You can set your secret word under \"Merchant Tools\" in your Skrill Account."
+"Skrill アカウントの\"マーチャントツール\"の下で、秘密の合言葉を設定できます。"
 
 #: ../addons/buy-creds/gateways/skrill.php:352
 msgid "Confirmation Email"
-msgstr "Confirmation Email"
+msgstr "確認メール"
 
 #: ../addons/buy-creds/gateways/skrill.php:355
 msgid ""
 "Ask Skrill to send me a confirmation email for each successful purchase."
-msgstr ""
-"Ask Skrill to send me a confirmation email for each successful purchase."
+msgstr "成功した各購入確認メールを送るようにSkrill に要求します。"
 
 #: ../addons/buy-creds/gateways/skrill.php:358
 msgid "Checkout Page"
-msgstr "Checkout Page"
+msgstr "チェックアウトページ"
 
 #: ../addons/buy-creds/gateways/skrill.php:361
 #: ../addons/gateway/carts/mycred-woocommerce.php:86
@@ -1322,12 +1322,13 @@ msgstr "タイトル"
 msgid ""
 "If left empty, your account email is used as title on the Skill Payment Page."
 msgstr ""
-"If left empty, your account email is used as title on the Skill Payment Page."
+"空の場合、アカウントのEメールアドレスはSkrillお支払いページのタイトルとして使"
+"用されます。"
 
 #: ../addons/buy-creds/gateways/skrill.php:366
 #: ../addons/buy-creds/gateways/zombaio.php:306
 msgid "Logo URL"
-msgstr "Logo URL"
+msgstr "ロゴ URL"
 
 #: ../addons/buy-creds/gateways/skrill.php:368
 msgid ""
@@ -1335,21 +1336,20 @@ msgid ""
 "integration results we recommend you use logos with dimensions up to 200px "
 "in width and 50px in height."
 msgstr ""
-"The URL to the image you want to use on the top of the gateway. For best "
-"integration results we recommend you use logos with dimensions up to 200px "
-"in width and 50px in height."
+"ゲートウェイの上部に使用したい画像のURLです。最高の結果のために、幅 200 px、"
+"高さ 50pxの最大寸法のロゴを使用することをオススメします。"
 
 #: ../addons/buy-creds/gateways/skrill.php:371
 msgid "Confirmation Note"
-msgstr "Confirmation Note"
+msgstr "確認書"
 
 #: ../addons/buy-creds/gateways/skrill.php:373
 msgid ""
 "Optional text to show user once a transaction has been successfully "
 "completed. This text is shown by Skrill."
 msgstr ""
-"Optional text to show user once a transaction has been successfully "
-"completed. This text is shown by Skrill."
+"オプションのテキストは、一度の取引が正常に完了したらユーザーに表示されます。"
+"このテキストは、Skrillにより表示されます。"
 
 #: ../addons/buy-creds/gateways/skrill.php:377
 msgid ""
@@ -1357,9 +1357,9 @@ msgid ""
 "When a user selects this option, no %_plural% are awarded! You will need to "
 "manually award these once the bank transfer is completed."
 msgstr ""
-"By default all Skrill Merchant account accept payments via Bank Transfers. "
-"When a user selects this option, no %_plural% are awarded! You will need to "
-"manually award these once the bank transfer is completed."
+"デフォルトでは、すべてのSkrillマーチャントアカウントは銀行振り込みによるお支"
+"払いを受け入れます。ユーザーがこのオプションを選択した場合、%_plural% は与え"
+"られません。銀行振込が完了すると、手動でこれらを与える必要があります。"
 
 #: ../addons/buy-creds/gateways/skrill.php:378
 msgid ""
@@ -1367,53 +1367,53 @@ msgid ""
 "for a Skrill account (if they do not have one already). You can contact "
 "Skrill Merchant Services and request to disable this feature."
 msgstr ""
-"By default purchases made using Skrill will result in users having to signup "
-"for a Skrill account (if they do not have one already). You can contact "
-"Skrill Merchant Services and request to disable this feature."
+"デフォルトでは、Skrillを使用して購入します。（Skrillアカウントを持っていない"
+"場合）ユーザーはSkrillアカウントにサインアップすることになります。Skrillマー"
+"チャントサービスに連絡し、この機能を無効にする要求を行うことができます。"
 
 #: ../addons/buy-creds/gateways/zombaio.php:154
 msgid "Checking Transaction ID"
-msgstr "Checking Transaction ID"
+msgstr "取引 IDのチェック"
 
 #: ../addons/buy-creds/gateways/zombaio.php:160
 msgid "Duplicate Transaction ID"
-msgstr "Duplicate Transaction ID"
+msgstr "重複している取引 ID"
 
 #: ../addons/buy-creds/gateways/zombaio.php:288
 msgid "Site ID"
-msgstr "Site ID"
+msgstr "サイト ID"
 
 #: ../addons/buy-creds/gateways/zombaio.php:294
 msgid "GW Password"
-msgstr "GW Password"
+msgstr "GW パスワード"
 
 #: ../addons/buy-creds/gateways/zombaio.php:300
 msgid "Pricing ID"
-msgstr "Pricing ID"
+msgstr "IDの価格"
 
 #: ../addons/buy-creds/gateways/zombaio.php:312
 msgid "IP Verification"
-msgstr "IP Verification"
+msgstr "IP の検証"
 
 #: ../addons/buy-creds/gateways/zombaio.php:315
 msgid "Do not verify that callbacks are coming from Zombaio."
-msgstr "Do not verify that callbacks are coming from Zombaio."
+msgstr "コールバックが Zombaio から来ていることを確認しません。"
 
 #: ../addons/buy-creds/gateways/zombaio.php:318
 msgid "Language"
-msgstr "Language"
+msgstr "言語"
 
 #: ../addons/buy-creds/gateways/zombaio.php:325
 msgid "Postback URL (ZScript)"
-msgstr "Postback URL (ZScript)"
+msgstr "ポストバック URL (ZScript)"
 
 #: ../addons/buy-creds/gateways/zombaio.php:329
 msgid ""
 "For this gateway to work, login to ZOA and set the Postback URL to the above "
 "address and click validate."
 msgstr ""
-"For this gateway to work, login to ZOA and set the Postback URL to the above "
-"address and click validate."
+"このゲートウェイを機能させるためには、ZOAへのログインとポストバック URLを上記"
+"のアドレスに設定し、[検証]をクリックします。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:86
 #: ../addons/coupons/myCRED-addon-coupons.php:92
@@ -1421,40 +1421,40 @@ msgstr ""
 #: ../includes/mycred-overview.php:188 ../includes/mycred-overview.php:195
 #: ../modules/mycred-module-addons.php:168
 msgid "Coupons"
-msgstr "Coupons"
+msgstr "クーポン"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:87
 #: ../addons/coupons/includes/mycred-coupon-shortcodes.php:69
 msgid "Coupon"
-msgstr "Coupon"
+msgstr "クーポン"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:88
 msgid "Create New"
-msgstr "Create New"
+msgstr "新規作成"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:89
 msgid "Create New Coupon"
-msgstr "Create New Coupon"
+msgstr "クーポンの新規作成"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:90
 msgid "Edit Coupon"
-msgstr "Edit Coupon"
+msgstr "クーポンを編集"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:91
 msgid "New Coupon"
-msgstr "New Coupon"
+msgstr "新しいクーポン"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:94
 msgid "Search coupons"
-msgstr "Search coupons"
+msgstr "クーポン検索"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:95
 msgid "No coupons found"
-msgstr "No coupons found"
+msgstr "クーポンは見つかりませんでした"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:96
 msgid "No coupons found in Trash"
-msgstr "No coupons found in Trash"
+msgstr "ゴミ箱にはクーポンは見つかりませんでした"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:98
 #: ../addons/email-notices/myCRED-addon-email-notices.php:148
@@ -1463,89 +1463,89 @@ msgstr "No coupons found in Trash"
 #: ../addons/email-notices/myCRED-addon-email-notices.php:258
 #: ../modules/mycred-module-addons.php:179
 msgid "Email Notices"
-msgstr "Email Notices"
+msgstr "Eメール通知"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:119
 #: ../addons/coupons/myCRED-addon-coupons.php:122
 msgid "Coupon updated."
-msgstr "Coupon updated."
+msgstr "クーポンを更新しました。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:124
 msgid "Coupon published."
-msgstr "Coupon published."
+msgstr "クーポンを発行しました。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:125
 msgid "Coupon saved."
-msgstr "Coupon saved."
+msgstr "クーポンを保存しました。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:128
 msgid "Draft Coupon saved."
-msgstr "Draft Coupon saved."
+msgstr "下書きクーポンを保存しました。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:142
 msgid "Unique Coupon Code"
-msgstr "Unique Coupon Code"
+msgstr "ユニークなクーポンコード"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:156
 msgid "Coupon Code"
-msgstr "Coupon Code"
+msgstr "クーポンコード"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:157
 #: ../addons/coupons/myCRED-addon-coupons.php:309
 msgid "Value"
-msgstr "Value"
+msgstr "値"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:158
 msgid "Usage"
-msgstr "Usage"
+msgstr "使い方"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:159
 #: ../addons/transfer/myCRED-addon-transfer.php:243
 #: ../modules/mycred-module-hooks.php:1106
 #: ../modules/mycred-module-hooks.php:1396
 msgid "Limits"
-msgstr "Limits"
+msgstr "制限"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:160
 msgid "Expires"
-msgstr "Expires"
+msgstr "有効期限"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:188
 msgid "not yet used"
-msgstr "not yet used"
+msgstr "まだ使用されていません"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:198
 #: ../modules/mycred-module-hooks.php:1834
 msgid "Total"
-msgstr "Total"
+msgstr "合計"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:198
 msgid "Per User"
-msgstr "Per User"
+msgstr "ユーザー毎"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:206
 msgid "Never"
-msgstr "Never"
+msgstr "まだ"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:210
 msgid "Expired"
-msgstr "Expired"
+msgstr "有効期限"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:213
 msgid "In %s time"
-msgstr "In %s time"
+msgstr "%s 時間後"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:254
 msgid "Coupon Setup"
-msgstr "Coupon Setup"
+msgstr "クーポンの設定"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:263
 msgid "Coupon Limits"
-msgstr "Coupon Limits"
+msgstr "クーポンの制限"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:272
 msgid "Coupon Requirements"
-msgstr "Coupon Requirements"
+msgstr "クーポンの要件"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:312
 msgid "The amount of %plural% this coupon is worth."
