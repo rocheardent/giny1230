@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: myCRED\n"
 "Report-Msgid-Bugs-To: http://mycred.me\n"
 "POT-Creation-Date: 2014-03-20 14:26+0100\n"
-"PO-Revision-Date: 2014-05-26 12:13+0900\n"
+"PO-Revision-Date: 2014-05-29 11:36+0800\n"
 "Last-Translator: Yoshihiro Imamura\n"
 "Language-Team: LANGUAGE <support@mycred.me>\n"
 "Language: ja_JP\n"
@@ -67,7 +67,7 @@ msgid ""
 "can not be undone!"
 msgstr ""
 "ユーザーが削除されると、そのユーザーに属するすべての保存されたエントリーが削"
-"除されます ！元に戻すことができない ！"
+"除されます ！元に戻すことができません ！"
 
 #: ../mycred.php:618
 msgid "Warning! All user balances will be set to zero! This can not be undone!"
@@ -556,7 +556,7 @@ msgstr "ログインテンプレート"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:365
 msgid "Content to show when a user is not logged in."
-msgstr "ユーザーがログインしていないときに表示するコンテンツ。"
+msgstr "ユーザーがログインしていないときに表示するコンテンツです。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:375
 msgid "Thank You Page"
@@ -1549,468 +1549,476 @@ msgstr "クーポンの要件"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:312
 msgid "The amount of %plural% this coupon is worth."
-msgstr "The amount of %plural% this coupon is worth."
+msgstr "このクーポンは、%plural% 分に相当します。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:316
 msgid "Select the point type that this coupon is applied."
-msgstr "Select the point type that this coupon is applied."
+msgstr "適用したいクーポンを選択してください。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:321
 msgid "Expire"
-msgstr "Expire"
+msgstr "有効期限切れ"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:324
 msgid ""
 "Optional date when this coupon expires. Expired coupons will be trashed."
 msgstr ""
-"Optional date when this coupon expires. Expired coupons will be trashed."
+"オプションの日付はこのクーポンの有効期限です。期限切れのクーポンはゴミ箱に移"
+"動します。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:353
 msgid "Global Maximum"
-msgstr "Global Maximum"
+msgstr "全体の最大数"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:356
 msgid ""
 "The maximum number of times this coupon can be used. Note that the coupon "
 "will be automatically trashed once this maximum is reached!"
 msgstr ""
-"The maximum number of times this coupon can be used. Note that the coupon "
-"will be automatically trashed once this maximum is reached!"
+"このクーポンを使用するユーザー全体での最大で使用できる回数です。注意：この最"
+"大数になると、クーポンは自動的にゴミ箱にされます。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:360
 msgid "User Maximum"
-msgstr "User Maximum"
+msgstr "ユーザーの最大数"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:363
 msgid "The maximum number of times this coupon can be used by a user."
-msgstr "The maximum number of times this coupon can be used by a user."
+msgstr "このクーポンを使用するユーザー一人当たりの最大で使用できる回数です。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:395
 msgid ""
 "Optional minimum balance a user must have in order to use this coupon. Use "
 "zero to disable."
 msgstr ""
-"Optional minimum balance a user must have in order to use this coupon. Use "
-"zero to disable."
+"オプションの最低残高は、このクーポンを使用するためにユーザーが持つ必要がある"
+"最低残高の値です。無効にするには 0 を使用します。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:399
 msgid "Maximum Balance"
-msgstr "Maximum Balance"
+msgstr "最大残高"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:402
 msgid ""
 "Optional maximum balance a user can have in order to use this coupon. Use "
 "zero to disable."
 msgstr ""
-"Optional maximum balance a user can have in order to use this coupon. Use "
-"zero to disable."
+"オプションの最大残高は、このクーポンを使用するためにユーザーが持つことができ"
+"る最大残高の値です。無効にするには 0 を使用します。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:444
 msgid ""
 "Log entry for successful coupon redemption. Use %coupon% to show the coupon "
 "code."
 msgstr ""
-"Log entry for successful coupon redemption. Use %coupon% to show the coupon "
-"code."
+"成功したクーポンの買い戻しのためのログエントリです。使用 %coupon% のクーポン"
+"コードを表示します。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:447
 msgid "Invalid Coupon Message"
-msgstr "Invalid Coupon Message"
+msgstr "無効なクーポンメッセージ"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:451
 msgid "Message to show when users try to use a coupon that does not exists."
-msgstr "Message to show when users try to use a coupon that does not exists."
+msgstr ""
+"ユーザーが存在しないクーポンを使用しようとするときに表示するメッセージです。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:454
 msgid "Expired Coupon Message"
-msgstr "Expired Coupon Message"
+msgstr "有効期限切れのクーポンメッセージ"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:458
 msgid "Message to show when users try to use that has expired."
-msgstr "Message to show when users try to use that has expired."
+msgstr ""
+"ユーザーが有効期限切れのクーポンを使用しようとするときに表示するメッセージで"
+"す。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:461
 msgid "User Limit Message"
-msgstr "User Limit Message"
+msgstr "ユーザー数制限のメッセージ"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:465
 msgid "Message to show when the user limit has been reached for the coupon."
-msgstr "Message to show when the user limit has been reached for the coupon."
+msgstr "クーポンがユーザーの制限に達しているときに表示するメッセージです。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:468
 msgid "Minimum Balance Message"
-msgstr "Minimum Balance Message"
+msgstr "最低残高メッセージ"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:472
 msgid ""
 "Message to show when a user does not meet the minimum balance requirement. "
 "(if used)"
 msgstr ""
-"Message to show when a user does not meet the minimum balance requirement. "
-"(if used)"
+"クーポンを使用した際、ユーザーが最低残高要件を満たしていない場合に表示する"
+"メッセージです。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:475
 msgid "Maximum Balance Message"
-msgstr "Maximum Balance Message"
+msgstr "最大残高メッセージ"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:479
 msgid ""
 "Message to show when a user does not meet the maximum balance requirement. "
 "(if used)"
 msgstr ""
-"Message to show when a user does not meet the maximum balance requirement. "
-"(if used)"
+"クーポンを使用した際、ユーザーが最大残高要件を満たしていない場合に表示する"
+"メッセージです。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:482
 msgid "Success Message"
-msgstr "Success Message"
+msgstr "成功メッセージ"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:486
 msgid ""
 "Message to show when a coupon was successfully deposited to a users account."
 msgstr ""
-"Message to show when a coupon was successfully deposited to a users account."
+"クーポンが正常にユーザーアカウントにデポジットされた場合に表示するメッセージ"
+"です。"
 
 #: ../addons/coupons/includes/mycred-coupon-functions.php:158
 msgid "Coupon redemption"
-msgstr "Coupon redemption"
+msgstr "クーポンの買い戻し"
 
 #: ../addons/coupons/includes/mycred-coupon-shortcodes.php:72
 msgid "Apply Coupon"
-msgstr "Apply Coupon"
+msgstr "クーポン適用"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:149
 msgid "Email Notice"
-msgstr "Email Notice"
+msgstr "Eメール通知"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:150
 #: ../addons/ranks/myCRED-addon-ranks.php:243
 msgid "Add New"
-msgstr "Add New"
+msgstr "新規追加"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:151
 msgid "Add New Notice"
-msgstr "Add New Notice"
+msgstr "新規通知を追加"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:152
 msgid "Edit Notice"
-msgstr "Edit Notice"
+msgstr "通知の編集"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:153
 msgid "New Notice"
-msgstr "New Notice"
+msgstr "新規通知"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:155
 msgid "View Notice"
-msgstr "View Notice"
+msgstr "通知の表示"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:156
 msgid "Search Email Notices"
-msgstr "Search Email Notices"
+msgstr "Eメール通知を検索"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:157
 msgid "No email notices found"
-msgstr "No email notices found"
+msgstr "Eメール通知が見つかりませんでした"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:158
 msgid "No email notices found in Trash"
-msgstr "No email notices found in Trash"
+msgstr "ゴミ箱にEメール通知が見つかりませんでした"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:181
 #: ../addons/gateway/carts/mycred-wpecommerce.php:337
 #: ../includes/mycred-functions.php:589
 msgid "General"
-msgstr "General"
+msgstr "一般"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:182
 msgid "users balance changes"
-msgstr "users balance changes"
+msgstr "ユーザー残高を変更"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:183
 msgid "user gains %_plural%"
-msgstr "user gains %_plural%"
+msgstr "ユーザー利益 %_plural%"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:184
 msgid "user lose %_plural%"
-msgstr "user lose %_plural%"
+msgstr "ユーザー損失 %_plural%"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:185
 msgid "users balance reaches zero"
-msgstr "users balance reaches zero"
+msgstr "ユーザー残高が 0 に到達"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:186
 msgid "users balance goes minus"
-msgstr "users balance goes minus"
+msgstr "ユーザー残高がマイナス"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:192
 msgid "Sell Content Add-on"
-msgstr "Sell Content Add-on"
+msgstr "コンテンツのアドオンを販売"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:193
 msgid "user buys content"
-msgstr "user buys content"
+msgstr "ユーザーがコンテンツを購入"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:194
 msgid "authors content gets sold"
-msgstr "authors content gets sold"
+msgstr "著作物コンテンツの販売"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:201
 msgid "buyCREDs Add-on"
-msgstr "buyCREDs Add-on"
+msgstr "buyCRED アドオン"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:202
 msgid "user buys %_plural%"
-msgstr "user buys %_plural%"
+msgstr "ユーザー購入 %_plural%"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:209
 msgid "Transfer Add-on"
-msgstr "Transfer Add-on"
+msgstr "アドオンの転送"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:210
 msgid "user sends %_plural%"
-msgstr "user sends %_plural%"
+msgstr "ユーザー送信 %_plural%"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:211
 msgid "user receives %_plural%"
-msgstr "user receives %_plural%"
+msgstr "ユーザー受信 %_plural%"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:218
 msgid "Ranks Add-on"
-msgstr "Ranks Add-on"
+msgstr "アドオンの順位"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:219
 msgid "user is demoted"
-msgstr "user is demoted"
+msgstr "ユーザーを降格します"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:220
 msgid "user is promoted"
-msgstr "user is promoted"
+msgstr "ユーザーを昇格します"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:260
 msgid ""
 "Settings that apply to all email notices and can not be overridden for "
 "individual emails."
 msgstr ""
-"Settings that apply to all email notices and can not be overridden for "
-"individual emails."
+"設定は全てのEメール通知に適用されますが、個々のEメールに対しては上書きできま"
+"せん。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:261
 msgid "Email Format"
-msgstr "Email Format"
+msgstr "Eメールの形式"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:265
 msgid "Plain text emails only."
-msgstr "Plain text emails only."
+msgstr "プレーンテキストEメールのみです。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:269
 msgid "HTML or Plain text emails."
-msgstr "HTML or Plain text emails."
+msgstr "HTML か プレーンテキスト形式のEメールです。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:272
 msgid "Filters"
-msgstr "Filters"
+msgstr "フィルター"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:276
 msgid ""
 "Allow WordPress and Third Party Plugins to filter the email subject before "
 "an email is sent."
 msgstr ""
-"Allow WordPress and Third Party Plugins to filter the email subject before "
-"an email is sent."
+"Eメールを送信する前に、WordPress と サードパーティー製プラグインは、メールの"
+"件名をフィルタリングすることができます。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:280
 msgid ""
 "Allow WordPress and Third Party Plugins to filter the email content before "
 "an email is sent."
 msgstr ""
-"Allow WordPress and Third Party Plugins to filter the email content before "
-"an email is sent."
+"Eメールを送信する前に、WordPress と サードパーティー製プラグインは、メールの"
+"内容をフィルタリングすることができます。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:283
 msgid ""
 "Default email settings. These settings can be individually overridden when "
 "editing emails."
 msgstr ""
-"Default email settings. These settings can be individually overridden when "
-"editing emails."
+"既定のEメール設定です。メールを編集するとき、これらの設定を個別に上書きできま"
+"す。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:284
 #: ../addons/email-notices/myCRED-addon-email-notices.php:659
 msgid "Email Settings"
-msgstr "Email Settings"
+msgstr "Eメール設定"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:287
 #: ../addons/email-notices/myCRED-addon-email-notices.php:778
 msgid "Senders Name:"
-msgstr "Senders Name:"
+msgstr "送信者名:"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:291
 #: ../addons/email-notices/myCRED-addon-email-notices.php:780
 msgid "Senders Email:"
-msgstr "Senders Email:"
+msgstr "送信者のEメール:"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:295
 msgid "Reply-To:"
-msgstr "Reply-To:"
+msgstr "返信先:"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:299
 msgid "Default Email Content"
-msgstr "Default Email Content"
+msgstr "既定のEメールの内容"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:303
 msgid "Default email content."
-msgstr "Default email content."
+msgstr "既定のEメールの内容です。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:306
 msgid "Default Email Styling"
-msgstr "Default Email Styling"
+msgstr "既定のEメールのスタイル"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:310
 msgid "Ignored if HTML is not allowed in emails."
-msgstr "Ignored if HTML is not allowed in emails."
+msgstr "EメールでHTMLが許可されていない場合は無視されます。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:593
 #: ../addons/email-notices/myCRED-addon-email-notices.php:708
 msgid "Email Subject"
-msgstr "Email Subject"
+msgstr "Eメールの件名"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:594
 msgid "Status"
-msgstr "Status"
+msgstr "ステータス"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:614
 msgid "Not Active"
-msgstr "Not Active"
+msgstr "非アクティブ"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:616
 msgid "Scheduled:<br /><strong>%1$s</strong>"
-msgstr "Scheduled:<br /><strong>%1$s</strong>"
+msgstr "スケジュール:<br /><strong>%1$s</strong>"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:620
 msgid "Active"
-msgstr "Active"
+msgstr "アクティブ"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:622
 msgid "Active - Last run:<br /><strong>%1$s</strong>"
-msgstr "Active - Last run:<br /><strong>%1$s</strong>"
+msgstr "アクティブ - 前回の実行:<br /><strong>%1$s</strong>"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:632
 msgid "Email is sent when"
-msgstr "Email is sent when"
+msgstr "Eメールが送信されるとき"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:634
 msgid "Missing instance for this notice!"
-msgstr "Missing instance for this notice!"
+msgstr "この通知のインスタンスが見つかりません。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:643
 #: ../addons/email-notices/myCRED-addon-email-notices.php:645
 #: ../addons/email-notices/myCRED-addon-email-notices.php:647
 msgid "Sent To"
-msgstr "Sent To"
+msgstr "へ送信"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:645
 #: ../addons/email-notices/myCRED-addon-email-notices.php:773
 msgid "Administrator"
-msgstr "Administrator"
+msgstr "管理者"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:647
 msgid "Both Administrator and User"
-msgstr "Both Administrator and User"
+msgstr "管理者とユーザー"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:668
 msgid "Available Template Tags"
-msgstr "Available Template Tags"
+msgstr "使用可能なテンプレートのタグ"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:679
 msgid "Email Header"
-msgstr "Email Header"
+msgstr "Eメールのヘッダー"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:739
 msgid "Send this email notice when..."
-msgstr "Send this email notice when..."
+msgstr "このメール通知を送信..."
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:770
 msgid "Recipient:"
-msgstr "Recipient:"
+msgstr "受信者:"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:774
 msgid "Both"
-msgstr "Both"
+msgstr "両方"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:782
 msgid "Reply-To Email:"
-msgstr "Reply-To Email:"
+msgstr "返信先メールアドレス:"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:788
 msgid "Save"
-msgstr "Save"
+msgstr "保存"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:800
 msgid "CSS Styling"
-msgstr "CSS Styling"
+msgstr "CSSによるスタイル付け"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:816
 msgid "Site Related"
-msgstr "Site Related"
+msgstr "関連サイト"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:817
 msgid "Your websites title"
-msgstr "Your websites title"
+msgstr "ウェブサイトのタイトル"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:818
 msgid "Your websites address"
-msgstr "Your websites address"
+msgstr "ウェブサイトのアドレス"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:819
 msgid "Your websites tagline (description)"
-msgstr "Your websites tagline (description)"
+msgstr "ウェブサイトのキャッチフレーズ(説明)"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:820
 msgid "Your websites admin email"
-msgstr "Your websites admin email"
+msgstr "ウェブサイト管理者のEメール"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:821
 msgid "Total number of blog members"
-msgstr "Total number of blog members"
+msgstr "ブログのメンバー数の合計"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:897
 #: ../addons/email-notices/myCRED-addon-email-notices.php:900
 msgid "Email Notice Updated. View <a href=\"%1$s\">All Notices</a>."
-msgstr "Email Notice Updated. View <a href=\"%1$s\">All Notices</a>."
+msgstr ""
+"Eメール通知を更新しました。<a href=\"%1$s\">全ての通知</a>を参照してくださ"
+"い。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:902
 msgid "Email Notice Activated"
-msgstr "Email Notice Activated"
+msgstr "Eメール通知のアクティブ化"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:903
 msgid "Email Notice Saved"
-msgstr "Email Notice Saved"
+msgstr "Eメール通知を保存"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:904
 msgid ""
 "Email Notice Submitted for approval. View <a href=\"%1$s\">All Notices</a>."
 msgstr ""
-"Email Notice Submitted for approval. View <a href=\"%1$s\">All Notices</a>."
+"承認のためにEメール通知を送信しました。<a href=\"%1$s\">全ての通知</a>を参照"
+"してください。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:906
 msgid "Email Notice scheduled for: <strong>%1$s</strong>."
-msgstr "Email Notice scheduled for: <strong>%1$s</strong>."
+msgstr "Eメール通知のスケジュール: <strong>%1$s</strong>."
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:925
 msgid ""
 "Once a notice is \"published\" it becomes active! Select \"Save Draft\" if "
 "you are not yet ready to use this email notice!"
 msgstr ""
-"Once a notice is \"published\" it becomes active! Select \"Save Draft\" if "
-"you are not yet ready to use this email notice!"
+"一度、通知を\"公開\"にすると、アクティブになります。もし、このEメール通知を使"
+"用する準備ができていない場合は、\"下書き保存\"を選択します。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:927
 msgid "This notice will become active on:<br /><strong>%1$s</strong>"
-msgstr "This notice will become active on:<br /><strong>%1$s</strong>"
+msgstr "この通知はアクティブになります:<br /><strong>%1$s</strong>"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:929
 msgid "This email notice is active."
-msgstr "This email notice is active."
+msgstr "このEメール通知はアクティブです。"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:147
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:277
@@ -2018,7 +2026,7 @@ msgstr "This email notice is active."
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:412
 #: ../includes/mycred-admin.php:474
 msgid "Current Balance"
-msgstr "Current Balance"
+msgstr "現在の残高"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:151
 #: ../addons/gateway/carts/mycred-wpecommerce.php:123
@@ -2026,34 +2034,34 @@ msgstr "Current Balance"
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:305
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:416
 msgid "Total Cost"
-msgstr "Total Cost"
+msgstr "総コスト"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:155
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:285
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:309
 msgid "Balance After Purchase"
-msgstr "Balance After Purchase"
+msgstr "購入後の残高"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:182
 #: ../addons/gateway/carts/mycred-marketpress.php:231
 msgid "Go Back"
-msgstr "Go Back"
+msgstr "戻る"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:185
 msgid "will be deducted from your account."
-msgstr "will be deducted from your account."
+msgstr "アカウントから差し引かれます。"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:221
 msgid ""
 "Sorry, but you can not use this gateway as your account is excluded. Please "
 "<a href=\"%s\">select a different payment method</a>."
 msgstr ""
-"Sorry, but you can not use this gateway as your account is excluded. Please "
-"<a href=\"%s\">select a different payment method</a>."
+"申し訳ありません。あなたのアカウントが除外されているためか、このゲートウェイ"
+"を使用できません。<a href=\"%s\">別のお支払方法を選択</a>してください。"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:240
 msgid "Paid"
-msgstr "Paid"
+msgstr "支払われる"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:243
 #: ../addons/gateway/carts/mycred-woocommerce.php:33
@@ -2064,45 +2072,42 @@ msgstr "myCRED"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:345
 msgid "%_singular% Balance"
-msgstr "%_singular% Balance"
+msgstr "%_singular% 残高"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:348
 #: ../addons/gateway/carts/mycred-woocommerce.php:101
 #: ../addons/gateway/carts/mycred-wpecommerce.php:27
 msgid "Payment for Order: #%order_id%"
-msgstr "Payment for Order: #%order_id%"
+msgstr "注文のお支払い: #%order_id%"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:351
 msgid "Product Sale: %post_title%"
-msgstr "Product Sale: %post_title%"
+msgstr "製品販売: %post_title%"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:352
 msgid "Pay using your account balance."
-msgstr "Pay using your account balance."
+msgstr "アカウントの残高を使用して支払います。"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:353
 msgid ""
 "TOTAL amount has been deducted from your account. Your current balance is: "
 "%balance_f%"
-msgstr ""
-"TOTAL amount has been deducted from your account. Your current balance is: "
-"%balance_f%"
+msgstr "アカウントから合計金額が引き落とされました。現在の残高: %balance_f%"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:354
 msgid ""
 "Insufficient funds. Please select another form of payment. Your current "
 "balance is: %balance_f%"
 msgstr ""
-"Insufficient funds. Please select another form of payment. Your current "
-"balance is: %balance_f%"
+"資金不足です。別のお支払い方法を選択してください。現在の残高: %balance_f%"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:355
 msgid ""
 "You must be logged in to pay with %_plural%. Please <a href=\"%login_url_here"
 "%\">login</a>."
 msgstr ""
-"You must be logged in to pay with %_plural%. Please <a href=\"%login_url_here"
-"%\">login</a>."
+"%_plural% でお支払いするにはログインしている必要があります。<a href="
+"\"%login_url_here%\">ログイン</a>してください。"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:362
 msgid ""
@@ -2110,30 +2115,30 @@ msgid ""
 "Note! This gateway requires your users to be logged in when making a "
 "purchase!"
 msgstr ""
-"Let your users pay for items in their shopping cart using their %s Account. "
-"Note! This gateway requires your users to be logged in when making a "
-"purchase!"
+"ユーザーは自分の %s のアカウントを使用して、買い物カゴ内の商品を支払います。"
+"注意：このゲートウェイは、購入する際に、ユーザーはログインしている必要があり"
+"ます。"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:365
 msgid "Method Name"
-msgstr "Method Name"
+msgstr "お支払い方法の名前"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:367
 msgid ""
 "Enter a public name for this payment method that is displayed to users - No "
 "HTML"
 msgstr ""
-"Enter a public name for this payment method that is displayed to users - No "
-"HTML"
+"ユーザーに表示するお支払方法のパブリック名を入力してください。 - HTML形式を除"
+"きます。"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:372
 msgid "Gateway Logo URL"
-msgstr "Gateway Logo URL"
+msgstr "ゲートウェイロゴの URL"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:393
 #: ../addons/gateway/carts/mycred-woocommerce.php:124
 msgid "How much is 1 %_singular% worth in %currency%?"
-msgstr "How much is 1 %_singular% worth in %currency%?"
+msgstr "%currency% で1 %_singular% はおいくらですか？"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:398
 #: ../addons/gateway/carts/mycred-woocommerce.php:129
@@ -2142,7 +2147,7 @@ msgstr "How much is 1 %_singular% worth in %currency%?"
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:499
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:578
 msgid "Exchange Rate"
-msgstr "Exchange Rate"
+msgstr "為替レート"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:407
 #: ../addons/gateway/carts/mycred-woocommerce.php:157
@@ -2151,11 +2156,11 @@ msgstr "Exchange Rate"
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:490
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:569
 msgid "Profit Sharing"
-msgstr "Profit Sharing"
+msgstr "利益の共有"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:410
 msgid "Percentage"
-msgstr "Percentage"
+msgstr "割合"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:412
 #: ../addons/gateway/carts/mycred-woocommerce.php:159
@@ -2164,55 +2169,58 @@ msgstr "Percentage"
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:493
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:572
 msgid "Option to share sales with the product owner. Use zero to disable."
-msgstr "Option to share sales with the product owner. Use zero to disable."
+msgstr ""
+"製品のオーナーと売上を共有するオプションです。無効にするには 0 を使用します。"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:424
 #: ../addons/gateway/carts/mycred-wpecommerce.php:371
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:559
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:626
 msgid "Messages"
-msgstr "Messages"
+msgstr "メッセージ"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:427
 #: ../addons/gateway/carts/mycred-wpecommerce.php:382
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:569
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:636
 msgid "Insufficient Funds"
-msgstr "Insufficient Funds"
+msgstr "資金不足"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:429
 msgid "Message to show when the user can not use this gateway."
-msgstr "Message to show when the user can not use this gateway."
+msgstr ""
+"ユーザーはこのゲートウェイを使用することができない場合に表示するメッセージで"
+"す。"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:435
 #: ../addons/gateway/carts/mycred-wpecommerce.php:378
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:490
 msgid "Visitors"
-msgstr "Visitors"
+msgstr "訪問者"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:437
 msgid "Message to show to buyers that are not logged in."
-msgstr "Message to show to buyers that are not logged in."
+msgstr "ログインしていないバイヤーに表示するメッセージです。"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:443
 msgid "User Instructions"
-msgstr "User Instructions"
+msgstr "取扱説明書"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:445
 msgid "Information to show users before payment."
-msgstr "Information to show users before payment."
+msgstr "お支払い前にユーザーに表示する情報です。"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:451
 msgid "Confirmation Information"
-msgstr "Confirmation Information"
+msgstr "確認情報"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:453
 msgid "Information to display on the order confirmation page. - HTML allowed"
-msgstr "Information to display on the order confirmation page. - HTML allowed"
+msgstr "注文確認ページに表示する情報です。- HTML形式で記述できます"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:459
 msgid "Order Confirmation Email"
-msgstr "Order Confirmation Email"
+msgstr "注文確認メール"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:461
 msgid ""
@@ -2221,97 +2229,97 @@ msgid ""
 "with order details: CUSTOMERNAME, ORDERID, ORDERINFO, SHIPPINGINFO, "
 "PAYMENTINFO, TOTAL, TRACKINGURL. No HTML allowed."
 msgstr ""
-"This is the email text to send to those who have made %s checkouts. It "
-"overrides the default order checkout email. These codes will be replaced "
-"with order details: CUSTOMERNAME, ORDERID, ORDERINFO, SHIPPINGINFO, "
-"PAYMENTINFO, TOTAL, TRACKINGURL. No HTML allowed."
+"これは %s のチェックアウトを行った方に送信するEメールのテキストです。規定の注"
+"文チェックアウトEメールを上書きします。これらのコードは注文の詳細に置き換えら"
+"れます: CUSTOMERNAME, ORDERID, ORDERINFO, SHIPPINGINFO, PAYMENTINFO, TOTAL, "
+"TRACKINGURL. HTML形式は許可されません。"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:34
 msgid "Let users pay using their myCRED balance."
-msgstr "Let users pay using their myCRED balance."
+msgstr "ユーザーの myCRED の残高を使用してお支払できます。"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:79
 msgid "Enable/Disable"
-msgstr "Enable/Disable"
+msgstr "有効/無効"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:81
 msgid "Enable myCRED Payment"
-msgstr "Enable myCRED Payment"
+msgstr "myCRED での支払いを有効にします。"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:83
 msgid ""
 "Users who are not logged in or excluded from using myCRED will not have "
 "access to this gateway!"
 msgstr ""
-"Users who are not logged in or excluded from using myCRED will not have "
-"access to this gateway!"
+"ログインしていない、または、myCREDを使用していないユーザーは、このゲートウェ"
+"イにアクセスすることはできません。"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:88
 msgid "Title to show for this payment option."
-msgstr "Title to show for this payment option."
+msgstr "このお支払オプションを表示するタイトルです。"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:89
 msgid "Pay with myCRED"
-msgstr "Pay with myCRED"
+msgstr "myCRED でのお支払い"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:93
 msgid "Customer Message"
-msgstr "Customer Message"
+msgstr "顧客へのメッセージ"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:95
 msgid "Deduct the amount from your %_plural% balance."
-msgstr "Deduct the amount from your %_plural% balance."
+msgstr "%_plural% の残高から差し引きます。"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:110
 msgid "Select the point type users can use to pay."
-msgstr "Select the point type users can use to pay."
+msgstr "ユーザーの支払いに使用できるポイントの種類を選択します。"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:136
 msgid "Show Total"
-msgstr "Show Total"
+msgstr "合計を表示"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:138
 msgid "Show the final price in %_plural% ."
-msgstr "Show the final price in %_plural% ."
+msgstr "%_plural% で最終的な価格を表示します。"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:140
 msgid "Do not show"
-msgstr "Do not show"
+msgstr "表示しない"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:141
 msgid "Show in Cart"
-msgstr "Show in Cart"
+msgstr "カートを表示"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:142
 msgid "Show on Checkout Page"
-msgstr "Show on Checkout Page"
+msgstr "チェックアウトページを表示"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:143
 msgid "Show in Cart and on Checkout Page"
-msgstr "Show in Cart and on Checkout Page"
+msgstr "カートとチェックアウトページを表示"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:148
 #: ../modules/mycred-module-settings.php:472
 #: ../modules/mycred-module-settings.php:491
 #: ../modules/mycred-module-settings.php:514
 msgid "Label"
-msgstr "Label"
+msgstr "ラベル"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:150
 msgid "Order Total in %_plural%"
-msgstr "Order Total in %_plural%"
+msgstr "%_plural% の注文の合計"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:166
 msgid "Log entry template for profit sharing."
-msgstr "Log entry template for profit sharing."
+msgstr "利益分配のための入力テンプレートをログに記録します。"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:167
 msgid "Sale of %post_title%"
-msgstr "Sale of %post_title%"
+msgstr "%post_title% のセール"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:192
 msgid "myCRED Payment"
-msgstr "myCRED Payment"
+msgstr "myCRED でのお支払い"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:193
 msgid ""
@@ -2319,140 +2327,142 @@ msgid ""
 "users with insufficient funds and users who are not logged in will not see "
 "this payment gateway on the checkout page."
 msgstr ""
-"Allows users to pay using their myCRED %_singular% balance. Please note that "
-"users with insufficient funds and users who are not logged in will not see "
-"this payment gateway on the checkout page."
+"ユーザーのmyCRED %_singular% 残高を使用してお支払いすることができます。資金不"
+"足またはログインしていないユーザーには、チェックアウトページのお支払いゲート"
+"ウェイを見ることができませんのでご注意ください。"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:214
 msgid "You must be logged in to pay with %_plural%"
-msgstr "You must be logged in to pay with %_plural%"
+msgstr "%_plural% を支払うにはログインが必要です"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:220
 msgid "You can not use this gateway. Please try a different payment option."
-msgstr "You can not use this gateway. Please try a different payment option."
+msgstr ""
+"ゲートウェイを使用することができません。別の支払いオプションをご利用くださ"
+"い。"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:232
 msgid "Insufficient funds. Please try a different payment option."
-msgstr "Insufficient funds. Please try a different payment option."
+msgstr "資金不足です。別の支払いオプションをご利用ください。"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:294
 msgid "Your account has successfully been charged."
-msgstr "Your account has successfully been charged."
+msgstr "あなたのアカウントへの請求は正常に行われました。"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:313
 msgid "Order Missing"
-msgstr "Order Missing"
+msgstr "注文の欠落"
 
 #: ../addons/gateway/carts/mycred-woocommerce.php:534
 #: ../addons/gateway/carts/mycred-wpecommerce.php:131
 msgid "Your current balance"
-msgstr "Your current balance"
+msgstr "現在の残高"
 
 #: ../addons/gateway/carts/mycred-wpecommerce.php:30
 msgid "Store sale"
-msgstr "Store sale"
+msgstr "店頭販売"
 
 #: ../addons/gateway/carts/mycred-wpecommerce.php:32
 msgid "You must be logged in to use this gateway"
-msgstr "You must be logged in to use this gateway"
+msgstr "このゲートウェイを使用するにはログインが必要です"
 
 #: ../addons/gateway/carts/mycred-wpecommerce.php:33
 msgid "Insufficient Funds."
-msgstr "Insufficient Funds."
+msgstr "資金不足です。"
 
 #: ../addons/gateway/carts/mycred-wpecommerce.php:34
 msgid "Deduct the amount from your balance."
-msgstr "Deduct the amount from your balance."
+msgstr "お客様の残高から料金分を差し引きます。"
 
 #: ../addons/gateway/carts/mycred-wpecommerce.php:199
 msgid "You can not use this gateway."
-msgstr "You can not use this gateway."
+msgstr "このゲートウェイを使用することはできません。"
 
 #: ../addons/gateway/carts/mycred-wpecommerce.php:340
 msgid "Log Template for Payments"
-msgstr "Log Template for Payments"
+msgstr "お支払いのログテンプレート"
 
 #: ../addons/gateway/carts/mycred-wpecommerce.php:357
 msgid "How much is 1 %s worth in %s"
-msgstr "How much is 1 %s worth in %s"
+msgstr "%s で1 %s はおいくらですか？"
 
 #: ../addons/gateway/carts/mycred-wpecommerce.php:363
 msgid "Payout"
-msgstr "Payout"
+msgstr "お支払い"
 
 #: ../addons/gateway/carts/mycred-wpecommerce.php:374
 msgid "Instructions"
-msgstr "Instructions"
+msgstr "指示"
 
 #: ../addons/gateway/carts/mycred-wpecommerce.php:375
 msgid ""
 "Optional instructions to show users when selecting this gateway. Leave empty "
 "to hide."
 msgstr ""
-"Optional instructions to show users when selecting this gateway. Leave empty "
-"to hide."
+"このゲートウェイをユーザーが選択した際にオプション指示を表示します。非表示に"
+"する場合は空のままにしてください。"
 
 #: ../addons/gateway/carts/mycred-wpecommerce.php:379
 msgid "Message to show visitors who are not logged in."
-msgstr "Message to show visitors who are not logged in."
+msgstr "ログインしていない訪問者に表示するメッセージです。"
 
 #: ../addons/gateway/carts/mycred-wpecommerce.php:383
 msgid ""
 "Message to show when users does not have enough %plural% to pay using this "
 "gateway."
 msgstr ""
-"Message to show when users does not have enough %plural% to pay using this "
-"gateway."
+"このゲートウェイを使用してお支払いするのに十分な %plural% をユーザーが持って"
+"いないときに表示するメッセージです。"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:27
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:39
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:35
 msgid "Pay Now"
-msgstr "Pay Now"
+msgstr "今すぐお支払い"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:32
 msgid "Payment for Event Registration"
-msgstr "Payment for Event Registration"
+msgstr "イベント登録のお支払い"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:343
 msgid "Activate %s"
-msgstr "Activate %s"
+msgstr "%s をアクティブにします"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:351
 msgid "Deactivate %s"
-msgstr "Deactivate %s"
+msgstr "%s を非アクティブにします"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:399
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:449
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:524
 msgid "How many %s is 1 %s worth?"
-msgstr "How many %s is 1 %s worth?"
+msgstr "%s は 1 %s でどれくらいですか？"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:407
 msgid "Gateways Settings Successfully Updated"
-msgstr "Gateways Settings Successfully Updated"
+msgstr "ゲートウェイ設定が正常に更新されました"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:415
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:535
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:602
 msgid "Labels"
-msgstr "Labels"
+msgstr "ラベル"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:418
 msgid "Gateway Title"
-msgstr "Gateway Title"
+msgstr "ゲートウェイのタイトル"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:420
 msgid "Title to show on Payment page"
-msgstr "Title to show on Payment page"
+msgstr "お支払いページに表示するタイトル"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:423
 msgid "Payment Type"
-msgstr "Payment Type"
+msgstr "お支払いの種類"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:425
 msgid "Title to show on receipts and logs"
-msgstr "Title to show on receipts and logs"
+msgstr "領収書やログを表示するタイトル"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:428
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:552
@@ -2460,11 +2470,11 @@ msgstr "Title to show on receipts and logs"
 #: ../addons/sell-content/myCRED-addon-sell-content.php:397
 #: ../addons/sell-content/myCRED-addon-sell-content.php:590
 msgid "Button Label"
-msgstr "Button Label"
+msgstr "ボタンのラベル"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:430
 msgid "Pay Button"
-msgstr "Pay Button"
+msgstr "お支払いボタン"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:447
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:137
@@ -2474,166 +2484,177 @@ msgstr "Pay Button"
 #: ../addons/sell-content/myCRED-addon-sell-content.php:388
 #: ../addons/sell-content/myCRED-addon-sell-content.php:586
 msgid "Price"
-msgstr "Price"
+msgstr "値段"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:457
 msgid ""
 "You can disable purchases using this gateway by adding a custom Event Meta: "
 "<code>mycred_no_sale</code>"
 msgstr ""
-"You can disable purchases using this gateway by adding a custom Event Meta: "
-"<code>mycred_no_sale</code>"
+"カスタムイベントメタを追加することで、このゲートウェイを使用して購入すること"
+"を無効にすることができます: <code>mycred_no_sale</code>"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:458
 msgid "Users must be logged in to use this gateway!"
-msgstr "Users must be logged in to use this gateway!"
+msgstr "このゲートウェイを使用するには、ユーザーはログインする必要があります。"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:467
 #: ../modules/mycred-module-log.php:22 ../modules/mycred-module-log.php:23
 msgid "Log"
-msgstr "Log"
+msgstr "ログ"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:470
 #: ../includes/mycred-admin.php:479
 msgid "Log Entry"
-msgstr "Log Entry"
+msgstr "ログエントリー"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:477
 msgid "Templates"
-msgstr "Templates"
+msgstr "テンプレート"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:480
 msgid "Solvent users"
-msgstr "Solvent users"
+msgstr "支払い能力のあるユーザー"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:482
 msgid ""
 "Message to show users on the payment page before they are charged. Leave "
 "empty to hide."
 msgstr ""
-"Message to show users on the payment page before they are charged. Leave "
-"empty to hide."
+"ユーザーに請求する前に、お支払いページでユーザーに表示するメッセージです。非"
+"表示にするには空のままにしてください。"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:485
 msgid "Insolvent users"
-msgstr "Insolvent users"
+msgstr "支払い能力のないユーザー"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:487
 msgid "Message to show users who do not have enough points to pay."
-msgstr "Message to show users who do not have enough points to pay."
+msgstr ""
+"お支払いに十分なポイントを持っていないユーザーに表示するメッセージです。"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:492
 msgid "Message to show visitors (users not logged in) on the payment page."
-msgstr "Message to show visitors (users not logged in) on the payment page."
+msgstr ""
+"お支払いページを開いた訪問者(ログインしていないユーザー)に表示するメッセージ"
+"です。"
 
 #: ../addons/gateway/event-booking/mycred-eventespresso3.php:502
 #: ../modules/mycred-module-settings.php:528
 msgid "Update Settings"
-msgstr "Update Settings"
+msgstr "設定の更新"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:33
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:29
 msgid "Payment for tickets to %link_with_title%"
-msgstr "Payment for tickets to %link_with_title%"
+msgstr "%link_with_title% へのチケットのお支払い"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:34
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:30
 msgid "Ticket refund for %link_with_title%"
-msgstr "Ticket refund for %link_with_title%"
+msgstr "%link_with_title% のチケットの払い戻し"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:38
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:34
 msgid "Pay using your %_plural% balance"
-msgstr "Pay using your %_plural% balance"
+msgstr "%_plural% 残高を使用して支払う"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:40
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:36
 msgid "Pay"
-msgstr "Pay"
+msgstr "お支払い"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:43
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:39
 msgid "Thank you for your payment!"
-msgstr "Thank you for your payment!"
+msgstr "お支払いいただき、ありがとうございます。"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:44
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:40
 msgid "I'm sorry but you can not pay for these tickets using %_plural%"
-msgstr "I'm sorry but you can not pay for these tickets using %_plural%"
+msgstr ""
+"申し訳ありません。%_plural% を使用してこれらのチケットを支払うことはできませ"
+"ん。"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:134
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:333
 msgid "Ticket Type"
-msgstr "Ticket Type"
+msgstr "チケットの種類"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:143
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:342
 msgid "Spaces"
-msgstr "Spaces"
+msgstr "スペース"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:228
 msgid "You can not pay using this gateway."
-msgstr "You can not pay using this gateway."
+msgstr "このゲートウェイを使用してお支払いすることはできません。"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:370
 msgid "Reject"
-msgstr "Reject"
+msgstr "拒否"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:374
 #: ../modules/mycred-module-log.php:511
 #: ../modules/mycred-module-settings.php:476
 #: ../modules/mycred-module-settings.php:495
 msgid "Delete"
-msgstr "Delete"
+msgstr "削除"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:379
 msgid "Edit/View"
-msgstr "Edit/View"
+msgstr "編集/ビュー"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:477
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:542
 msgid "Disabled - Users CAN NOT pay for tickets using %plural%."
-msgstr "Disabled - Users CAN NOT pay for tickets using %plural%."
+msgstr ""
+"無効 - ユーザーは%plural% を使用してチケットのお支払いをすることはできませ"
+"ん。"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:478
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:543
 msgid "Single - Users can ONLY pay for tickets using %plural%."
-msgstr "Single - Users can ONLY pay for tickets using %plural%."
+msgstr ""
+"シングル - ユーザーは %plural% を使用してチケットのお支払いのみ行えます。"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:479
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:544
 msgid "Multi - Users can pay for tickets using other gateways or %plural%."
-msgstr "Multi - Users can pay for tickets using other gateways or %plural%."
+msgstr ""
+"マルチ - ユーザーはその他のゲートウェイ、または、 %plural% を使用してチケット"
+"のお支払いすることができます。"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:483
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:516
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:562
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:595
 msgid "Refunds"
-msgstr "Refunds"
+msgstr "払い戻し"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:486
 msgid ""
 "The percentage of the paid amount to refund if a user cancels their booking. "
 "Use zero for no refunds. No refunds are given to \"Rejected\" bookings!"
 msgstr ""
-"The percentage of the paid amount to refund if a user cancels their booking. "
-"Use zero for no refunds. No refunds are given to \"Rejected\" bookings!"
+"ユーザーが予約をキャンセルした場合、支払った金額の割合で返金します。払い戻し"
+"を行わないようにするには、0を使用します。予約を\"拒否\"すると、払い戻しはされ"
+"ません。"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:506
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:585
 msgid "Log Templates"
-msgstr "Log Templates"
+msgstr "ログテンプレート"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:509
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:588
 msgid "Purchases"
-msgstr "Purchases"
+msgstr "購入"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:538
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:605
 msgid "Payment Link Label"
-msgstr "Payment Link Label"
+msgstr "支払いリンクのラベル"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:541
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:608
@@ -2641,95 +2662,94 @@ msgid ""
 "The payment link shows / hides the payment form under \"My Bookings\". No "
 "HTML allowed."
 msgstr ""
-"The payment link shows / hides the payment form under \"My Bookings\". No "
-"HTML allowed."
+"支払いリンクは\"予約一覧\"の下で支払いフォームを表示/非表示にします。HTML表記"
+"は許可されません。 "
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:545
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:612
 msgid "Payment Header"
-msgstr "Payment Header"
+msgstr "支払いヘッダー"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:548
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:615
 msgid "Shown on top of the payment form. No HTML allowed."
-msgstr "Shown on top of the payment form. No HTML allowed."
+msgstr "支払いフォームの上に表示します。HTML表記は許可されません。"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:555
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:622
 msgid "The button label for payments. No HTML allowed!"
-msgstr "The button label for payments. No HTML allowed!"
+msgstr "支払いボタンのラベルです。HTML表記は許可されません。"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:562
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:629
 msgid "Successful Payments"
-msgstr "Successful Payments"
+msgstr "支払いの成功"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:565
 #: ../addons/gateway/event-booking/mycred-eventsmanager-pro.php:572
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:632
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:639
 msgid "No HTML allowed!"
-msgstr "No HTML allowed!"
+msgstr "HTML表記は許可されません。"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:420
 msgid "Balance After Payment"
-msgstr "Balance After Payment"
+msgstr "お支払い後の残高"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:532
 msgid "Click to toggle"
-msgstr "Click to toggle"
+msgstr "トグルをクリック"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:533
 msgid "%s Payments"
-msgstr "%s Payments"
+msgstr "%s のお支払い"
 
 #: ../addons/gateway/event-booking/mycred-eventsmanager.php:565
 msgid ""
 "The percentage of the paid amount to refund if a booking gets cancelled. Use "
 "zero for no refunds. No refunds are given to \"Rejected\" bookings."
 msgstr ""
-"The percentage of the paid amount to refund if a booking gets cancelled. Use "
-"zero for no refunds. No refunds are given to \"Rejected\" bookings."
+"予約がキャンセルされた場合、払い戻しに支払われる金額の割合です。0を使用すると"
+"払い戻しされません。払い戻しを行わないようにするには、0を使用します。予約を"
+"\"拒否\"すると、払い戻しはされません。"
 
 #: ../addons/notifications/myCRED-addon-notifications.php:164
 #: ../modules/mycred-module-addons.php:201
 msgid "Notifications"
-msgstr "Notifications"
+msgstr "通知"
 
 #: ../addons/notifications/myCRED-addon-notifications.php:166
 msgid "Styling"
-msgstr "Styling"
+msgstr "スタイル"
 
 #: ../addons/notifications/myCRED-addon-notifications.php:170
 msgid "Use the included CSS Styling for notifications."
-msgstr "Use the included CSS Styling for notifications."
+msgstr "通知用のCSSスタイルを含んだものを使用します。"
 
 #: ../addons/notifications/myCRED-addon-notifications.php:173
 #: ../modules/mycred-module-buddypress.php:408
 msgid "Template"
-msgstr "Template"
+msgstr "テンプレート"
 
 #: ../addons/notifications/myCRED-addon-notifications.php:177
 msgid ""
 "Use %entry% to show the log entry in the notice and %amount% for the amount."
 msgstr ""
-"Use %entry% to show the log entry in the notice and %amount% for the amount."
+"通知及び %amount% の総計のログエントリを表示するには、 %entry% を使用します。"
 
 #: ../addons/notifications/myCRED-addon-notifications.php:180
 msgid "Transient Lifespan"
-msgstr "Transient Lifespan"
+msgstr "一時の存続期間"
 
 #: ../addons/notifications/myCRED-addon-notifications.php:184
 msgid ""
 "The number of days a users notification is saved before being automatically "
 "deleted."
-msgstr ""
-"The number of days a users notification is saved before being automatically "
-"deleted."
+msgstr "自動的に消されるまで、ユーザー通知は数日間保存されます。"
 
 #: ../addons/notifications/myCRED-addon-notifications.php:187
 msgid "Duration"
-msgstr "Duration"
+msgstr "存続期間"
 
 #: ../addons/notifications/myCRED-addon-notifications.php:191
 msgid ""
@@ -2737,17 +2757,16 @@ msgid ""
 "require that the user closes the notice manually. 1000 milliseconds = 1 "
 "second."
 msgstr ""
-"The number of milliseconds a notice should be visible.<br />Use zero to "
-"require that the user closes the notice manually. 1000 milliseconds = 1 "
-"second."
+"通知を表示すべき、ミリ秒間の値です。<br />ユーザーが手動で通知を閉じることを"
+"必須にしたい場合、0を使用します。1000 ミリ秒 = 1 秒。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:226
 msgid "Warning! All ranks will be deleted! This can not be undone!"
-msgstr "警告 ！All ranks will be deleted!元に戻すことができない ！"
+msgstr "警告 ！全ての階級は削除されます。元に戻すことができません。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:227
 msgid "Are you sure you want to re-assign user ranks?"
-msgstr "Are you sure you want to re-assign user ranks?"
+msgstr "ユーザーの階級を割り当て直してもよろしいですか？"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:241
 #: ../addons/ranks/myCRED-addon-ranks.php:247
@@ -2756,200 +2775,199 @@ msgstr "Are you sure you want to re-assign user ranks?"
 #: ../addons/ranks/myCRED-addon-ranks.php:944
 #: ../modules/mycred-module-addons.php:213
 msgid "Ranks"
-msgstr "Ranks"
+msgstr "階級"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:242
 #: ../addons/ranks/myCRED-addon-ranks.php:443
 #: ../addons/ranks/myCRED-addon-ranks.php:459
 #: ../addons/ranks/myCRED-addon-ranks.php:554
 msgid "Rank"
-msgstr "Rank"
+msgstr "階級"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:244
 msgid "Add New Rank"
-msgstr "Add New Rank"
+msgstr "新しい階級の追加"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:245
 msgid "Edit Rank"
-msgstr "Edit Rank"
+msgstr "階級の編集"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:246
 msgid "New Rank"
-msgstr "New Rank"
+msgstr "新しい階級"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:248
 msgid "View Rank"
-msgstr "View Rank"
+msgstr "階級の表示"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:249
 msgid "Search Ranks"
-msgstr "Search Ranks"
+msgstr "階級を検索"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:250
 msgid "No ranks found"
-msgstr "No ranks found"
+msgstr "階級は見つかりません"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:251
 msgid "No ranks found in Trash"
-msgstr "No ranks found in Trash"
+msgstr "ゴミ箱には階級は見つかりませんでした"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:318
 msgid "Completed - Total of %d users effected"
-msgstr "Completed - Total of %d users effected"
+msgstr "達成 - 全ユーザーの %d に影響"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:320
 msgid "Log is Empty"
-msgstr "Log is Empty"
+msgstr "ログは空です"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:514
 #: ../addons/ranks/myCRED-addon-ranks.php:517
 msgid "Rank Updated. View <a href=\"%1$s\">All Ranks</a>."
-msgstr "Rank Updated. View <a href=\"%1$s\">All Ranks</a>."
+msgstr "階級を更新しました。 <a href=\"%1$s\">全階級</a>を参照してください。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:519
 msgid "Rank Activated"
-msgstr "Rank Activated"
+msgstr "階級の有効化"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:520
 msgid "Rank Saved"
-msgstr "Rank Saved"
+msgstr "階級の保存"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:521
 msgid "Rank Submitted for approval. View <a href=\"%1$s\">All Ranks</a>."
-msgstr "Rank Submitted for approval. View <a href=\"%1$s\">All Ranks</a>."
+msgstr ""
+"階級の承認を申請しました。<a href=\"%1$s\">全階級</a>を参照してください。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:523
 msgid "Rank scheduled for: <strong>%1$s</strong>."
-msgstr "Rank scheduled for: <strong>%1$s</strong>."
+msgstr "階級のスケジュール: <strong>%1$s</strong>."
 
 #: ../addons/ranks/myCRED-addon-ranks.php:580
 #: ../addons/ranks/myCRED-addon-ranks.php:633
 msgid "Rank Title"
-msgstr "Rank Title"
+msgstr "階級のタイトル"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:581
 msgid "Logo"
-msgstr "Logo"
+msgstr "ロゴ"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:582
 msgid "Requirement"
-msgstr "Requirement"
+msgstr "要件"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:583
 #: ../modules/mycred-module-settings.php:439
 msgid "Users"
-msgstr "Users"
+msgstr "ユーザー"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:599
 msgid "No Logo Set"
-msgstr "No Logo Set"
+msgstr "ロゴが設定されていません"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:608
 #: ../addons/ranks/myCRED-addon-ranks.php:613
 msgid "Any Value"
-msgstr "Any Value"
+msgstr "任意の値"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:615
 msgid "Maximum %plural%"
-msgstr "Maximum %plural%"
+msgstr "最大 %plural%"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:646
 msgid "Rank Settings"
-msgstr "Rank Settings"
+msgstr "階級の設定"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:668
 msgid "Minimum %plural% to reach this rank"
-msgstr "Minimum %plural% to reach this rank"
+msgstr "この階級に到達する最小 %plural%"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:672
 msgid "Maximum %plural% to be included in this rank"
-msgstr "Maximum %plural% to be included in this rank"
+msgstr "この階級に含まれる最大 %plural%"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:679
 msgid "All Published Ranks"
-msgstr "All Published Ranks"
+msgstr "全ての公開階級"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:685
 #: ../addons/ranks/myCRED-addon-ranks.php:687
 msgid "Not Set"
-msgstr "Not Set"
+msgstr "設定されていません"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:692
 msgid "No Ranks found"
-msgstr "No Ranks found"
+msgstr "階級が見つかりません"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:750
 msgid "Rank Features"
-msgstr "Rank Features"
+msgstr "階級の特徴"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:754
 msgid "%plural% requirement"
-msgstr "%plural% requirement"
+msgstr "%plural% の要件"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:755
 msgid "Featured Image (Logo)"
-msgstr "Featured Image (Logo)"
+msgstr "注目イメージ (ロゴ)"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:756
 msgid "Content"
-msgstr "Content"
+msgstr "コンテンツ"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:757
 msgid "Excerpt"
-msgstr "Excerpt"
+msgstr "抜粋"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:758
 msgid "Comments"
-msgstr "Comments"
+msgstr "コメント"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:759
 msgid "Page Attributes"
-msgstr "Page Attributes"
+msgstr "ページ属性"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:760
 msgid "Custom Fields"
-msgstr "Custom Fields"
+msgstr "カスタムフィールド"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:763
 msgid "Public"
-msgstr "Public"
+msgstr "パブリック"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:767
 msgid ""
 "If you want to create a template archive for each rank, you must select to "
 "have ranks public. Defaults to disabled."
 msgstr ""
-"If you want to create a template archive for each rank, you must select to "
-"have ranks public. Defaults to disabled."
+"各階級のテンプレートのアーカイブを作成する場合、階級の公開を選択する必要があ"
+"ります。既定では無効になっています。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:770
 msgid "Rank Basis"
-msgstr "Rank Basis"
+msgstr "階級の基礎"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:773
 msgid "Users are ranked according to their current balance."
-msgstr "Users are ranked according to their current balance."
+msgstr "ユーザーは現在の残高に応じて階級付けされます。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:776
 msgid ""
 "Users are ranked according to the total amount of %_plural% they have "
 "accumulated."
-msgstr ""
-"Users are ranked according to the total amount of %_plural% they have "
-"accumulated."
+msgstr "ユーザーは、蓄積した %_plural% の総量に応じて階級付けされます。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:780
 #: ../addons/ranks/myCRED-addon-ranks.php:785
 msgid "Calculate Totals"
-msgstr "Calculate Totals"
+msgstr "合計の計算"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:783
 msgid ""
 "Use this button to calculate or re-calcualte your users totals. If not used, "
 "the users current balance will be used as a starting point."
 msgstr ""
-"Use this button to calculate or re-calcualte your users totals. If not used, "
-"the users current balance will be used as a starting point."
+"ユーザーの合計を計算または再計算する場合はこのボタンを使用します。もし使用し"
+"ない場合、ユーザーの現在の残高は、開始点として使用されます。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:783
 msgid ""
@@ -2957,9 +2975,8 @@ msgid ""
 "appropriate roles. For this reason, it is highly recommended that you first "
 "setup your ranks!"
 msgstr ""
-"Once a users total has been calculated, they will be assigned to their "
-"appropriate roles. For this reason, it is highly recommended that you first "
-"setup your ranks!"
+"一度、ユーザーの合計が計算されると、ユーザーは適切な役割に割り当てられます。"
+"この理由から、最初に階級を設定することを強くお勧めします。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:784
 msgid ""
@@ -2967,171 +2984,171 @@ msgid ""
 "while. Please do not leave, click \"Update Settings\" or re-fresh this page "
 "until this is completed!"
 msgstr ""
-"Depending on your log size and number of users this process may take a "
-"while. Please do not leave, click \"Update Settings\" or re-fresh this page "
-"until this is completed!"
+"ログの大きさやユーザー数に応じて、この処理は時間がかかる場合があります。この"
+"処理が完了するまで、やめたり、\"更新の設定\"をクリックしたり、またはページの"
+"更新を行わないでください。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:789
 msgid "Archive URL"
-msgstr "Archive URL"
+msgstr "アーカイブURL"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:793
 msgid "Ignored if Ranks are not public"
-msgstr "Ignored if Ranks are not public"
+msgstr "階級がパブリックでない場合は無視されます"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:796
 msgid "Display Order"
-msgstr "Display Order"
+msgstr "表示順序"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:803
 msgid "Ascending - Lowest rank to highest"
-msgstr "Ascending - Lowest rank to highest"
+msgstr "昇順 - 階級の最低から順番"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:804
 msgid "Descending - Highest rank to lowest"
-msgstr "Descending - Highest rank to lowest"
+msgstr "降順 - 階級の最高から順番"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:813
 msgid ""
 "Select in what order ranks should be displayed in your admin area and/or "
 "front if ranks are \"Public\""
 msgstr ""
-"Select in what order ranks should be displayed in your admin area and/or "
-"front if ranks are \"Public\""
+"階級が\"パブリック\"の場合、階級順を管理エリアおよび/または前面に表示すべきか"
+"選択してください"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:823
 #: ../modules/mycred-module-buddypress.php:364
 #: ../modules/mycred-module-buddypress.php:371
 msgid "Do not show."
-msgstr "Do not show."
+msgstr "表示されません。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:824
 #: ../modules/mycred-module-buddypress.php:365
 msgid "Include in Profile Header."
-msgstr "Include in Profile Header."
+msgstr "プロフィールのヘッダーに含まれます。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:825
 #: ../modules/mycred-module-buddypress.php:366
 msgid "Include under the \"Profile\" tab"
-msgstr "Include under the \"Profile\" tab"
+msgstr "\"プロフィール\"タブの下に含まれます。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:826
 #: ../modules/mycred-module-buddypress.php:367
 msgid "Include under the \"Profile\" tab and Profile Header."
-msgstr "Include under the \"Profile\" tab and Profile Header."
+msgstr "\"プロフィール\"タブの下およびプロフィールのヘッダーに含まれます。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:829
 msgid "Rank in BuddyPress"
-msgstr "Rank in BuddyPress"
+msgstr "BuddyPress の階級"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:897
 msgid "Script Communication Error"
-msgstr "Script Communication Error"
+msgstr "スクリプトの通信エラー"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:947
 msgid "Rank Post Type"
-msgstr "Rank Post Type"
+msgstr "投稿タイプの階級"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:951
 msgid "No. of ranks"
-msgstr "No. of ranks"
+msgstr " 階級数"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:955
 #: ../modules/mycred-module-log.php:372
 #: ../modules/mycred-module-settings.php:428
 #: ../modules/mycred-module-settings.php:443
 msgid "Actions"
-msgstr "Actions"
+msgstr "アクション"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:956
 msgid "Remove All Ranks"
-msgstr "Remove All Ranks"
+msgstr "全ての階級を削除"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:956
 msgid "Assign Ranks to Users"
-msgstr "Assign Ranks to Users"
+msgstr "ユーザーに階級を割り当てる"
 
 #: ../addons/ranks/includes/mycred-rank-functions.php:181
 msgid "mycred_get_users_rank() : Missing required user id"
-msgstr "mycred_get_users_rank() : Missing required user id"
+msgstr "mycred_get_users_rank() : 必要なユーザーIDがありません"
 
 #: ../addons/ranks/includes/mycred-rank-functions.php:191
 msgid "no rank"
-msgstr "no rank"
+msgstr "階級なし"
 
 #: ../addons/ranks/includes/mycred-rank-shortcodes.php:58
 #: ../addons/ranks/includes/mycred-rank-shortcodes.php:134
 msgid "No users found with this rank"
-msgstr "No users found with this rank"
+msgstr "この階級のユーザーが見つかりません"
 
 #: ../addons/ranks/includes/mycred-rank-shortcodes.php:63
 #: ../includes/mycred-shortcodes.php:352 ../includes/mycred-shortcodes.php:355
 #: ../includes/mycred-shortcodes.php:417 ../includes/mycred-shortcodes.php:478
 #: ../includes/mycred-shortcodes.php:482 ../includes/mycred-shortcodes.php:486
 msgid "error"
-msgstr "error"
+msgstr "エラー"
 
 #: ../addons/ranks/includes/mycred-rank-shortcodes.php:63
 msgid "Rank ID is required!"
-msgstr "Rank ID is required!"
+msgstr "階級 IDが必要です。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:49
 msgid "Purchase of %link_with_title%"
-msgstr "Purchase of %link_with_title%"
+msgstr "%link_with_title% の購入"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:50
 msgid "Sale of %link_with_title%"
-msgstr "Sale of %link_with_title%"
+msgstr "%link_with_title% の販売"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:73
 msgid "Hours"
-msgstr "Hours"
+msgstr "時間"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:247
 msgid "You can not buy this content."
-msgstr "You can not buy this content."
+msgstr "このコンテンツを購入できません。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:310
 msgid "Error. Try Again"
-msgstr "Error. Try Again"
+msgstr "エラー。もう一度やり直してください"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:332
 msgid "No Payout. Just charge."
-msgstr "No Payout. Just charge."
+msgstr "お支払いはありません。チャージしてください。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:333
 msgid "Pay Content Author."
-msgstr "Pay Content Author."
+msgstr "コンテンツ著者に支払います。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:339
 #: ../includes/mycred-overview.php:141 ../includes/mycred-overview.php:148
 #: ../modules/mycred-module-addons.php:224
 msgid "Sell Content"
-msgstr "Sell Content"
+msgstr "コンテンツ販売"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:341
 msgid "Post Types"
-msgstr "Post Types"
+msgstr "投稿の種類"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:345
 msgid "Comma separated list of post types that can be sold."
-msgstr "Comma separated list of post types that can be sold."
+msgstr "投稿の種類はコンマ区切りリストで販売することができます。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:375
 msgid "Percentage to pay Author"
-msgstr "Percentage to pay Author"
+msgstr "著者への支払いの割合"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:377
 msgid ""
 "Percentage of the price to pay the author. Can not be zero and is ignored if "
 "authors are not paid."
 msgstr ""
-"Percentage of the price to pay the author. Can not be zero and is ignored if "
-"authors are not paid."
+"著者への支払う金額の割合です。著者に支払われていない場合は無視されますが、0に"
+"することはできません。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:385
 msgid "Defaults"
-msgstr "Defaults"
+msgstr "規定値"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:393
 msgid "Allow authors to change price."
