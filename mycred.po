@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: myCRED\n"
 "Report-Msgid-Bugs-To: http://mycred.me\n"
 "POT-Creation-Date: 2014-03-20 14:26+0100\n"
-"PO-Revision-Date: 2014-05-29 11:36+0800\n"
+"PO-Revision-Date: 2014-05-30 12:04+0800\n"
 "Last-Translator: Yoshihiro Imamura\n"
 "Language-Team: LANGUAGE <support@mycred.me>\n"
 "Language: ja_JP\n"
@@ -1537,7 +1537,7 @@ msgstr "%s 時間後"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:254
 msgid "Coupon Setup"
-msgstr "クーポンの設定"
+msgstr "クーポンのセットアップ"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:263
 msgid "Coupon Limits"
@@ -3152,401 +3152,404 @@ msgstr "規定値"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:393
 msgid "Allow authors to change price."
-msgstr "Allow authors to change price."
+msgstr "著者は価格を変更することができます。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:402
 msgid "Allow authors to change button label."
-msgstr "Allow authors to change button label."
+msgstr "著者はボタンのラベルを変更することができます。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:406
 msgid "Purchases expire after"
-msgstr "Purchases expire after"
+msgstr "購入後に期限切れ"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:408
 msgid "Use zero for permanent sales."
-msgstr "Use zero for permanent sales."
+msgstr "永続的な販売を行う場合、0を使用します。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:411
 msgid "Sale Template for non members"
-msgstr "Sale Template for non members"
+msgstr "非会員向け販売テンプレート"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:415
 msgid ""
 "Do <strong>not</strong> use the %buy_button% in this template as a user must "
 "be logged in to buy content!"
 msgstr ""
-"Do <strong>not</strong> use the %buy_button% in this template as a user must "
-"be logged in to buy content!"
+"コンテンツを購入するためにユーザーはログインする必要があるため、このテンプ"
+"レート内では %buy_button% を使用しないでください！"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:419
 msgid "Sale Template for members"
-msgstr "Sale Template for members"
+msgstr "会員向け販売テンプレート"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:423
 #: ../addons/sell-content/myCRED-addon-sell-content.php:431
 msgid "Your template must contain the %buy_button% tag for purchases to work!"
-msgstr "Your template must contain the %buy_button% tag for purchases to work!"
+msgstr ""
+"ユーザーが購入できるようにするには、%buy_button% タグをテンプレートに含む必要"
+"があります。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:427
 msgid "Insufficient funds template"
-msgstr "Insufficient funds template"
+msgstr "資金不足テンプレート"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:435
 msgid "Log template for Purchases"
-msgstr "Log template for Purchases"
+msgstr "購入のログテンプレート"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:442
 msgid "Log template for Sales"
-msgstr "Log template for Sales"
+msgstr "販売のログテンプレート"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:494
 msgid "%s Sell This"
-msgstr "%s Sell This"
+msgstr "%s 販売"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:548
 msgid "%s Sell Content needs to be setup before you can use this feature."
-msgstr "%s Sell Content needs to be setup before you can use this feature."
+msgstr "%s コンテンツ販売は、この機能を使用する前に設定する必要があります。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:551
 msgid "Setup add-on"
-msgstr "Setup add-on"
+msgstr "アドオンの設定"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:551
 msgid "Lets do it"
-msgstr "Lets do it"
+msgstr "やってみましょう"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:580
 msgid "Enable sale of this "
-msgstr "Enable sale of this "
+msgstr "この販売を有効にする "
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:594
 msgid "Purchase expires after"
-msgstr "Purchase expires after"
+msgstr "購入後に期限切れにする"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:918
 msgid "Thank you for your purchase!"
-msgstr "Thank you for your purchase!"
+msgstr "ご購入いただき、ありがとうございます。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:1006
 #: ../addons/sell-content/myCRED-addon-sell-content.php:1092
 msgid "The following content is set for sale:"
-msgstr "The following content is set for sale:"
+msgstr "販売のために次の内容が設定されます。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:1153
 msgid "Purchased"
-msgstr "Purchased"
+msgstr "購入済み"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:38
 msgid "You do not have enough %plural% to send."
-msgstr "You do not have enough %plural% to send."
+msgstr "送信にするのに十分な %plural% を持っていません。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:39
 msgid "You have exceeded your %limit% transfer limit."
-msgstr "You have exceeded your %limit% transfer limit."
+msgstr "%limit% は、転送制限を超えています。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:45
 msgid "Transfer"
-msgstr "Transfer"
+msgstr "転送"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:140
 msgid "Transaction completed."
-msgstr "Transaction completed."
+msgstr "取引が完了しました。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:141
 msgid ""
 "Security token could not be verified. Please contact your site administrator!"
 msgstr ""
-"Security token could not be verified. Please contact your site administrator!"
+"セキュリティトークンを検証できませんでした。サイト管理者に問い合わせてくださ"
+"い。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:142
 msgid "Communications error. Please try again later."
-msgstr "Communications error. Please try again later."
+msgstr "通信エラー。もう一度やり直してください。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:143
 msgid "Recipient not found. Please try again."
-msgstr "Recipient not found. Please try again."
+msgstr "受信者が見つかりません。もう一度やり直してください。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:144
 msgid "Transaction declined by recipient."
-msgstr "Transaction declined by recipient."
+msgstr "取引は受信者に拒否されました。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:145
 msgid "Incorrect amount. Please try again."
-msgstr "Incorrect amount. Please try again."
+msgstr "不適切な量です。もう一度やり直してください。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:146
 msgid ""
 "This myCRED Add-on has not yet been setup! No transfers are allowed until "
 "this has been done!"
 msgstr ""
-"This myCRED Add-on has not yet been setup! No transfers are allowed until "
-"this has been done!"
+"この myCRED アドオンはまだ設定が行われていません。設定が行われるまで、転送は"
+"許可されません。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:147
 msgid "Insufficient funds. Please enter a lower amount."
-msgstr "Insufficient funds. Please enter a lower amount."
+msgstr "資金不足です。低い量を入力してください。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:148
 msgid "Transfer Limit exceeded."
-msgstr "Transfer Limit exceeded."
+msgstr "転送制限を超えました。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:173
 msgid "No limits."
-msgstr "No limits."
+msgstr "制限はありません。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:174
 msgid "Impose daily limit."
-msgstr "Impose daily limit."
+msgstr "毎日の制限を課します。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:175
 msgid "Impose weekly limit."
-msgstr "Impose weekly limit."
+msgstr "一週間の制限を課します。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:182
 msgid "User Login (user_login)"
-msgstr "User Login (user_login)"
+msgstr "ユーザーログイン (user_login)"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:183
 msgid "User Email (user_email)"
-msgstr "User Email (user_email)"
+msgstr "ユーザーEメール (user_email)"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:191
 #: ../addons/transfer/myCRED-addon-transfer.php:631
 msgid "Transfer %plural%"
-msgstr "Transfer %plural%"
+msgstr "%plural% を転送"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:195
 #: ../includes/mycred-widgets.php:593
 #: ../modules/mycred-module-settings.php:457
 msgid "Point Types"
-msgstr "Point Types"
+msgstr "ポイントの種類"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:200
 msgid "Select the point types that users can transfer."
-msgstr "Select the point types that users can transfer."
+msgstr "ユーザーが転送できるポイントの種類を選択します。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:208
 msgid "Log template for sending"
-msgstr "Log template for sending"
+msgstr "送信のログテンプレート"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:215
 msgid "Log template for receiving"
-msgstr "Log template for receiving"
+msgstr "受信のログテンプレート"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:222
 msgid "Autofill Recipient"
-msgstr "Autofill Recipient"
+msgstr "受信者を自動入力"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:234
 msgid "Select what user details recipients should be autofilled by."
-msgstr "Select what user details recipients should be autofilled by."
+msgstr "受信者を自動入力するべきか、ユーザーの詳細を選択します。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:237
 msgid "Reload"
-msgstr "Reload"
+msgstr "更新"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:240
 msgid "Reload page on successful transfers."
-msgstr "Reload page on successful transfers."
+msgstr "転送に成功したページを更新します。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:260
 msgid "Maximum Amount"
-msgstr "Maximum Amount"
+msgstr "最大金額"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:262
 msgid "This amount is ignored if no limits are imposed."
-msgstr "This amount is ignored if no limits are imposed."
+msgstr "制限がない場合、この金額は無視されます。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:265
 msgid "Form Templates"
-msgstr "Form Templates"
+msgstr "フォームテンプレート"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:268
 msgid "Not logged in Template"
-msgstr "Not logged in Template"
+msgstr "テンプレートにログインしていません。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:270
 msgid ""
 "Text to show when users are not logged in. Leave empty to hide. No HTML "
 "elements allowed!"
 msgstr ""
-"Text to show when users are not logged in. Leave empty to hide. No HTML "
-"elements allowed!"
+"ユーザーがログインしていない場合にテキストを表示します。非表示にする場合は空"
+"のままにします。HTML形式は許可されていません。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:274
 msgid "Balance Template"
-msgstr "Balance Template"
+msgstr "残高テンプレート"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:276
 msgid ""
 "Template to use when displaying the users balance (if included). No HTML "
 "elements allowed!"
 msgstr ""
-"Template to use when displaying the users balance (if included). No HTML "
-"elements allowed!"
+"（残高がある場合に）ユーザーの残高を表示する際に使用するテンプレートです。"
+"HTML形式は許可されていません。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:280
 msgid "Limit Template"
-msgstr "Limit Template"
+msgstr "制限テンプレート"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:282
 msgid ""
 "Template to use when displaying limits (if used). No HTML elements allowed!"
 msgstr ""
-"Template to use when displaying limits (if used). No HTML elements allowed!"
+"（使用している場合）制限を表示する際に使用するテンプレートです。HTML形式は許"
+"可されていません。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:286
 msgid "Button Template"
-msgstr "Button Template"
+msgstr "ボタンテンプレート"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:288
 msgid "Send Transfer button template. No HTML elements allowed!"
-msgstr "Send Transfer button template. No HTML elements allowed!"
+msgstr "転送ボタンでの送信時のテンプレートです。HTML形式は許可されていません。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:291
 msgid "Error Messages"
-msgstr "Error Messages"
+msgstr "エラーメッセージ"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:294
 msgid "Balance to low to send."
-msgstr "Balance to low to send."
+msgstr "残高が少ないと送信します。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:296
 msgid ""
 "Text to show when a users balance is to low for transfers. Leave empty to "
 "hide. No HTML elements allowed!"
 msgstr ""
-"Text to show when a users balance is to low for transfers. Leave empty to "
-"hide. No HTML elements allowed!"
+"ユーザーの残高が転送に必要が額より少ないときに表示するテキストです。非表示に"
+"する場合は空のままにします。HTML 形式は許可されていません。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:300
 msgid "Transfer Limit Reached."
-msgstr "Transfer Limit Reached."
+msgstr "転送制限に達しました。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:302
 msgid ""
 "Text to show when a user has reached their transfer limit (if used). Leave "
 "empty to hide. No HTML elements allowed!"
 msgstr ""
-"Text to show when a user has reached their transfer limit (if used). Leave "
-"empty to hide. No HTML elements allowed!"
+"（使用している場合）ユーザーが転送制限に達した際に表示するテキストです。非表"
+"示にする場合は空のままにします。HTML 形式は許可されていません。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:560
 msgid "Allow transfers between users."
-msgstr "Allow transfers between users."
+msgstr "ユーザー間での転送を許可します。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:562
 msgid "(%s) Transfer"
-msgstr "(%s) Transfer"
+msgstr "(%s) 転送"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:576
 msgid "The myCRED Transfer add-on has not yet been setup!"
-msgstr "The myCRED Transfer add-on has not yet been setup!"
+msgstr "myCRED 転送アドオンは、設定がまだ行われていません。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:642
 msgid "Show users balance"
-msgstr "Show users balance"
+msgstr "ユーザー残高の表示"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:646
 msgid "Show users limit"
-msgstr "Show users limit"
+msgstr "ユーザー制限の表示"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:776
 msgid "username"
-msgstr "username"
+msgstr "ユーザー名"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:778
 msgid "email"
-msgstr "email"
+msgstr "Eメール"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:780
 msgid "recipients %s"
-msgstr "recipients %s"
+msgstr "受信者 %s"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:841
 msgid "To:"
-msgstr "To:"
+msgstr "宛先:"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:847
 msgid "Amount:"
-msgstr "Amount:"
+msgstr "金額:"
 
 #: ../includes/mycred-about.php:75
 msgid "Welcome to %s %s"
-msgstr "Welcome to %s %s"
+msgstr "%s %s へようこそ"
 
 #: ../includes/mycred-admin.php:63
 msgid ""
 "Re-save your myCRED Settings & all myCRED widget settings that you are "
 "currently using."
 msgstr ""
-"Re-save your myCRED Settings & all myCRED widget settings that you are "
-"currently using."
+"現在使用しているmyCRED 設定および全ての myCRED ウィジェット設定を保存します。"
 
 #: ../includes/mycred-admin.php:67
 msgid "Re-save your myCRED Hook Settings."
-msgstr "Re-save your myCRED Hook Settings."
+msgstr "myCRED フック設定を保存します。"
 
 #: ../includes/mycred-admin.php:71
 msgid ""
 "Please complete the following tasks in order to finish updating myCRED to "
 "version 1.4:"
 msgstr ""
-"Please complete the following tasks in order to finish updating myCRED to "
-"version 1.4:"
+"myCRED のバージョン 1.4への更新を完了するために、次のタスクを完了してくださ"
+"い:"
 
 #: ../includes/mycred-admin.php:97
 msgid "User is excluded"
-msgstr "User is excluded"
+msgstr "除外したユーザー"
 
 #: ../includes/mycred-admin.php:102
 msgid "Log Entry can not be empty"
-msgstr "Log Entry can not be empty"
+msgstr "ログエントリは空にできません"
 
 #: ../includes/mycred-admin.php:106
 msgid "Amount can not be zero"
-msgstr "Amount can not be zero"
+msgstr "金額はゼロにできません"
 
 #: ../includes/mycred-admin.php:127
 msgid "Failed to update this uses balance."
-msgstr "Failed to update this uses balance."
+msgstr "このユーザー残高の更新に失敗しました。"
 
 #: ../includes/mycred-admin.php:262
 msgid "Excluded"
-msgstr "Excluded"
+msgstr "除外"
 
 #: ../includes/mycred-admin.php:275 ../modules/mycred-module-log.php:254
 #: ../modules/mycred-module-log.php:255
 msgid "History"
-msgstr "History"
+msgstr "履歴"
 
 #: ../includes/mycred-admin.php:276
 msgid "Adjust"
-msgstr "Adjust"
+msgstr "調整"
 
 #: ../includes/mycred-admin.php:331 ../includes/mycred-admin.php:390
 msgid "%singular% balance"
-msgstr "%singular% balance"
+msgstr "%singular% 残高"
 
 #: ../includes/mycred-admin.php:355
 msgid "Adjust Your Balance"
-msgstr "Adjust Your Balance"
+msgstr "残高の調整"
 
 #: ../includes/mycred-admin.php:357
 msgid "Adjust Users Balance"
-msgstr "Adjust Users Balance"
+msgstr "ユーザー残高の調整"
 
 #: ../includes/mycred-admin.php:368
 msgid "Log description for adjustment"
-msgstr "Log description for adjustment"
+msgstr "調整のログ説明"
 
 #: ../includes/mycred-admin.php:371
 msgid "Update"
-msgstr "Update"
+msgstr "更新"
 
 #: ../includes/mycred-admin.php:372
 msgid "Description is required!"
-msgstr "Description is required!"
+msgstr "説明が必要です。"
 
 #: ../includes/mycred-admin.php:472
 msgid "ID"
@@ -3554,247 +3557,253 @@ msgstr "ID"
 
 #: ../includes/mycred-admin.php:478
 msgid "A positive or negative value"
-msgstr "A positive or negative value"
+msgstr "正または負の値"
 
 #: ../includes/mycred-admin.php:480
 msgid "Update Balance"
-msgstr "Update Balance"
+msgstr "残高の更新"
 
 #: ../includes/mycred-functions.php:76
 msgid "Point"
-msgstr "Point"
+msgstr "ポイント"
 
 #: ../includes/mycred-functions.php:77
 msgid "Points"
-msgstr "Points"
+msgstr "ポイント"
 
 #: ../includes/mycred-functions.php:395
 msgid "Deleted"
-msgstr "Deleted"
+msgstr "削除済み"
 
 #: ../includes/mycred-functions.php:532
 msgid "Deleted Item"
-msgstr "Deleted Item"
+msgstr "削除済み商品"
 
 #: ../includes/mycred-functions.php:596
 msgid "User Related"
-msgstr "User Related"
+msgstr "関連ユーザー"
 
 #: ../includes/mycred-functions.php:603
 msgid "Post Related"
-msgstr "Post Related"
+msgstr "関連記事"
 
 #: ../includes/mycred-functions.php:610
 msgid "Comment Related"
-msgstr "Comment Related"
+msgstr "関連コメント"
 
 #: ../includes/mycred-functions.php:617
 msgid "Widget Related"
-msgstr "Widget Related"
+msgstr "関連ウィジェット"
 
 #: ../includes/mycred-functions.php:624
 msgid "Amount Related"
-msgstr "Amount Related"
+msgstr "関連金額"
 
 #: ../includes/mycred-functions.php:631
 msgid "Video Related"
-msgstr "Video Related"
+msgstr "関連ビデオ"
 
 #: ../includes/mycred-functions.php:642
 msgid "and"
-msgstr "and"
+msgstr "と"
 
 #: ../includes/mycred-functions.php:644
 msgid "Available Template Tags:"
-msgstr "Available Template Tags:"
+msgstr "使用可能なテンプレートタグ:"
 
 #: ../includes/mycred-functions.php:1565
 msgid "Entire Log"
-msgstr "Entire Log"
+msgstr "全体のログ"
 
 #: ../includes/mycred-functions.php:1570 ../includes/mycred-functions.php:1571
 msgid "Displayed Rows"
-msgstr "Displayed Rows"
+msgstr "表示している行"
 
 #: ../includes/mycred-functions.php:1575
 msgid "Search Results"
-msgstr "Search Results"
+msgstr "検索結果"
 
 #: ../includes/mycred-functions.php:1576
 msgid "My Entire Log"
-msgstr "My Entire Log"
+msgstr "自分の全体のログ"
 
 #: ../includes/mycred-functions.php:1696
 msgid "ref empty"
-msgstr "ref empty"
+msgstr "空の参照"
 
 #: ../includes/mycred-functions.php:1704
 msgid "incorrect user id format"
-msgstr "incorrect user id format"
+msgstr "無効なユーザーID形式"
 
 #: ../includes/mycred-functions.php:1717
 msgid "incorrect unix timestamp (from):"
-msgstr "incorrect unix timestamp (from):"
+msgstr "無効なunixタイムスタンプ (from):"
 
 #: ../includes/mycred-functions.php:1726
 msgid "incorrect unix timestamp (to):"
-msgstr "incorrect unix timestamp (to):"
+msgstr "無効なunixタイムスタンプ (to):"
 
 #: ../includes/mycred-importer.php:11
 msgid "%s Log Import"
-msgstr "%s Log Import"
+msgstr "%s ログのインポート"
 
 #: ../includes/mycred-importer.php:12
 msgid "Import log entries via a CSV file."
-msgstr "Import log entries via a CSV file."
+msgstr "CSVファイルを介してログエントリをインポートします。"
 
 #: ../includes/mycred-importer.php:43
 msgid "%s Balance Import"
-msgstr "%s Balance Import"
+msgstr "%s 残高のインポート"
 
 #: ../includes/mycred-importer.php:44
 msgid "Import balances."
-msgstr "Import balances."
+msgstr "残高をインポートします。"
 
 #: ../includes/mycred-importer.php:75
 msgid "%s CubePoints Import"
-msgstr "%s CubePoints Import"
+msgstr "%s CubePoints のインポート"
 
 #: ../includes/mycred-importer.php:76
 #: ../includes/importers/mycred-cubepoints.php:344
 msgid "Import CubePoints log entries and / or balances."
-msgstr "Import CubePoints log entries and / or balances."
+msgstr "CubePoints ログエントリ および / または 残高をインポートします。"
 
 #: ../includes/mycred-importer.php:92
 msgid "No CubePoints log exists."
-msgstr "No CubePoints log exists."
+msgstr "CubePoints のログが存在していません。"
 
 #: ../includes/mycred-install.php:39
 msgid "myCRED requires WordPress 3.5 or higher. Version detected:"
-msgstr "myCRED requires WordPress 3.5 or higher. Version detected:"
+msgstr ""
+"myCRED は WordPress 3.5、または、それ以降のバージョンが必要です。検出された"
+"バージョン:"
 
 #: ../includes/mycred-install.php:44
 msgid "myCRED requires PHP 5.2.4 or higher. Version detected: "
-msgstr "myCRED requires PHP 5.2.4 or higher. Version detected: "
+msgstr ""
+"myCRED は PHP 5.2.4、または、それ以降のバージョンが必要です。検出されたバー"
+"ジョン: "
 
 #: ../includes/mycred-install.php:49
 msgid "myCRED requires SQL 5.0 or higher. Version detected: "
-msgstr "myCRED requires SQL 5.0 or higher. Version detected: "
+msgstr ""
+"myCRED は SQL 5.0、または、それ以降のバージョンが必要です。検出されたバージョ"
+"ン: "
 
 #: ../includes/mycred-install.php:54
 msgid ""
 "Sorry but your WordPress installation does not reach the minimum "
 "requirements for running myCRED. The following errors were given:"
 msgstr ""
-"Sorry but your WordPress installation does not reach the minimum "
-"requirements for running myCRED. The following errors were given:"
+"申し訳ありませんが、あなたのインストールしているWordPressは myCRED を実行する"
+"ための必要な要件に達していません。次のエラーを参照してください:"
 
 #: ../includes/mycred-install.php:243
 msgid "myCRED needs your attention."
-msgstr "myCRED needs your attention."
+msgstr "myCRED はあなたの注意が必要です。"
 
 #: ../includes/mycred-install.php:243
 msgid "Run Setup"
-msgstr "Run Setup"
+msgstr "セットアップの実行"
 
 #: ../includes/mycred-install.php:255 ../includes/mycred-install.php:256
 msgid "myCRED Setup"
-msgstr "myCRED Setup"
+msgstr "myCRED のセットアップ"
 
 #: ../includes/mycred-install.php:385
 msgid "%s Setup"
-msgstr "%s Setup"
+msgstr "%s セットアップ"
 
 #: ../includes/mycred-install.php:387
 msgid "Step"
-msgstr "Step"
+msgstr "ステップ"
 
 #: ../includes/mycred-install.php:411
 msgid ""
 "Click \"Begin Setup\" to install myCRED. You will be able to select your "
 "points format, layout and security settings."
 msgstr ""
-"Click \"Begin Setup\" to install myCRED. You will be able to select your "
-"points format, layout and security settings."
+"myCREDをインストールするには\"セットアップの開始\"をクリックします。ポイント"
+"形式、レイアウトやセキュリティ設定を選択することができます。"
 
 #: ../includes/mycred-install.php:412
 msgid "Begin Setup"
-msgstr "Begin Setup"
+msgstr "セットアップの開始"
 
 #: ../includes/mycred-install.php:467
 msgid "Select the format you want to use for your points."
-msgstr "Select the format you want to use for your points."
+msgstr "あなたのポイントを使用する形式を選択します。"
 
 #: ../includes/mycred-install.php:468 ../includes/mycred-widgets.php:223
 msgid "Format"
-msgstr "Format"
+msgstr "フォーマット"
 
 #: ../includes/mycred-install.php:471
 msgid "Separators"
-msgstr "Separators"
+msgstr "区切り記号"
 
 #: ../includes/mycred-install.php:481
 msgid "Decimals"
-msgstr "Decimals"
+msgstr "小数点以下の桁数"
 
 #: ../includes/mycred-install.php:483
 msgid "Use zero for no decimals."
-msgstr "Use zero for no decimals."
+msgstr "小数部分なしの0を使用します。"
 
 #: ../includes/mycred-install.php:486
 #: ../modules/mycred-module-settings.php:344
 msgid "Presentation"
-msgstr "Presentation"
+msgstr "プレゼンテーション"
 
 #: ../includes/mycred-install.php:489
 #: ../modules/mycred-module-settings.php:331
 msgid "Name (Singular)"
-msgstr "Name (Singular)"
+msgstr "名前 (単数)"
 
 #: ../includes/mycred-install.php:493
 #: ../modules/mycred-module-settings.php:336
 msgid "Name (Plural)"
-msgstr "Name (Plural)"
+msgstr "名前 (複数)"
 
 #: ../includes/mycred-install.php:499
 #: ../modules/mycred-module-settings.php:347
 msgid "Prefix"
-msgstr "Prefix"
+msgstr "継承"
 
 #: ../includes/mycred-install.php:507
 #: ../modules/mycred-module-settings.php:355
 msgid "Suffix"
-msgstr "Suffix"
+msgstr "接尾辞"
 
 #: ../includes/mycred-install.php:511
 msgid "Cancel Setup"
-msgstr "Cancel Setup"
+msgstr "セットアップのキャンセル"
 
 #: ../includes/mycred-install.php:511
 msgid "Cancel"
-msgstr "Cancel"
+msgstr "キャンセル"
 
 #: ../includes/mycred-install.php:511 ../includes/mycred-install.php:581
 msgid "Next"
-msgstr "Next"
+msgstr "次へ"
 
 #: ../includes/mycred-install.php:543
 #: ../modules/mycred-module-settings.php:363
 msgid "Security"
-msgstr "Security"
+msgstr "セキュリティ"
 
 #: ../includes/mycred-install.php:546
 msgid "Edit Settings Capability"
-msgstr "Edit Settings Capability"
+msgstr "設定機能の編集"
 
 #: ../includes/mycred-install.php:550
 msgid "Edit Users %plural% Capability"
-msgstr "Edit Users %plural% Capability"
+msgstr "ユーザー %plural% 機能の編集"
 
 #: ../includes/mycred-install.php:554
 #: ../modules/mycred-module-settings.php:376
 msgid "Maximum %plural% payouts"
-msgstr "Maximum %plural% payouts"
+msgstr "最大 %plural% 支払い"
 
 #: ../includes/mycred-install.php:556
 #: ../modules/mycred-module-settings.php:378
@@ -3804,268 +3813,269 @@ msgid ""
 "user would be able to transfer, buy, or spend in your store. Use zero to "
 "disable."
 msgstr ""
-"As an added security, you can set the maximum amount a user can gain or "
-"loose in a single instance. If used, make sure this is the maximum amount a "
-"user would be able to transfer, buy, or spend in your store. Use zero to "
-"disable."
+"追加のセキュリティとして、１つのインスタンスでユーザーが収益または損失するこ"
+"とができる最大金額を設定できます。使用した場合、ユーザーが転送、購入、または"
+"お店に滞在することができる最大の量を確認します。無効にするには0を使用します。"
 
 #: ../includes/mycred-install.php:563
 #: ../modules/mycred-module-settings.php:385
 msgid "Exclude those who can \"Edit Settings\"."
-msgstr "Exclude those who can \"Edit Settings\"."
+msgstr "\"設定の編集\"できる方を対象から除外します。"
 
 #: ../includes/mycred-install.php:567
 #: ../modules/mycred-module-settings.php:389
 msgid "Exclude those who can \"Edit Users %plural%\"."
-msgstr "Exclude those who can \"Edit Users %plural%\"."
+msgstr "\"ユーザー %plural% の編集\"できる方を対象から除外します。"
 
 #: ../includes/mycred-install.php:570
 #: ../modules/mycred-module-settings.php:393
 msgid "Exclude the following user IDs:"
-msgstr "Exclude the following user IDs:"
+msgstr "次のユーザーIDを除外します:"
 
 #: ../includes/mycred-install.php:574
 #: ../modules/mycred-module-settings.php:398
 msgid "User Deletions"
-msgstr "User Deletions"
+msgstr "ユーザーの削除"
 
 #: ../includes/mycred-install.php:578
 #: ../modules/mycred-module-settings.php:401
 msgid "Delete log entries when user is deleted."
-msgstr "Delete log entries when user is deleted."
+msgstr "ユーザーが削除された際のログエントリを削除します。"
 
 #: ../includes/mycred-install.php:599
 msgid "Ready"
-msgstr "Ready"
+msgstr "開始"
 
 #: ../includes/mycred-install.php:600
 msgid "Almost done! Click the button below to finish this setup."
-msgstr "Almost done! Click the button below to finish this setup."
+msgstr ""
+"ほぼ完了しました。このセットアップを完了するには下のボタンをクリックします。"
 
 #: ../includes/mycred-install.php:601
 msgid "Install & Run"
-msgstr "Install & Run"
+msgstr "インストール及び実行"
 
 #: ../includes/mycred-log.php:399
 msgid "Showing %d %s"
-msgstr "Showing %d %s"
+msgstr "%d %s を表示"
 
 #: ../includes/mycred-log.php:399
 msgid "entry"
 msgid_plural "entries"
-msgstr[0] "entry"
-msgstr[1] "entries"
+msgstr[0] "エントリ"
+msgstr[1] "複数のエントリ"
 
 #: ../includes/mycred-log.php:412
 msgid "Go to the first page"
-msgstr "Go to the first page"
+msgstr "最初のページに移動"
 
 #: ../includes/mycred-log.php:419
 msgid "Go to the previous page"
-msgstr "Go to the previous page"
+msgstr "前のページに移動"
 
 #: ../includes/mycred-log.php:428
 msgid "Current page"
-msgstr "Current page"
+msgstr "現在のページ"
 
 #: ../includes/mycred-log.php:434
 msgctxt "paging"
 msgid "%1$s of %2$s"
-msgstr "%1$s of %2$s"
+msgstr "%2$s の %1$s"
 
 #: ../includes/mycred-log.php:438
 msgid "Go to the next page"
-msgstr "Go to the next page"
+msgstr "次のページに移動"
 
 #: ../includes/mycred-log.php:445
 msgid "Go to the last page"
-msgstr "Go to the last page"
+msgstr "最後のページに移動"
 
 #: ../includes/mycred-log.php:528
 msgid "Show all references"
-msgstr "Show all references"
+msgstr "全ての参照を表示"
 
 #: ../includes/mycred-log.php:541 ../modules/mycred-module-settings.php:541
 msgid "User ID"
-msgstr "User ID"
+msgstr "ユーザーID"
 
 #: ../includes/mycred-log.php:547
 msgid "Show in order"
-msgstr "Show in order"
+msgstr "順序の表示"
 
 #: ../includes/mycred-log.php:548 ../includes/mycred-widgets.php:431
 msgid "Ascending"
-msgstr "Ascending"
+msgstr "昇順"
 
 #: ../includes/mycred-log.php:548 ../includes/mycred-widgets.php:432
 msgid "Descending"
-msgstr "Descending"
+msgstr "降順"
 
 #: ../includes/mycred-log.php:566
 msgid "Filter"
-msgstr "Filter"
+msgstr "フィルター"
 
 #: ../includes/mycred-log.php:619
 msgid ""
 "Log entries are exported to a CSV file and depending on the number of "
 "entries selected, the process may take a few seconds."
 msgstr ""
-"Log entries are exported to a CSV file and depending on the number of "
-"entries selected, the process may take a few seconds."
+"ログエントリはエクスポートするCSVファイルおよび選択したエントリの数に応じて、"
+"この処理は数秒かかることがあります。"
 
 #: ../includes/mycred-log.php:623
 msgid "No export options available."
-msgstr "No export options available."
+msgstr "エクスポートオプションは利用できません。"
 
 #: ../includes/mycred-log.php:652
 msgid "Entry"
-msgstr "Entry"
+msgstr "登録"
 
 #: ../includes/mycred-log.php:823
 msgid "No log entries found"
-msgstr "No log entries found"
+msgstr "ログエントリが見つかりません"
 
 #: ../includes/mycred-log.php:838 ../includes/mycred-log.php:840
 msgid "Search Log"
-msgstr "Search Log"
+msgstr "ログ検索"
 
 #: ../includes/mycred-log.php:839
 msgid "search log entries"
-msgstr "search log entries"
+msgstr "ログエントリを検索"
 
 #: ../includes/mycred-log.php:852 ../modules/mycred-module-buddypress.php:226
 #: ../modules/mycred-module-buddypress.php:239
 msgid "All"
-msgstr "All"
+msgstr "すべて"
 
 #: ../includes/mycred-log.php:853 ../modules/mycred-module-buddypress.php:227
 msgid "Today"
-msgstr "Today"
+msgstr "今日"
 
 #: ../includes/mycred-log.php:854 ../modules/mycred-module-buddypress.php:228
 msgid "Yesterday"
-msgstr "Yesterday"
+msgstr "昨日"
 
 #: ../includes/mycred-log.php:855 ../modules/mycred-module-buddypress.php:229
 msgid "This Week"
-msgstr "This Week"
+msgstr "今週"
 
 #: ../includes/mycred-log.php:856 ../modules/mycred-module-buddypress.php:230
 msgid "This Month"
-msgstr "This Month"
+msgstr "今月"
 
 #: ../includes/mycred-network.php:66 ../includes/mycred-network.php:67
 msgid "Network Settings"
-msgstr "Network Settings"
+msgstr "ネットワークの設定"
 
 #: ../includes/mycred-network.php:169
 msgid "%s Network"
-msgstr "%s Network"
+msgstr "%s のネットワーク"
 
 #: ../includes/mycred-network.php:175
 msgid "Note! %s has not yet been setup."
-msgstr "Note! %s has not yet been setup."
+msgstr "注意! %s はセットアップがまだ行われていません。"
 
 #: ../includes/mycred-network.php:179
 msgid "Network Settings Updated"
-msgstr "Network Settings Updated"
+msgstr "ネットワーク設定の更新"
 
 #: ../includes/mycred-network.php:181
 msgid "Configure network settings for %s."
-msgstr "Configure network settings for %s."
+msgstr "%s のネットワーク設定を構成します。"
 
 #: ../includes/mycred-network.php:188
 msgid "Master Template"
-msgstr "Master Template"
+msgstr "マスターテンプレート"
 
 #: ../includes/mycred-network.php:199
 msgid ""
 "If enabled, %s will use your main site's settings for all other sites in "
 "your network."
 msgstr ""
-"If enabled, %s will use your main site's settings for all other sites in "
-"your network."
+"有効な場合、%s はネットワーク内の他のすべてのサイトのためのメインのサイトの設"
+"定を使用します。"
 
 #: ../includes/mycred-network.php:202
 msgid "Central Logging"
-msgstr "Central Logging"
+msgstr "集中型ログ記録"
 
 #: ../includes/mycred-network.php:213
 msgid "If enabled, %s will log all site actions in your main site's log."
-msgstr "If enabled, %s will log all site actions in your main site's log."
+msgstr ""
+"有効な場合、%s はメインのサイトのログのすべてのアクションを記録します。"
 
 #: ../includes/mycred-network.php:216
 msgid "Site Block"
-msgstr "Site Block"
+msgstr "サイトのブロック"
 
 #: ../includes/mycred-network.php:220
 msgid "Comma separated list of blog ids where %s is to be disabled."
-msgstr "Comma separated list of blog ids where %s is to be disabled."
+msgstr "コンマで区切ったブログIDのリスト %s が無効になります。"
 
 #: ../includes/mycred-network.php:229
 msgid "Save Network Settings"
-msgstr "Save Network Settings"
+msgstr "ネットワーク設定の保存"
 
 #: ../includes/mycred-overview.php:25
 msgid "%s Overview"
-msgstr "%s Overview"
+msgstr "%s の概要"
 
 #: ../includes/mycred-overview.php:78
 msgid "Total amount in circulation"
-msgstr "Total amount in circulation"
+msgstr "流通している合計金額"
 
 #: ../includes/mycred-overview.php:81
 msgid "Awarded"
-msgstr "Awarded"
+msgstr "アワード"
 
 #: ../includes/mycred-overview.php:84
 msgid "Deducted"
-msgstr "Deducted"
+msgstr "控除"
 
 #: ../includes/mycred-overview.php:120 ../includes/mycred-overview.php:127
 #: ../modules/mycred-module-addons.php:235
 msgid "Transfers"
-msgstr "Transfers"
+msgstr "転送"
 
 #: ../includes/mycred-overview.php:208
 msgid "Manual"
-msgstr "Manual"
+msgstr "マニュアル"
 
 #: ../includes/mycred-remote.php:523
 msgid "This feature requires WordPress Permalinks to be setup and enabled!"
-msgstr "This feature requires WordPress Permalinks to be setup and enabled!"
+msgstr "この機能はWordPressのパーマリンクを設定し、有効にする必要があります。"
 
 #: ../includes/mycred-remote.php:526
 msgid "Click Update Settings to load the Remote API settings."
-msgstr "Click Update Settings to load the Remote API settings."
+msgstr "リモートAPI設定を読み込むときの\"設定の更新\"をクリックします。"
 
 #: ../includes/mycred-remote.php:528
 msgid "Allow Remote Access"
-msgstr "Allow Remote Access"
+msgstr "リモートアクセスを許可"
 
 #: ../includes/mycred-remote.php:549
 msgid "Remote Access"
-msgstr "Remote Access"
+msgstr "リモートアクセス"
 
 #: ../includes/mycred-remote.php:554
 msgid "Key"
-msgstr "Key"
+msgstr "キー"
 
 #: ../includes/mycred-remote.php:555
 msgid "min. 12 characters"
-msgstr "min. 12 characters"
+msgstr "最低 12 文字"
 
 #: ../includes/mycred-remote.php:556
 msgid "Required for this feature to work!<br />Minimum 12 characters."
-msgstr "Required for this feature to work!<br />Minimum 12 characters."
+msgstr "この機能を動作させるためには<br />最低 12 文字必要です。"
 
 #: ../includes/mycred-remote.php:559
 msgid "Key Length"
-msgstr "Key Length"
+msgstr "キーの長さ"
 
 #: ../includes/mycred-remote.php:564
 msgid "Generate New Key"
-msgstr "Generate New Key"
+msgstr "新しいキーを生成します。"
 
 #: ../includes/mycred-remote.php:566
 msgid "Warning!"
@@ -4076,12 +4086,12 @@ msgid ""
 "Keep this key safe! Those you share this key with will be able to remotely "
 "deduct / add / transfer %plural%!"
 msgstr ""
-"Keep this key safe! Those you share this key with will be able to remotely "
-"deduct / add / transfer %plural%!"
+"このキーを安全に保管してください。このキーは、リモートから加算・減算できた"
+"り、%plural% を転送することができるので、共有する相手を管理してください。"
 
 #: ../includes/mycred-remote.php:568
 msgid "Incoming URI"
-msgstr "Incoming URI"
+msgstr "受信 URI"
 
 #: ../includes/mycred-remote.php:572
 msgid ""
@@ -5164,7 +5174,7 @@ msgstr ""
 msgid "Separator"
 msgid_plural "Separators"
 msgstr[0] "Separator"
-msgstr[1] "Separators"
+msgstr[1] "区切り記号"
 
 #: ../modules/mycred-module-settings.php:366
 msgid "Edit Settings"
