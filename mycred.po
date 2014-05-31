@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: myCRED\n"
 "Report-Msgid-Bugs-To: http://mycred.me\n"
 "POT-Creation-Date: 2014-03-20 14:26+0100\n"
-"PO-Revision-Date: 2014-05-30 12:04+0800\n"
+"PO-Revision-Date: 2014-05-31 16:13+0800\n"
 "Last-Translator: Yoshihiro Imamura\n"
 "Language-Team: LANGUAGE <support@mycred.me>\n"
 "Language: ja_JP\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #: ../mycred.php:398
 msgid "Balance"
-msgstr "バランス"
+msgstr "残高"
 
 #: ../mycred.php:423
 msgid "%label% History"
@@ -101,7 +101,8 @@ msgstr "更新しています…"
 #: ../mycred.php:659
 msgid "Are you sure you want to delete this log entry? This can not be undone!"
 msgstr ""
-"このログエントリを削除してもよろしいですか？元に戻すことはできません ！"
+"このログエントリを削除してもよろしいですか？この操作は、元に戻すことはできま"
+"せん 。"
 
 #: ../mycred.php:660
 msgid "Log entry updated"
@@ -485,8 +486,8 @@ msgid ""
 "Comma separated list of user IDs to exclude from this service. No spaces "
 "allowed!"
 msgstr ""
-"コンマ区切りのユーザーIDリストをこのサービスから除外します。スペースは使用で"
-"きません。"
+"コンマ区切りのリストにあるユーザーIDをこのサービスから除外します。スペースは"
+"使用できません。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:55
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:56
@@ -4098,169 +4099,170 @@ msgid ""
 "The incoming call address. Remote calls made to any other URL will be "
 "ignored."
 msgstr ""
-"The incoming call address. Remote calls made to any other URL will be "
-"ignored."
+"着信呼び出しのアドレスです。リモート呼び出しはその他のURLへの呼び出しは無視さ"
+"れます。"
 
 #: ../includes/mycred-remote.php:575
 msgid "Debug Mode"
-msgstr "Debug Mode"
+msgstr "デバッグモード"
 
 #: ../includes/mycred-remote.php:578
 msgid ""
 "Remember to disable when not used to prevent mischievous calls from learning "
 "about your setup!"
 msgstr ""
-"Remember to disable when not used to prevent mischievous calls from learning "
-"about your setup!"
+"セットアップについての学習からいたずら電話を防ぐだめに、使用しない場合は無効"
+"にしてください。"
 
 #: ../includes/mycred-shortcodes.php:151
 msgid "Leaderboard is empty."
-msgstr "Leaderboard is empty."
+msgstr "リーダーボードは空です。"
 
 #: ../includes/mycred-shortcodes.php:352 ../includes/mycred-shortcodes.php:478
 msgid "Amount missing!"
-msgstr "Amount missing!"
+msgstr "金額が不足しています！"
 
 #: ../includes/mycred-shortcodes.php:355 ../includes/mycred-shortcodes.php:486
 msgid "Log Template Missing!"
-msgstr "Log Template Missing!"
+msgstr "ログテンプレートが見つかりません。"
 
 #: ../includes/mycred-shortcodes.php:417
 msgid "Anchor missing URL!"
-msgstr "Anchor missing URL!"
+msgstr "存在しないURLです！"
 
 #: ../includes/mycred-shortcodes.php:482
 msgid "User ID missing for recipient."
-msgstr "User ID missing for recipient."
+msgstr "受信者に対してユーザーIDが見つかりません。"
 
 #: ../includes/mycred-shortcodes.php:536
 msgid "Sent"
-msgstr "Sent"
+msgstr "送信"
 
 #: ../includes/mycred-shortcodes.php:537
 msgid "Error - Try Again"
-msgstr "Error - Try Again"
+msgstr "エラー - もう一度やり直してください"
 
 #: ../includes/mycred-shortcodes.php:645
 msgid "A video ID is required for this shortcode"
-msgstr "A video ID is required for this shortcode"
+msgstr "ビデオIDはこのショートコードに必要です"
 
 #: ../includes/mycred-widgets.php:21
 msgid "Show the current users %s balance"
-msgstr "Show the current users %s balance"
+msgstr "現在のユーザーの %s 残高を表示します"
 
 #: ../includes/mycred-widgets.php:23
 msgid "(%s) My Balance"
-msgstr "(%s) My Balance"
+msgstr "(%s) 自身の残高"
 
 #: ../includes/mycred-widgets.php:161
 msgid "My Balance"
-msgstr "My Balance"
+msgstr "自身の残高"
 
 #: ../includes/mycred-widgets.php:167
 #: ../modules/mycred-module-buddypress.php:415
 msgid "%plural% History"
-msgstr "%plural% History"
+msgstr "%plural% 履歴"
 
 #: ../includes/mycred-widgets.php:174 ../includes/mycred-widgets.php:583
 msgid "<a href=\"%login_url_here%\">Login</a> to view your balance."
-msgstr "<a href=\"%login_url_here%\">Login</a> to view your balance."
+msgstr "残高を表示するために<a href=\"%login_url_here%\">ログイン</a> します。"
 
 #: ../includes/mycred-widgets.php:213
 msgid "Layout"
-msgstr "Layout"
+msgstr "レイアウト"
 
 #: ../includes/mycred-widgets.php:221
 msgid "Include users leaderboard position"
-msgstr "Include users leaderboard position"
+msgstr "ユーザーのランキング位置を含みます"
 
 #: ../includes/mycred-widgets.php:225
 msgid "This will be appended after the balance."
-msgstr "This will be appended after the balance."
+msgstr "これは残高の後に追加されます。"
 
 #: ../includes/mycred-widgets.php:232
 msgid "Include history"
-msgstr "Include history"
+msgstr "履歴を含みます"
 
 #: ../includes/mycred-widgets.php:234
 msgid "History Title"
-msgstr "History Title"
+msgstr "履歴のタイトル"
 
 #: ../includes/mycred-widgets.php:236
 msgid "Number of entires"
-msgstr "Number of entires"
+msgstr "エントリの数"
 
 #: ../includes/mycred-widgets.php:238 ../includes/mycred-widgets.php:417
 msgid "Row layout"
-msgstr "Row layout"
+msgstr "業レイアウト"
 
 #: ../includes/mycred-widgets.php:246 ../includes/mycred-widgets.php:607
 msgid "Show message when not logged in"
-msgstr "Show message when not logged in"
+msgstr "ログインしていないときにメッセージを表示します"
 
 #: ../includes/mycred-widgets.php:248 ../includes/mycred-widgets.php:608
 msgid "Message"
-msgstr "Message"
+msgstr "メッセージ"
 
 #: ../includes/mycred-widgets.php:323
 msgid "Show a list of users sorted by their %s balance"
-msgstr "Show a list of users sorted by their %s balance"
+msgstr "%s 残高によりソートされたユーザーのリストを表示します"
 
 #: ../includes/mycred-widgets.php:325
 msgid "(%s) Leaderboard"
-msgstr "(%s) Leaderboard"
+msgstr "(%s) リーダーボード"
 
 #: ../includes/mycred-widgets.php:381
 msgid "Leaderboard"
-msgstr "Leaderboard"
+msgstr "リーダーボード"
 
 #: ../includes/mycred-widgets.php:410
 msgid "Visible to non-members"
-msgstr "Visible to non-members"
+msgstr "非会員を表示"
 
 #: ../includes/mycred-widgets.php:413
 msgid "Number of users"
-msgstr "Number of users"
+msgstr "ユーザー数"
 
 #: ../includes/mycred-widgets.php:422
 msgid "Offset"
-msgstr "Offset"
+msgstr "オフセット"
 
 #: ../includes/mycred-widgets.php:424
 msgid "Optional offset of order. Use zero to return the first in the list."
-msgstr "Optional offset of order. Use zero to return the first in the list."
+msgstr ""
+"（オプション）順序のオフセットです。リスト内の最初に戻るには 0 を使用します。"
 
 #: ../includes/mycred-widgets.php:427
 msgid "Order"
-msgstr "Order"
+msgstr "順序"
 
 #: ../includes/mycred-widgets.php:445
 msgid "Append current users position"
-msgstr "Append current users position"
+msgstr "現在のユーザーの順位を追加"
 
 #: ../includes/mycred-widgets.php:446
 msgid ""
 "If the current user is not in this leaderboard, you can select to append "
 "them at the end with their current position."
 msgstr ""
-"If the current user is not in this leaderboard, you can select to append "
-"them at the end with their current position."
+"現在のユーザーがこのランキングにいない場合、現在の順位を最後に追加することを"
+"選択できます。"
 
 #: ../includes/mycred-widgets.php:495
 msgid "Shows the current users balances for each point type."
-msgstr "Shows the current users balances for each point type."
+msgstr "現在のユーザーの各ポイントの種類の残高が表示されます。"
 
 #: ../includes/mycred-widgets.php:497
 msgid "(%s) Wallet"
-msgstr "(%s) Wallet"
+msgstr "(%s) ウォレット"
 
 #: ../includes/mycred-widgets.php:577
 msgid "My Wallet"
-msgstr "My Wallet"
+msgstr "ウォレット"
 
 #: ../includes/mycred-widgets.php:599
 msgid "Row Layout"
-msgstr "Row Layout"
+msgstr "業レイアウト"
 
 #: ../includes/importers/mycred-balances.php:81
 #: ../includes/importers/mycred-balances.php:144
@@ -4271,45 +4273,45 @@ msgstr "Row Layout"
 #: ../includes/importers/mycred-log-entries.php:165
 #: ../includes/importers/mycred-log-entries.php:180
 msgid "Sorry, there has been an error."
-msgstr "Sorry, there has been an error."
+msgstr "申し訳ありませんが、エラーが発生しました。"
 
 #: ../includes/importers/mycred-balances.php:82
 #: ../includes/importers/mycred-log-entries.php:82
 msgid "The file does not exist, please try again."
-msgstr "The file does not exist, please try again."
+msgstr "ファイルが存在しません。もう一度やり直してください。"
 
 #: ../includes/importers/mycred-balances.php:145
 #: ../includes/importers/mycred-log-entries.php:127
 msgid "The CSV is invalid."
-msgstr "The CSV is invalid."
+msgstr "CSVファイルは無効です。"
 
 #: ../includes/importers/mycred-balances.php:156
 msgid ""
 "Import complete - A total of <strong>%d</strong> balances were successfully "
 "imported. <strong>%d</strong> was skipped."
 msgstr ""
-"Import complete - A total of <strong>%d</strong> balances were successfully "
-"imported. <strong>%d</strong> was skipped."
+"インポート完了 - <strong>%d</strong> 残高の合計を正常にインポートしました。 "
+"<strong>%d</strong> はスキップされました。"
 
 #: ../includes/importers/mycred-balances.php:166
 #: ../includes/importers/mycred-cubepoints.php:293
 #: ../includes/importers/mycred-log-entries.php:148
 msgid "View Log"
-msgstr "View Log"
+msgstr "ログの表示"
 
 #: ../includes/importers/mycred-balances.php:166
 #: ../includes/importers/mycred-cubepoints.php:293
 #: ../includes/importers/mycred-log-entries.php:148
 msgid "Import More"
-msgstr "Import More"
+msgstr "インポートの追加"
 
 #: ../includes/importers/mycred-balances.php:212
 msgid "Import Balances"
-msgstr "Import Balances"
+msgstr "残高をインポート"
 
 #: ../includes/importers/mycred-balances.php:229
 msgid "Import balances from a CSV file."
-msgstr "Import balances from a CSV file."
+msgstr "CSVファイルから残高をインポートします。"
 
 #: ../includes/importers/mycred-balances.php:237
 #: ../includes/importers/mycred-log-entries.php:219
@@ -4317,41 +4319,40 @@ msgid ""
 "Before you can upload your import file, you will need to fix the following "
 "error:"
 msgstr ""
-"Before you can upload your import file, you will need to fix the following "
-"error:"
+"インポートファイルをアップロードする前に、次のエラーを修正する必要があります:"
 
 #: ../includes/importers/mycred-balances.php:246
 #: ../includes/importers/mycred-log-entries.php:228
 msgid "Choose a file from your computer:"
-msgstr "Choose a file from your computer:"
+msgstr "お使いのコンピューターからファイルを選択:"
 
 #: ../includes/importers/mycred-balances.php:252
 #: ../includes/importers/mycred-log-entries.php:234
 msgid "Maximum size: %s"
-msgstr "Maximum size: %s"
+msgstr "最大サイズ: %s"
 
 #: ../includes/importers/mycred-balances.php:257
 #: ../includes/importers/mycred-log-entries.php:239
 msgid "OR enter path to file:"
-msgstr "OR enter path to file:"
+msgstr "または、ファイルの発を入力:"
 
 #: ../includes/importers/mycred-balances.php:264
 #: ../includes/importers/mycred-log-entries.php:246
 msgid "Delimiter"
-msgstr "Delimiter"
+msgstr "区切り文字"
 
 #: ../includes/importers/mycred-balances.php:270
 #: ../includes/importers/mycred-log-entries.php:252
 msgid "Upload file and import"
-msgstr "Upload file and import"
+msgstr "ファイルをアップロートし、インポート"
 
 #: ../includes/importers/mycred-cubepoints.php:276
 msgid "No balances were imported."
-msgstr "No balances were imported."
+msgstr "残高はインポートされませんでした。"
 
 #: ../includes/importers/mycred-cubepoints.php:276
 msgid "No log entries were imported!"
-msgstr "No log entries were imported!"
+msgstr "ログエントリはインポートされませんでした。"
 
 #: ../includes/importers/mycred-cubepoints.php:282
 #: ../includes/importers/mycred-log-entries.php:138
@@ -4359,60 +4360,61 @@ msgid ""
 "Import complete - A total of <strong>%d</strong> entries were successfully "
 "imported. <strong>%d</strong> was skipped."
 msgstr ""
-"Import complete - A total of <strong>%d</strong> entries were successfully "
-"imported. <strong>%d</strong> was skipped."
+"インポート完了 - <strong>%d</strong>  エントリの合計を正常にインポートしまし"
+"た。 <strong>%d</strong> はスキップされました。"
 
 #: ../includes/importers/mycred-cubepoints.php:306
 msgid "No CubePoints log."
-msgstr "No CubePoints log."
+msgstr "CubePoint のログはありません。"
 
 #: ../includes/importers/mycred-cubepoints.php:317
 msgid "Import CubePoints Log"
-msgstr "Import CubePoints Log"
+msgstr "CubePoint のログをインポート"
 
 #: ../includes/importers/mycred-cubepoints.php:334
 msgid "Select what to import"
-msgstr "Select what to import"
+msgstr "インポート方法を選択"
 
 #: ../includes/importers/mycred-cubepoints.php:335
 msgid "Log Entries Only"
-msgstr "Log Entries Only"
+msgstr "ログエントリのみ"
 
 #: ../includes/importers/mycred-cubepoints.php:336
 msgid "CubePoints Balances Only"
-msgstr "CubePoints Balances Only"
+msgstr "CubePoint 残高のみ"
 
 #: ../includes/importers/mycred-cubepoints.php:337
 msgid "Log Entries and Balances"
-msgstr "Log Entries and Balances"
+msgstr "ログエントリ及び残高"
 
 #: ../includes/importers/mycred-cubepoints.php:351
 msgid "Import"
-msgstr "Import"
+msgstr "インポート"
 
 #: ../includes/importers/mycred-cubepoints.php:360
 msgid ""
 "Warning! Importing CubePoints balances will replace your users myCRED "
 "balance!"
 msgstr ""
-"警告 ！Importing CubePoints balances will replace your users myCRED balance!"
+"警告 ！CubePoint 残高をインポートすると、ユーザーの myCRED 残高が上書きされま"
+"す。"
 
 #: ../includes/importers/mycred-cubepoints.php:378
 msgid "Import Log"
-msgstr "Import Log"
+msgstr "ログのインポート"
 
 #: ../includes/importers/mycred-log-entries.php:194
 msgid "Import Log Entries"
-msgstr "Import Log Entries"
+msgstr "ログエントリのインポート"
 
 #: ../includes/importers/mycred-log-entries.php:211
 msgid "Import log entries from a CSV file."
-msgstr "Import log entries from a CSV file."
+msgstr "CSVファイルからログエントリをインポートします。"
 
 #: ../modules/mycred-module-addons.php:24
 #: ../modules/mycred-module-addons.php:25
 msgid "Add-ons"
-msgstr "Add-ons"
+msgstr "アドオン"
 
 #: ../modules/mycred-module-addons.php:158
 msgid ""
@@ -4420,21 +4422,22 @@ msgid ""
 "PayPal, Skrill (Moneybookers) or NETbilling. <strong>buy</strong>CRED can "
 "also let your users buy points for other members."
 msgstr ""
-"The <strong>buy</strong>CRED Add-on allows your users to buy points using "
-"PayPal, Skrill (Moneybookers) or NETbilling. <strong>buy</strong>CRED can "
-"also let your users buy points for other members."
+"<strong>buy</strong>CREDのアドオンは、ユーザーが PayPal、（Moneybookersの）"
+"Skrill または NETbilling を使って、ポイントを購入することができます。"
+"<strong>buy</strong>CREDは、ユーザーが他の会員のためにポイントを購入すること"
+"もできます。"
 
 #: ../modules/mycred-module-addons.php:169
 msgid ""
 "The coupons add-on allows you to create coupons that users can use to add "
 "points to their accounts."
 msgstr ""
-"The coupons add-on allows you to create coupons that users can use to add "
-"points to their accounts."
+"クーポンのアドオンでは、ユーザーが自分のアカウントにポイントを追加して使用で"
+"きるクーポンを作成することができます。"
 
 #: ../modules/mycred-module-addons.php:180
 msgid "Create email notices for any type of myCRED instance."
-msgstr "Create email notices for any type of myCRED instance."
+msgstr "myCRED インスタンスの任意のタイプのEメール通知を作成します。"
 
 #: ../modules/mycred-module-addons.php:191
 msgid ""
@@ -4442,21 +4445,24 @@ msgid ""
 "Supported Carts: WooCommerce, MarketPress and WP E-Commerce. Supported Event "
 "Bookings: Event Espresso and Events Manager (free & pro)."
 msgstr ""
-"Let your users pay using their <strong>my</strong>CRED points balance. "
-"Supported Carts: WooCommerce, MarketPress and WP E-Commerce. Supported Event "
-"Bookings: Event Espresso and Events Manager (free & pro)."
+"ユーザーが自分の <strong>my</strong>CRED ポイント残高を使用して支払うことがで"
+"きます。サポートされているカード: WooCommerce、 MarketPress 及び WP E-"
+"Commerceです。 サポートされているイベント予約: Event Espresso 及び Events "
+"Manager (無料版 及び プロ版)"
 
 #: ../modules/mycred-module-addons.php:202
 msgid "Create pop-up notifications for when users gain or loose points."
-msgstr "Create pop-up notifications for when users gain or loose points."
+msgstr ""
+"ユーザーがポイントを獲得したり消失した際に表示するポップアップ通知を作成しま"
+"す。"
 
 #: ../modules/mycred-module-addons.php:214
 msgid ""
 "Create ranks for users reaching a certain number of %_plural% with the "
 "option to add logos for each rank."
 msgstr ""
-"Create ranks for users reaching a certain number of %_plural% with the "
-"option to add logos for each rank."
+"各ランクのロゴを追加するためのオプションで、 %_plural% の一定数に達したユー"
+"ザー用のランクを作成します。"
 
 #: ../modules/mycred-module-addons.php:225
 msgid ""
@@ -4464,61 +4470,62 @@ msgid ""
 "website. You can either sell the entire content or using our shortcode, sell "
 "parts of your content allowing you to offer \"teasers\"."
 msgstr ""
-"This add-on allows you to sell posts, pages or any public post types on your "
-"website. You can either sell the entire content or using our shortcode, sell "
-"parts of your content allowing you to offer \"teasers\"."
+"このアドオンは、あなたのウェブサイトに投稿やページまたはパブリック投稿の種類"
+"を販売することができます。コンテンツ全体を販売したり、当社のショートコードを"
+"使用して\"ティザー広告\"を提供することができ、コンテンツの一部を販売すること"
+"ができます。"
 
 #: ../modules/mycred-module-addons.php:236
 msgid ""
 "Allow your users to send or \"donate\" points to other members by either "
 "using the mycred_transfer shortcode or the myCRED Transfer widget."
 msgstr ""
-"Allow your users to send or \"donate\" points to other members by either "
-"using the mycred_transfer shortcode or the myCRED Transfer widget."
+"mycred_transfer ショートコードまたは myCRED 転送ウィジェットを使用して、ユー"
+"ザーが他の会員にポイントを送信したり\"寄付\"することができます。"
 
 #: ../modules/mycred-module-addons.php:272
 msgid "%s Add-ons"
-msgstr "%s Add-ons"
+msgstr "%s アドオン"
 
 #: ../modules/mycred-module-addons.php:278
 msgid "Add-on Activated"
-msgstr "Add-on Activated"
+msgstr "アドオンの有効化"
 
 #: ../modules/mycred-module-addons.php:281
 msgid "Add-on Deactivated"
-msgstr "Add-on Deactivated"
+msgstr "アドオンの無効化"
 
 #: ../modules/mycred-module-addons.php:285
 msgid "Add-ons can expand your current installation with further features."
-msgstr "Add-ons can expand your current installation with further features."
+msgstr "アドオンは現在のインストールのさらなる機能を拡張できます。"
 
 #: ../modules/mycred-module-addons.php:306
 msgid "You can find more add-ons in our %s."
-msgstr "You can find more add-ons in our %s."
+msgstr "私たちの %s 内でその他のアドオンを検索できます。"
 
 #: ../modules/mycred-module-addons.php:306
 msgid "online store"
-msgstr "online store"
+msgstr "オンラインストア"
 
 #: ../modules/mycred-module-addons.php:327
 msgid "Deactivate Add-on"
-msgstr "Deactivate Add-on"
+msgstr "アドオンを無効化"
 
 #: ../modules/mycred-module-addons.php:328
 msgid "Deactivate"
-msgstr "Deactivate"
+msgstr "無効化"
 
 #: ../modules/mycred-module-addons.php:335
 msgid "Activate Add-on"
-msgstr "Activate Add-on"
+msgstr "アドオンを有効化"
 
 #: ../modules/mycred-module-addons.php:336
 msgid "Activate"
-msgstr "Activate"
+msgstr "有効化"
 
 #: ../modules/mycred-module-addons.php:352
 msgid "Version"
-msgstr "Version"
+msgstr "バージョン"
 
 #: ../modules/mycred-module-addons.php:356
 msgid "By"
@@ -4526,27 +4533,27 @@ msgstr "By"
 
 #: ../modules/mycred-module-addons.php:364
 msgid "Get Pro"
-msgstr "Get Pro"
+msgstr "プロ版の入手"
 
 #: ../modules/mycred-module-buddypress.php:30
 msgid "My History"
-msgstr "My History"
+msgstr "履歴"
 
 #: ../modules/mycred-module-buddypress.php:31
 msgid "%s's History"
-msgstr "%s's History"
+msgstr "%s の履歴"
 
 #: ../modules/mycred-module-buddypress.php:117
 msgid "Current balance"
-msgstr "Current balance"
+msgstr "現在の残高"
 
 #: ../modules/mycred-module-buddypress.php:332
 msgid "Go"
-msgstr "Go"
+msgstr "へ行く"
 
 #: ../modules/mycred-module-buddypress.php:372
 msgid "Show in Profile"
-msgstr "Show in Profile"
+msgstr "プロフィールを表示"
 
 #: ../modules/mycred-module-buddypress.php:383
 msgid "BuddyPress"
@@ -4554,148 +4561,153 @@ msgstr "BuddyPress"
 
 #: ../modules/mycred-module-buddypress.php:387
 msgid "%singular% Balance"
-msgstr "%singular% Balance"
+msgstr "%singular% 残高"
 
 #: ../modules/mycred-module-buddypress.php:403
 msgid "Members and visitors can other members %_singular% balance."
-msgstr "Members and visitors can other members %_singular% balance."
+msgstr "会員と訪問者は他のメンバーの %_singular% 残高をとることができます。"
 
 #: ../modules/mycred-module-buddypress.php:411
 msgid ""
 "Note that you can also use %rank_logo% to show the feature image of the rank."
 msgstr ""
-"Note that you can also use %rank_logo% to show the feature image of the rank."
+"%rank_logo% を使用してランクの特徴画像を表示することもできるため、注意してく"
+"ださい。"
 
 #: ../modules/mycred-module-buddypress.php:431
 msgid "Members can view each others %_plural% history."
-msgstr "Members can view each others %_plural% history."
+msgstr "会員はお互いの %_plural% 履歴を表示できます。"
 
 #: ../modules/mycred-module-buddypress.php:436
 msgid "Menu Title"
-msgstr "Menu Title"
+msgstr "メニュータイトル"
 
 #: ../modules/mycred-module-buddypress.php:438
 msgid "Title shown to me"
-msgstr "Title shown to me"
+msgstr "自分に表示されるタイトル"
 
 #: ../modules/mycred-module-buddypress.php:443
 msgid "Title shown to others. Use %s to show the first name."
-msgstr "Title shown to others. Use %s to show the first name."
+msgstr ""
+"他の人に表示されるタイトルです。ファーストネームを表示するには %s を使用しま"
+"す。"
 
 #: ../modules/mycred-module-buddypress.php:448
 msgid "Menu Position"
-msgstr "Menu Position"
+msgstr "メニュー位置"
 
 #: ../modules/mycred-module-buddypress.php:450
 msgid "Current menu positions:"
-msgstr "Current menu positions:"
+msgstr "現在のメニュー位置:"
 
 #: ../modules/mycred-module-buddypress.php:455
 msgid "History URL slug"
-msgstr "History URL slug"
+msgstr "URLスラッグの履歴"
 
 #: ../modules/mycred-module-buddypress.php:457
 msgid "Do not use empty spaces!"
-msgstr "Do not use empty spaces!"
+msgstr "空のスペースを使用しないでください。"
 
 #: ../modules/mycred-module-buddypress.php:462
 msgid "Number of history entries to show"
-msgstr "Number of history entries to show"
+msgstr "表示する履歴エントリの数"
 
 #: ../modules/mycred-module-hooks.php:25 ../modules/mycred-module-hooks.php:26
 #: ../modules/mycred-module-hooks.php:27
 msgid "Hooks"
-msgstr "Hooks"
+msgstr "フック"
 
 #: ../modules/mycred-module-hooks.php:87
 msgid "%plural% for registrations"
-msgstr "%plural% for registrations"
+msgstr "登録 %plural%"
 
 #: ../modules/mycred-module-hooks.php:88
 msgid "Award %_plural% for users joining your website."
-msgstr "Award %_plural% for users joining your website."
+msgstr "あなたのウェブサイトに参加するユーザーに %_plural% 賞を与えます。"
 
 #: ../modules/mycred-module-hooks.php:94
 msgid "%plural% for logins"
-msgstr "%plural% for logins"
+msgstr "ログイン %plural%"
 
 #: ../modules/mycred-module-hooks.php:95
 msgid ""
 "Award %_plural% for logging in to your website. You can also set an optional "
 "limit."
 msgstr ""
-"Award %_plural% for logging in to your website. You can also set an optional "
-"limit."
+"あなたのウェブサイトにログインする方に %_plural% 賞を与えます。オプションの制"
+"限を設定することもできます。"
 
 #: ../modules/mycred-module-hooks.php:101
 msgid "%plural% for publishing content"
-msgstr "%plural% for publishing content"
+msgstr "コンテンツの公開 %plural%"
 
 #: ../modules/mycred-module-hooks.php:102
 msgid ""
 "Award %_plural% for publishing content on your website. If your custom post "
 "type is not shown bellow, make sure it is set to \"Public\"."
 msgstr ""
-"Award %_plural% for publishing content on your website. If your custom post "
-"type is not shown bellow, make sure it is set to \"Public\"."
+"あなたのウェブサイトにコンテンツを公開する方に %_plural% 賞を与えます。カスタ"
+"ム投稿の種類が以下に示されていない場合、\"パブリック\"に設定されていることを"
+"確認してください。"
 
 #: ../modules/mycred-module-hooks.php:108
 msgid "%plural% for comments"
-msgstr "%plural% for comments"
+msgstr "コメント %plural%"
 
 #: ../modules/mycred-module-hooks.php:108
 msgid "%plural% for Disqus comments"
-msgstr "%plural% for Disqus comments"
+msgstr "Disqus コメント %plural%"
 
 #: ../modules/mycred-module-hooks.php:109
 msgid "Award %_plural% for making comments."
-msgstr "Award %_plural% for making comments."
+msgstr "コメントを作成した方への %_plural% 賞を与えます。"
 
 #: ../modules/mycred-module-hooks.php:115
 msgid "%plural% for clicking on links"
-msgstr "%plural% for clicking on links"
+msgstr "リンクをクリック %plural%"
 
 #: ../modules/mycred-module-hooks.php:116
 msgid ""
 "Award %_plural% to users who clicks on links generated by the [mycred_link] "
 "shortcode."
 msgstr ""
-"Award %_plural% to users who clicks on links generated by the [mycred_link] "
-"shortcode."
+"[mycred_link] ショートコードで生成したリンクをクリックしたユーザーへの "
+"%_plural% 賞を与えます。"
 
 #: ../modules/mycred-module-hooks.php:122
 msgid "%plural% for viewing Videos"
-msgstr "%plural% for viewing Videos"
+msgstr "動画を表示 %plural%"
 
 #: ../modules/mycred-module-hooks.php:123
 msgid ""
 "Award %_plural% to users who watches videos embedded using the "
 "[mycred_video] shortcode."
 msgstr ""
-"Award %_plural% to users who watches videos embedded using the "
-"[mycred_video] shortcode."
+"[mycred_video] ショートコードを使用して埋め込んだ動画を見たユーザーへの "
+"%_plural% 賞を与えます。"
 
 #: ../modules/mycred-module-hooks.php:129
 msgid "%plural% for referrals"
-msgstr "%plural% for referrals"
+msgstr "紹介 %plural%"
 
 #: ../modules/mycred-module-hooks.php:130
 msgid ""
 "Award %_plural% to users who refer either visitors and/or new member signups."
 msgstr ""
-"Award %_plural% to users who refer either visitors and/or new member signups."
+"訪問者 及び/または サインアップする新規会員を紹介したユーザーへの %_plural% "
+"賞を与えます。"
 
 #: ../modules/mycred-module-hooks.php:163
 msgid "%s Hooks"
-msgstr "%s Hooks"
+msgstr "%s のフック"
 
 #: ../modules/mycred-module-hooks.php:166
 msgid ""
 "Hooks are instances where %_plural% are awarded or deducted from a user, "
 "depending on their actions around your website."
 msgstr ""
-"Hooks are instances where %_plural% are awarded or deducted from a user, "
-"depending on their actions around your website."
+"フックは %_plural% が、あなたのウェブサイト周りでの行動によって、ユーザーから"
+"与えられたり差し引いたりするインスタンスです。"
 
 #: ../modules/mycred-module-hooks.php:326
 #: ../modules/mycred-module-hooks.php:638
@@ -4756,7 +4768,7 @@ msgstr ""
 #: ../plugins/mycred-hook-simplepress.php:356
 #: ../plugins/mycred-hook-simplepress.php:380
 msgid "Log template"
-msgstr "Log template"
+msgstr "ログテンプレート"
 
 #: ../modules/mycred-module-hooks.php:527
 #: ../modules/mycred-module-hooks.php:2220
@@ -4764,106 +4776,106 @@ msgstr "Log template"
 #: ../plugins/mycred-hook-invite-anyone.php:165
 #: ../plugins/mycred-hook-invite-anyone.php:186
 msgid "Limit"
-msgstr "Limit"
+msgstr "制限"
 
 #: ../modules/mycred-module-hooks.php:632
 msgid "%plural% for Posts"
-msgstr "%plural% for Posts"
+msgstr "投稿 %plural%"
 
 #: ../modules/mycred-module-hooks.php:645
 msgid "%plural% for Pages"
-msgstr "%plural% for Pages"
+msgstr "ページ %plural%"
 
 #: ../modules/mycred-module-hooks.php:681
 msgid "%plural% for %s"
-msgstr "%plural% for %s"
+msgstr "%s の %plural%"
 
 #: ../modules/mycred-module-hooks.php:1053
 msgid ""
 "%plural% are only awarded when your website has been synced with the Disqus "
 "server!"
 msgstr ""
-"%plural% are only awarded when your website has been synced with the Disqus "
-"server!"
+"あなたのウェブサイトが Disqus サーバーと同期された際に %plural% にのみ与えら"
+"れます。"
 
 #: ../modules/mycred-module-hooks.php:1055
 msgid "Approved Comment"
-msgstr "Approved Comment"
+msgstr "承認されたコメント"
 
 #: ../modules/mycred-module-hooks.php:1058
 #: ../modules/mycred-module-hooks.php:1075
 #: ../modules/mycred-module-hooks.php:1092
 msgid "Comment Author"
-msgstr "Comment Author"
+msgstr "コメント作成者"
 
 #: ../modules/mycred-module-hooks.php:1062
 #: ../modules/mycred-module-hooks.php:1079
 #: ../modules/mycred-module-hooks.php:1096
 msgid "Content Author"
-msgstr "Content Author"
+msgstr "コンテンツ作成者"
 
 #: ../modules/mycred-module-hooks.php:1072
 msgid "Comment Marked SPAM"
-msgstr "Comment Marked SPAM"
+msgstr "スパムとしてマークされたコメント"
 
 #: ../modules/mycred-module-hooks.php:1089
 msgid "Trashed / Unapproved Comments"
-msgstr "Trashed / Unapproved Comments"
+msgstr "ゴミ箱 / 未承認のコメント"
 
 #: ../modules/mycred-module-hooks.php:1109
 msgid "Limit per post"
-msgstr "Limit per post"
+msgstr "投稿あたりの制限"
 
 #: ../modules/mycred-module-hooks.php:1111
 msgid ""
 "The number of comments per post that grants %_plural% to the comment author. "
 "Use zero for unlimited."
 msgstr ""
-"The number of comments per post that grants %_plural% to the comment author. "
-"Use zero for unlimited."
+"コメント作成者に %_plural% が与えられる投稿毎のコメント数の上限です。無制限に"
+"するには 0 を使用します。"
 
 #: ../modules/mycred-module-hooks.php:1115
 msgid "Limit per day"
-msgstr "Limit per day"
+msgstr "一日当たりの制限"
 
 #: ../modules/mycred-module-hooks.php:1117
 msgid ""
 "Number of comments per day that grants %_plural%. Use zero for unlimited."
 msgstr ""
-"Number of comments per day that grants %_plural%. Use zero for unlimited."
+"コメント作成者に %_plural% が与えられる１日毎のコメント数の上限です。無制限に"
+"するには 0 を使用します。"
 
 #: ../modules/mycred-module-hooks.php:1122
 msgid ""
 "%plural% is to be awarded even when comment authors reply to their own "
 "comment."
 msgstr ""
-"%plural% is to be awarded even when comment authors reply to their own "
-"comment."
+"%plural% は、コメント作成者に自分のコメントに返信する場合にも与えられます。"
 
 #: ../modules/mycred-module-hooks.php:1193
 msgid "Once for each unique URL"
-msgstr "Once for each unique URL"
+msgstr "各ユニークなURLに対して一度ずつ"
 
 #: ../modules/mycred-module-hooks.php:1194
 msgid "Once for each unique link id"
-msgstr "Once for each unique link id"
+msgstr "各ユニークなリンクIDに対して一度ずつ"
 
 #: ../modules/mycred-module-hooks.php:1386
 msgid ""
 "The default amount to award for clicking on links. You can override this in "
 "the shortcode."
 msgstr ""
-"The default amount to award for clicking on links. You can override this in "
-"the shortcode."
+"リンクをクリックする人に与える既定の金額です。これはショートコードで上書きで"
+"きます。"
 
 #: ../modules/mycred-module-hooks.php:1393
 msgid "Custom tags: %url%, %title% or %id%."
-msgstr "Custom tags: %url%, %title% or %id%."
+msgstr "カスタムタグ: %url%、 %title% または %id% です。"
 
 #: ../modules/mycred-module-hooks.php:1404
 #: ../modules/mycred-module-hooks.php:2323
 msgid "Note!"
-msgstr "Note!"
+msgstr "注意！"
 
 #: ../modules/mycred-module-hooks.php:1404
 msgid ""
@@ -4872,55 +4884,54 @@ msgid ""
 "using this feature for \"sharing\" content, it is recommended that you limit "
 "by ID."
 msgstr ""
-"If no ID is set when using the mycred_link shortcode, the shortcode will "
-"generate one automatically based on the value set under href. If you are "
-"using this feature for \"sharing\" content, it is recommended that you limit "
-"by ID."
+"mycred_link ショートコードが使用されているときにIDが設定されていない場合、"
+"href の下で設定された値に基づいて、自動的に一つのショートコードを生成しま"
+"す。\"共有\"コンテンツのためにこの機能を使用している場合、IDによって制限する"
+"ことをお勧めします。"
 
 #: ../modules/mycred-module-hooks.php:1406
 #: ../modules/mycred-module-hooks.php:1762
 msgid "Available Shortcode"
-msgstr "Available Shortcode"
+msgstr "利用可能なショートコード"
 
 #: ../modules/mycred-module-hooks.php:1726
 msgid "Amount to award for viewing videos."
-msgstr "Amount to award for viewing videos."
+msgstr "動画再生により与える金額"
 
 #: ../modules/mycred-module-hooks.php:1736
 msgid "Award Logic"
-msgstr "Award Logic"
+msgstr "付与ロジック"
 
 #: ../modules/mycred-module-hooks.php:1738
 msgid "Select when %_plural% should be awarded or deducted."
-msgstr "Select when %_plural% should be awarded or deducted."
+msgstr "%_plural% 付与または差し引く必要があるときに選択します。"
 
 #: ../modules/mycred-module-hooks.php:1739
 msgid "Play - As soon as video starts playing."
-msgstr "Play - As soon as video starts playing."
+msgstr "再生 - すぐに動画の再生が開始されます。"
 
 #: ../modules/mycred-module-hooks.php:1740
 msgid "Full - First when the entire video has played."
-msgstr "Full - First when the entire video has played."
+msgstr "フル - 全動画が再生されるときの最初。"
 
 #: ../modules/mycred-module-hooks.php:1741
 msgid "Interval - For each x number of seconds watched."
-msgstr "Interval - For each x number of seconds watched."
+msgstr "間隔 - 各 x 秒間見た時。"
 
 #: ../modules/mycred-module-hooks.php:1746
 msgid "Number of seconds"
-msgstr "Number of seconds"
+msgstr "秒数"
 
 #: ../modules/mycred-module-hooks.php:1753
 msgid "Leniency"
-msgstr "Leniency"
+msgstr "リニエンシー"
 
 #: ../modules/mycred-module-hooks.php:1755
 msgid ""
 "The maximum percentage a users view of a movie can differ from the actual "
 "length."
 msgstr ""
-"The maximum percentage a users view of a movie can differ from the actual "
-"length."
+"ユーザーが動画を見た長さの最大の割合は、実際の長さと異なる場合があります。"
 
 #: ../modules/mycred-module-hooks.php:1758
 msgid ""
@@ -4928,162 +4939,163 @@ msgid ""
 "watches a movie and sometimes a few seconds can drop of the counter due to "
 "buffering or play back errors."
 msgstr ""
-"Do not set this value to zero! A lot of thing can happen while a user "
-"watches a movie and sometimes a few seconds can drop of the counter due to "
-"buffering or play back errors."
+"この値に 0 を設定しないでください。ユーザーが動画を見ている間、時々、数秒の"
+"バッファリングカウンタの低下の可能性やエラーを引き起こすといったことが発生す"
+"る可能性があります。"
 
 #: ../modules/mycred-module-hooks.php:1826
 msgid "Affiliate Program"
-msgstr "Affiliate Program"
+msgstr "アフィリエイト・プログラム"
 
 #: ../modules/mycred-module-hooks.php:1835
 msgid "Per Day"
-msgstr "Per Day"
+msgstr "１日当たり"
 
 #: ../modules/mycred-module-hooks.php:1942
 msgid "Link"
-msgstr "Link"
+msgstr "リンク"
 
 #: ../modules/mycred-module-hooks.php:2206
 msgid "Referring Visitors"
-msgstr "Referring Visitors"
+msgstr "訪問者の参照"
 
 #: ../modules/mycred-module-hooks.php:2230
 #: ../modules/mycred-module-hooks.php:2259
 msgid "The number of referrals each member can make. Use zero for unlimited."
-msgstr "The number of referrals each member can make. Use zero for unlimited."
+msgstr "各メンバーが作成できる参照の数です。無制限にするには 0 を使用します。"
 
 #: ../modules/mycred-module-hooks.php:2234
 #: ../modules/mycred-module-hooks.php:2263
 msgid "Referring Signups"
-msgstr "Referring Signups"
+msgstr "サインアップを参照"
 
 #: ../modules/mycred-module-hooks.php:2238
 msgid "Visitors who have Cookies disabled will not award %_plural%."
-msgstr "Visitors who have Cookies disabled will not award %_plural%."
+msgstr "Cookies を無効化にしている訪問者は %_plural% を与えられません。"
 
 #: ../modules/mycred-module-hooks.php:2265
 msgid "Registrations are disabled."
-msgstr "Registrations are disabled."
+msgstr "登録は無効です。"
 
 #: ../modules/mycred-module-hooks.php:2272
 msgid "Referral Links"
-msgstr "Referral Links"
+msgstr "紹介リンク"
 
 #: ../modules/mycred-module-hooks.php:2276
 msgid "Assign numeric referral IDs to each user."
-msgstr "Assign numeric referral IDs to each user."
+msgstr "各ユーザーに数値の紹介IDを割り当てます。"
 
 #: ../modules/mycred-module-hooks.php:2277
 #: ../modules/mycred-module-hooks.php:2283
 msgid "Example"
-msgstr "Example"
+msgstr "例"
 
 #: ../modules/mycred-module-hooks.php:2282
 msgid "Assign usernames as IDs for each user."
-msgstr "Assign usernames as IDs for each user."
+msgstr "各ユーザーにユーザー名をIDとして割り当てます。"
 
 #: ../modules/mycred-module-hooks.php:2286
 msgid "IP Limit"
-msgstr "IP Limit"
+msgstr "IPの制限"
 
 #: ../modules/mycred-module-hooks.php:2290
 msgid ""
 "The number of times each IP address grants %_plural%. Use zero for unlimited."
 msgstr ""
-"The number of times each IP address grants %_plural%. Use zero for unlimited."
+"各IPアドレスを %_plural% 付与する回数です。無制限にするには 0 を使用します。"
 
 #: ../modules/mycred-module-hooks.php:2294
 #: ../modules/mycred-module-hooks.php:2327
 msgid "BuddyPress Profile"
-msgstr "BuddyPress Profile"
+msgstr "BuddyPress のプロフィール"
 
 #: ../modules/mycred-module-hooks.php:2297
 msgid "Insert Link in users Profile"
-msgstr "Insert Link in users Profile"
+msgstr "ユーザーのプロフィールにリンクを挿入"
 
 #: ../modules/mycred-module-hooks.php:2298
 msgid ""
 "Option to inser the referral link in users profiles. Links will only be "
 "visible to users viewing their own profiles or administrators."
 msgstr ""
-"Option to inser the referral link in users profiles. Links will only be "
-"visible to users viewing their own profiles or administrators."
+"ユーザーのプロフィールに紹介リンクを挿入するオプションです。リンクは、自分の"
+"プロフィールや管理者を表示するユーザーに表示されます。"
 
 #: ../modules/mycred-module-hooks.php:2304
 msgid "Leave empty to hide."
-msgstr "Leave empty to hide."
+msgstr "非表示にするには空のままにします。"
 
 #: ../modules/mycred-module-hooks.php:2307
 msgid "Description"
-msgstr "Description"
+msgstr "説明"
 
 #: ../modules/mycred-module-hooks.php:2308
 msgid "Optional description to insert under the link."
-msgstr "Optional description to insert under the link."
+msgstr "リンクの下に挿入するオプションの説明です。"
 
 #: ../modules/mycred-module-hooks.php:2320
 msgid "Profile Positioning"
-msgstr "Profile Positioning"
+msgstr "プロフィールの位置決め"
 
 #: ../modules/mycred-module-hooks.php:2322
 msgid ""
 "You can move around the referral link on your users profile by changing the "
 "position. Increase to move up, decrease to move down."
 msgstr ""
-"You can move around the referral link on your users profile by changing the "
-"position. Increase to move up, decrease to move down."
+"位置を変更することで、ユーザープロフィール上の紹介リンク周りに移動できます。"
+"増加で上に移動し、減少で下に移動します。"
 
 #: ../modules/mycred-module-hooks.php:2323
 msgid ""
 "You can not move the referral link above the users \"Base\" profile details!"
 msgstr ""
-"You can not move the referral link above the users \"Base\" profile details!"
+"ユーザーの\"ベース\"プロフィールの詳細の上に紹介リンクを移動することはできま"
+"せん。"
 
 #: ../modules/mycred-module-hooks.php:2329
 msgid "Requires BuddyPress Extended Profiles to be enabled."
-msgstr "Requires BuddyPress Extended Profiles to be enabled."
+msgstr "BuddyPress 拡張プロフィールを有効にする必要があります。"
 
 #: ../modules/mycred-module-hooks.php:2337
 msgid "Available Shortcodes"
-msgstr "Available Shortcodes"
+msgstr "利用可能なショートコード"
 
 #: ../modules/mycred-module-log.php:185 ../modules/mycred-module-log.php:206
 #: ../modules/mycred-module-settings.php:61
 #: ../modules/mycred-module-settings.php:102
 msgid "Access denied for this action"
-msgstr "Access denied for this action"
+msgstr "このアクションに対するアクセス拒否"
 
 #: ../modules/mycred-module-log.php:192
 msgid "Row Deleted"
-msgstr "Row Deleted"
+msgstr "行を削除"
 
 #: ../modules/mycred-module-log.php:219
 msgid "Log entry not found"
-msgstr "Log entry not found"
+msgstr "ログエントリが見つかりません"
 
 #: ../modules/mycred-module-log.php:232
 msgid "Entry Updated"
-msgstr "Entry Updated"
+msgstr "エントリの更新"
 
 #: ../modules/mycred-module-log.php:290
 #: ../modules/mycred-module-settings.php:424
 msgid "Entries"
-msgstr "Entries"
+msgstr "複数のエントリ"
 
 #: ../modules/mycred-module-log.php:305 ../modules/mycred-module-log.php:392
 #: ../modules/mycred-module-log.php:643
 #: ../modules/mycred-module-settings.php:558
 msgid "Export"
-msgstr "Export"
+msgstr "エクスポート"
 
 #: ../modules/mycred-module-log.php:311
 msgid "Search results for"
-msgstr "Search results for"
+msgstr "検索結果"
 
 #: ../modules/mycred-module-log.php:386
 msgid "%s Log"
-msgstr "%s Log"
+msgstr "%s ログ"
 
 #: ../modules/mycred-module-log.php:511
 msgid "Edit"
@@ -5091,40 +5103,40 @@ msgstr "編集"
 
 #: ../modules/mycred-module-log.php:556
 msgid "Current Log Entry"
-msgstr "Current Log Entry"
+msgstr "現在のログエントリ"
 
 #: ../modules/mycred-module-log.php:558
 msgid "The current saved log entry"
-msgstr "The current saved log entry"
+msgstr "現在保存されているログエントリ"
 
 #: ../modules/mycred-module-log.php:561
 msgid "Adjust Log Entry"
-msgstr "Adjust Log Entry"
+msgstr "ログエントリの調整"
 
 #: ../modules/mycred-module-log.php:563
 msgid "The new log entry"
-msgstr "The new log entry"
+msgstr "新しいログエントリ"
 
 #: ../modules/mycred-module-log.php:566
 msgid "Update Log Entry"
-msgstr "Update Log Entry"
+msgstr "ログエントリの更新"
 
 #: ../modules/mycred-module-log.php:598
 msgid "My %s History"
-msgstr "My %s History"
+msgstr "%s の履歴"
 
 #: ../modules/mycred-module-settings.php:64
 #: ../modules/mycred-module-settings.php:105
 msgid "Missing point type"
-msgstr "Missing point type"
+msgstr "不足しているポイントの種類"
 
 #: ../modules/mycred-module-settings.php:128
 msgid "Accounts successfully reset"
-msgstr "Accounts successfully reset"
+msgstr "アカウントを正常にリセット"
 
 #: ../modules/mycred-module-settings.php:168
 msgid "No users found to export"
-msgstr "No users found to export"
+msgstr "エクスポートするユーザーが見つかりません"
 
 #: ../modules/mycred-module-settings.php:314
 msgid "Facebook"
@@ -5136,128 +5148,129 @@ msgstr "Google Plus"
 
 #: ../modules/mycred-module-settings.php:318
 msgid "%s Settings"
-msgstr "%s Settings"
+msgstr "%s の設定"
 
 #: ../modules/mycred-module-settings.php:321
 msgid "Adjust your core or add-on settings. Follow us on: %s %s"
-msgstr "Adjust your core or add-on settings. Follow us on: %s %s"
+msgstr "コアまたはアドオンの設定を調整します。 これらに従ってください: %s %s"
 
 #: ../modules/mycred-module-settings.php:326
 msgid "Core Settings"
-msgstr "Core Settings"
+msgstr "コアの設定"
 
 #: ../modules/mycred-module-settings.php:328
 msgid "Name"
-msgstr "Name"
+msgstr "名前"
 
 #: ../modules/mycred-module-settings.php:333
 msgid "Accessible though the %singular% template tag."
-msgstr "Accessible though the %singular% template tag."
+msgstr "アクセス可能な %singular% のテンプレートタグです。"
 
 #: ../modules/mycred-module-settings.php:338
 msgid "Accessible though the %plural% template tag."
-msgstr "Accessible though the %plural% template tag."
+msgstr "アクセス可能な %plural% のテンプレートタグです。"
 
 #: ../modules/mycred-module-settings.php:341
 msgid "Tip"
-msgstr "Tip"
+msgstr "ヒント"
 
 #: ../modules/mycred-module-settings.php:341
 msgid ""
 "Adding an underscore at the beginning of template tag for names will return "
 "them in lowercase. i.e. %_singular%"
 msgstr ""
-"Adding an underscore at the beginning of template tag for names will return "
-"them in lowercase. i.e. %_singular%"
+"テンプレートタグ名の先頭にアンダースコアを追加したものは、小文字で返されま"
+"す。すなわち、 %_singular%"
 
 #: ../modules/mycred-module-settings.php:359
 msgid "Separator"
 msgid_plural "Separators"
-msgstr[0] "Separator"
+msgstr[0] "区切り記号"
 msgstr[1] "区切り記号"
 
 #: ../modules/mycred-module-settings.php:366
 msgid "Edit Settings"
-msgstr "Edit Settings"
+msgstr "設定の編集"
 
 #: ../modules/mycred-module-settings.php:368
 #: ../modules/mycred-module-settings.php:373
 msgid "Capability to check for."
-msgstr "Capability to check for."
+msgstr "チェックする機能です。"
 
 #: ../modules/mycred-module-settings.php:371
 msgid "Edit Users %plural%"
-msgstr "Edit Users %plural%"
+msgstr "ユーザー %plural% の編集"
 
 #: ../modules/mycred-module-settings.php:395
 msgid "Comma separated list of user ids to exclude. No spaces allowed!"
-msgstr "Comma separated list of user ids to exclude. No spaces allowed!"
+msgstr ""
+"コンマ区切りのリストにあるユーザーIDを除外します。スペースは使用できません。"
 
 #: ../modules/mycred-module-settings.php:415
 msgid "Management"
-msgstr "Management"
+msgstr "管理"
 
 #: ../modules/mycred-module-settings.php:417
 msgid "The Log"
-msgstr "The Log"
+msgstr "ログ"
 
 #: ../modules/mycred-module-settings.php:420
 msgid "Table Name"
-msgstr "Table Name"
+msgstr "テーブル名"
 
 #: ../modules/mycred-module-settings.php:429
 msgid "Empty Log"
-msgstr "Empty Log"
+msgstr "ログが空"
 
 #: ../modules/mycred-module-settings.php:435
 msgid "User Meta Key"
-msgstr "User Meta Key"
+msgstr "ユーザーのメタキー"
 
 #: ../modules/mycred-module-settings.php:444
 msgid "Set all to zero"
-msgstr "Set all to zero"
+msgstr "全て 0 に設定"
 
 #: ../modules/mycred-module-settings.php:444
 msgid "CSV Export"
-msgstr "CSV Export"
+msgstr "CSVエクスポート"
 
 #: ../modules/mycred-module-settings.php:465
 msgid "Default"
-msgstr "Default"
+msgstr "デフォルト"
 
 #: ../modules/mycred-module-settings.php:468
 #: ../modules/mycred-module-settings.php:487
 #: ../modules/mycred-module-settings.php:509
 msgid "Meta Key"
-msgstr "Meta Key"
+msgstr "メタキー"
 
 #: ../modules/mycred-module-settings.php:506
 msgid "Add New Type"
-msgstr "Add New Type"
+msgstr "新しい種類の追加"
 
 #: ../modules/mycred-module-settings.php:511
 msgid "A unique ID for this type."
-msgstr "A unique ID for this type."
+msgstr "この種類のユニークIDです。"
 
 #: ../modules/mycred-module-settings.php:516
 msgid "Menu and page title."
-msgstr "Menu and page title."
+msgstr "メニューとページのタイトルです。"
 
 #: ../modules/mycred-module-settings.php:519
 msgid "The meta key will define where your users balances are saved."
-msgstr "The meta key will define where your users balances are saved."
+msgstr "メタキーはユーザーの残高を保存することを規定します。"
 
 #: ../modules/mycred-module-settings.php:536
 msgid "Identify users by"
-msgstr "Identify users by"
+msgstr "ユーザー識別"
 
 #: ../modules/mycred-module-settings.php:542
 msgid "User Email"
-msgstr "User Email"
+msgstr "ユーザーEメール"
 
 #: ../modules/mycred-module-settings.php:543
 msgid "User Login"
-msgstr "User Login"
+msgstr "ユーザーログイン"
 
 #: ../modules/mycred-module-settings.php:550
 msgid ""
@@ -5265,21 +5278,21 @@ msgid ""
 "current site while Email is recommended if you want to export to a different "
 "site."
 msgstr ""
-"Select \"User ID\" if you intend to use this export as a backup of your "
-"current site while Email is recommended if you want to export to a different "
-"site."
+"違うサイトにエクスポートしたい場合はEメールを推奨しますが、現在のサイトをバッ"
+"クアップとしてこのエクスポートを使用することを意図している場合は、\"ユーザー"
+"ID\"を選択してください。"
 
 #: ../modules/mycred-module-settings.php:553
 msgid "Import Log Entry"
-msgstr "Import Log Entry"
+msgstr "ログエントリのインポート"
 
 #: ../modules/mycred-module-settings.php:555
 msgid ""
 "Optional log entry to use if you intend to import this file in a different "
 "%s installation."
 msgstr ""
-"Optional log entry to use if you intend to import this file in a different "
-"%s installation."
+"違う %s のインストールで、このファイルをインポートすることを意図している場"
+"合、オプションのログエントリを使用します。"
 
 #: ../plugins/mycred-hook-badgeOS.php:20
 msgid "BadgeOS"
@@ -5290,41 +5303,41 @@ msgid ""
 "Default settings for each BadgeOS Achievement type. These settings may be "
 "overridden for individual achievement type."
 msgstr ""
-"Default settings for each BadgeOS Achievement type. These settings may be "
-"overridden for individual achievement type."
+"各 BadgeOS アチーブメントの種類の設定を既定します。これらの設定は個々のアチー"
+"ブメントの種類に対して上書きされるかもしれません。"
 
 #: ../plugins/mycred-hook-badgeOS.php:98
 msgid ""
 "Please setup your <a href=\"%s\">default settings</a> before using this "
 "feature."
 msgstr ""
-"Please setup your <a href=\"%s\">default settings</a> before using this "
-"feature."
+"この機能を使用する前に、 <a href=\"%s\">既定の設定</a>をセットアップしてくだ"
+"さい。"
 
 #: ../plugins/mycred-hook-badgeOS.php:109
 #: ../plugins/mycred-hook-badgeOS.php:111
 msgid "%plural% to Award"
-msgstr "%plural% to Award"
+msgstr "付与する %plural%"
 
 #: ../plugins/mycred-hook-badgeOS.php:113
 msgid "Use zero to disable"
-msgstr "Use zero to disable"
+msgstr "無効にするには 0 を使用します"
 
 #: ../plugins/mycred-hook-badgeOS.php:124
 msgid "Deduction Log Template"
-msgstr "Deduction Log Template"
+msgstr "推論ログテンプレート"
 
 #: ../plugins/mycred-hook-badgeOS.php:261
 msgid "Default %s for %s"
-msgstr "Default %s for %s"
+msgstr "%s を規定とした %s"
 
 #: ../plugins/mycred-hook-badgeOS.php:267
 msgid "Use zero to disable users gaining %_plural%"
-msgstr "Use zero to disable users gaining %_plural%"
+msgstr "ユーザーが %_plural% を得るのを無効にするには0 を使用します"
 
 #: ../plugins/mycred-hook-badgeOS.php:271
 msgid "Default Log template"
-msgstr "Default Log template"
+msgstr "既定のログテンプレート"
 
 #: ../plugins/mycred-hook-bbPress.php:18
 msgid "bbPress"
@@ -5332,189 +5345,191 @@ msgstr "bbPress"
 
 #: ../plugins/mycred-hook-bbPress.php:19
 msgid "Awards %_plural% for bbPress actions."
-msgstr "Awards %_plural% for bbPress actions."
+msgstr "bbPress アクションに対して %_plural% を与えます。"
 
 #: ../plugins/mycred-hook-bbPress.php:464
 msgid "%plural% for New Forum"
-msgstr "%plural% for New Forum"
+msgstr "新規フォーム %plural%"
 
 #: ../plugins/mycred-hook-bbPress.php:477
 msgid "%plural% for Forum Deletion"
-msgstr "%plural% for Forum Deletion"
+msgstr "フォーラム削除 %plural%"
 
 #: ../plugins/mycred-hook-bbPress.php:490
 #: ../plugins/mycred-hook-simplepress.php:323
 msgid "%plural% for New Topic"
-msgstr "%plural% for New Topic"
+msgstr "新規トピック %plural%"
 
 #: ../plugins/mycred-hook-bbPress.php:504
 msgid "Forum authors can receive %_plural% for creating new topics."
-msgstr "Forum authors can receive %_plural% for creating new topics."
+msgstr ""
+"フォーラム作成者は新規トピック作成の %_plural% を受け取ることができます。"
 
 #: ../plugins/mycred-hook-bbPress.php:508
 #: ../plugins/mycred-hook-bbPress.php:568
 #: ../plugins/mycred-hook-simplepress.php:336
 msgid "%plural% for Topic Deletion"
-msgstr "%plural% for Topic Deletion"
+msgstr "トピック削除 %plural%"
 
 #: ../plugins/mycred-hook-bbPress.php:521
 msgid "%plural% for Favorited Topic"
-msgstr "%plural% for Favorited Topic"
+msgstr "人気のトピック %plural%"
 
 #: ../plugins/mycred-hook-bbPress.php:534
 #: ../plugins/mycred-hook-bbPress.php:558
 #: ../plugins/mycred-hook-buddypress.php:375
 #: ../plugins/mycred-hook-simplepress.php:367
 msgid "Daily Limit"
-msgstr "Daily Limit"
+msgstr "毎日の制限"
 
 #: ../plugins/mycred-hook-bbPress.php:536
 #: ../plugins/mycred-hook-bbPress.php:560
 #: ../plugins/mycred-hook-simplepress.php:369
 msgid "Use zero for unlimited"
-msgstr "Use zero for unlimited"
+msgstr "無制限にするには 0 を使用します"
 
 #: ../plugins/mycred-hook-bbPress.php:540
 msgid "%plural% for New Reply"
-msgstr "%plural% for New Reply"
+msgstr "新規返信 %plural%"
 
 #: ../plugins/mycred-hook-bbPress.php:554
 msgid "Topic authors can receive %_plural% for replying to their own Topic"
-msgstr "Topic authors can receive %_plural% for replying to their own Topic"
+msgstr ""
+"トピック作成者は自分で返信したトピックの %_plural% を受け取ることができます。"
 
 #: ../plugins/mycred-hook-bbPress.php:564
 msgid "Show users %_plural% balance in replies"
-msgstr "Show users %_plural% balance in replies"
+msgstr "返信したユーザーの %_plural% 残高を表示"
 
 #: ../plugins/mycred-hook-buddypress-gallery.php:19
 msgid "BuddyPress: Gallery Actions"
-msgstr "BuddyPress: Gallery Actions"
+msgstr "BuddyPress: ギャラリーアクション"
 
 #: ../plugins/mycred-hook-buddypress-gallery.php:20
 msgid ""
 "Awards %_plural% for creating a new gallery either using BP Album+ or BP "
 "Gallery."
 msgstr ""
-"Awards %_plural% for creating a new gallery either using BP Album+ or BP "
-"Gallery."
+"BP アルバムまたは、BP ギャラリーを新規に作成に対して %_plural% を与えます。"
 
 #: ../plugins/mycred-hook-buddypress-gallery.php:97
 msgid "%plural% for New Gallery"
-msgstr "%plural% for New Gallery"
+msgstr "新規ギャラリー %plural%"
 
 #: ../plugins/mycred-hook-buddypress-links.php:19
 msgid "BuddyPress: Links"
-msgstr "BuddyPress: Links"
+msgstr "BuddyPress: リンク"
 
 #: ../plugins/mycred-hook-buddypress-links.php:20
 msgid "Awards %_plural% for link related actions."
-msgstr "Awards %_plural% for link related actions."
+msgstr "行動に関連したリンクに対して %_plural% を与えます。"
 
 #: ../plugins/mycred-hook-buddypress-links.php:247
 msgid "%plural% for New Links"
-msgstr "%plural% for New Links"
+msgstr "新規リンク %plural%"
 
 #: ../plugins/mycred-hook-buddypress-links.php:260
 msgid "%plural% for Vote on Link"
-msgstr "%plural% for Vote on Link"
+msgstr "リンク上の投票 %plural%"
 
 #: ../plugins/mycred-hook-buddypress-links.php:272
 msgid "%plural% per received Vote"
-msgstr "%plural% per received Vote"
+msgstr "受信した投票毎 %plural%"
 
 #: ../plugins/mycred-hook-buddypress-links.php:275
 msgid "Vote Up"
-msgstr "Vote Up"
+msgstr "投票する"
 
 #: ../plugins/mycred-hook-buddypress-links.php:286
 msgid "Vote Down"
-msgstr "Vote Down"
+msgstr "否決する"
 
 #: ../plugins/mycred-hook-buddypress-links.php:297
 msgid "%plural% for Updating Links"
-msgstr "%plural% for Updating Links"
+msgstr "更新するリンク %plural%"
 
 #: ../plugins/mycred-hook-buddypress-links.php:310
 msgid "%plural% for Deleting Links"
-msgstr "%plural% for Deleting Links"
+msgstr "削除するリンク %plural%"
 
 #: ../plugins/mycred-hook-buddypress-media.php:18
 msgid "rtMedia Galleries"
-msgstr "rtMedia Galleries"
+msgstr "rtMedia ギャラリー"
 
 #: ../plugins/mycred-hook-buddypress-media.php:19
 msgid ""
 "Award / Deduct %_plural% for users creating albums or uploading new photos."
 msgstr ""
-"Award / Deduct %_plural% for users creating albums or uploading new photos."
+"ユーザーがアルバムを作成したり新しい写真をアップロードするのに対して %_plural"
+"% 与えます/差し引きます。"
 
 #: ../plugins/mycred-hook-buddypress-media.php:163
 msgid "New Media Upload"
-msgstr "New Media Upload"
+msgstr "新規メディアをアップロード"
 
 #: ../plugins/mycred-hook-buddypress-media.php:166
 msgid "Photo Upload"
-msgstr "Photo Upload"
+msgstr "写真をアップロード"
 
 #: ../plugins/mycred-hook-buddypress-media.php:176
 msgid "Video Upload"
-msgstr "Video Upload"
+msgstr "動画をアップロード"
 
 #: ../plugins/mycred-hook-buddypress-media.php:186
 msgid "Music Upload"
-msgstr "Music Upload"
+msgstr "音楽をアップロード"
 
 #: ../plugins/mycred-hook-buddypress-media.php:196
 msgid "Delete Media"
-msgstr "Delete Media"
+msgstr "メディアの削除"
 
 #: ../plugins/mycred-hook-buddypress-media.php:199
 msgid "Delete Photo"
-msgstr "Delete Photo"
+msgstr "写真を削除"
 
 #: ../plugins/mycred-hook-buddypress-media.php:209
 msgid "Delete Video"
-msgstr "Delete Video"
+msgstr "動画を削除"
 
 #: ../plugins/mycred-hook-buddypress-media.php:219
 msgid "Delete Music"
-msgstr "Delete Music"
+msgstr "音楽を削除"
 
 #: ../plugins/mycred-hook-buddypress.php:20
 msgid "BuddyPress: Members"
-msgstr "BuddyPress: Members"
+msgstr "BuddyPress: 会員"
 
 #: ../plugins/mycred-hook-buddypress.php:21
 msgid "Awards %_plural% for profile related actions."
-msgstr "Awards %_plural% for profile related actions."
+msgstr "プロフィール関連のアクションに対して %_plural% を与えます。"
 
 #: ../plugins/mycred-hook-buddypress.php:28
 msgid "BuddyPress: Groups"
-msgstr "BuddyPress: Groups"
+msgstr "BuddyPress: グループ"
 
 #: ../plugins/mycred-hook-buddypress.php:29
 msgid ""
 "Awards %_plural% for group related actions. Use minus to deduct %_plural% or "
 "zero to disable a specific hook."
 msgstr ""
-"Awards %_plural% for group related actions. Use minus to deduct %_plural% or "
-"zero to disable a specific hook."
+"グループ関連のアクションに対して %_plural% を与えます。%_plural% を差し引くに"
+"はマイナスを使用し、特定のフックを無効にするには 0 を使用します。"
 
 #: ../plugins/mycred-hook-buddypress.php:369
 msgid "%plural% for Profile Updates"
-msgstr "%plural% for Profile Updates"
+msgstr "プロフィール更新 %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:377
 msgid "Daily limit. Use zero for unlimited."
-msgstr "Daily limit. Use zero for unlimited."
+msgstr "毎日の制限. 無制限にするには 0 を使用します。"
 
 #: ../plugins/mycred-hook-buddypress.php:387
 msgid "%plural% for New Avatar"
-msgstr "%plural% for New Avatar"
+msgstr "新規アバター %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:400
 msgid "%plural% for New Friendships"
-msgstr "%plural% for New Friendships"
+msgstr "新規のフレンド %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:413
 msgid "%plural% for Leaving Friendship"
@@ -5522,194 +5537,199 @@ msgstr "%plural% for Leaving Friendship"
 
 #: ../plugins/mycred-hook-buddypress.php:426
 msgid "%plural% for New Comment"
-msgstr "%plural% for New Comment"
+msgstr "新規コメント %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:439
 msgid "%plural% for Deleting Comment"
-msgstr "%plural% for Deleting Comment"
+msgstr "削除するコメント %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:452
 msgid "%plural% for New Messages"
-msgstr "%plural% for New Messages"
+msgstr "新規メッセージ %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:465
 msgid "%plural% for Sending Gift"
-msgstr "%plural% for Sending Gift"
+msgstr "送信するギフト %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:912
 msgid "%plural% for Creating Groups"
-msgstr "%plural% for Creating Groups"
+msgstr "作成するグループ %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:916
 msgid ""
 "If you use a negative value and the user does not have enough %_plural% the "
 "\"Create Group\" button will be disabled."
 msgstr ""
-"If you use a negative value and the user does not have enough %_plural% the "
-"\"Create Group\" button will be disabled."
+"負の値を使用していたり、ユーザーが十分な %_plural% を持っていない場合、\"グ"
+"ループを作成\"ボタンは無効になります。"
 
 #: ../plugins/mycred-hook-buddypress.php:920
 msgid "Number of members before awarding %_plural%"
-msgstr "Number of members before awarding %_plural%"
+msgstr "%_plural% を与える前の会員数"
 
 #: ../plugins/mycred-hook-buddypress.php:922
 msgid "Use zero to award %_plural% when group is created."
-msgstr "Use zero to award %_plural% when group is created."
+msgstr "グループが作成されたときに %_plural% を与えるには 0 を使用します。"
 
 #: ../plugins/mycred-hook-buddypress.php:932
 msgid "%plural% for Deleting Groups"
-msgstr "%plural% for Deleting Groups"
+msgstr "削除するグループ %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:945
 msgid "%plural% for New Forum Topic"
-msgstr "%plural% for New Forum Topic"
+msgstr "新規フォーラムトピック %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:958
 msgid "%plural% for Editing Forum Topic"
-msgstr "%plural% for Editing Forum Topic"
+msgstr "フォーラムトピックの編集 %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:971
 msgid "%plural% for New Forum Post"
-msgstr "%plural% for New Forum Post"
+msgstr "新規フォーラムの投稿 %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:984
 msgid "%plural% for Editing Forum Post"
-msgstr "%plural% for Editing Forum Post"
+msgstr "フォーラム投稿の編集 %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:997
 msgid "%plural% for Joining Groups"
-msgstr "%plural% for Joining Groups"
+msgstr "参加するグループ %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:1001
 msgid ""
 "If you use a negative value and the user does not have enough %_plural% the "
 "\"Join Group\" button will be disabled."
 msgstr ""
-"If you use a negative value and the user does not have enough %_plural% the "
-"\"Join Group\" button will be disabled."
+"負の値を使用していたり、ユーザーが十分な %_plural% を持っていない場合、\"グ"
+"ループに参加\"ボタンは無効になります。"
 
 #: ../plugins/mycred-hook-buddypress.php:1011
 msgid "%plural% for Leaving Groups"
-msgstr "%plural% for Leaving Groups"
+msgstr "脱退するグループ %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:1024
 msgid "%plural% for New Group Avatar"
-msgstr "%plural% for New Group Avatar"
+msgstr "新規グループアバター %plural%"
 
 #: ../plugins/mycred-hook-buddypress.php:1037
 msgid "%plural% for New Group Comment"
-msgstr "%plural% for New Group Comment"
+msgstr "新規グループコメント %plural%"
 
 #: ../plugins/mycred-hook-contact-form7.php:18
 msgid "Contact Form 7 Form Submissions"
-msgstr "Contact Form 7 Form Submissions"
+msgstr "コンタクトフォーム 7 フォーム投稿"
 
 #: ../plugins/mycred-hook-contact-form7.php:19
 msgid "Awards %_plural% for successful form submissions (by logged in users)."
-msgstr "Awards %_plural% for successful form submissions (by logged in users)."
+msgstr ""
+"（ログインしたユーザーによる）成功したフォーム投稿に対して %_plural% を与えま"
+"す。"
 
 #: ../plugins/mycred-hook-contact-form7.php:110
 #: ../plugins/mycred-hook-gravityforms.php:86
 msgid "No forms found."
-msgstr "No forms found."
+msgstr "フォームが見つかりません。"
 
 #: ../plugins/mycred-hook-events-manager-light.php:18
 msgid "Events Manager"
-msgstr "Events Manager"
+msgstr "イベントマネージャー"
 
 #: ../plugins/mycred-hook-events-manager-light.php:19
 msgid "Awards %_plural% for users attending events."
-msgstr "Awards %_plural% for users attending events."
+msgstr "ユーザーが参加するイベントに %_plural% を与えます。"
 
 #: ../plugins/mycred-hook-events-manager-light.php:147
 msgid "Attending Event"
-msgstr "Attending Event"
+msgstr "イベントに参加"
 
 #: ../plugins/mycred-hook-events-manager-light.php:160
 msgid "Cancelling Attendance"
-msgstr "Cancelling Attendance"
+msgstr "参加をキャンセル"
 
 #: ../plugins/mycred-hook-gd-star-rating.php:18
 msgid "GD Star Rating"
-msgstr "GD Star Rating"
+msgstr "GD スター評価"
 
 #: ../plugins/mycred-hook-gd-star-rating.php:19
 msgid "Awards %_plural% for users rate items using the GD Star Rating plugin."
-msgstr "Awards %_plural% for users rate items using the GD Star Rating plugin."
+msgstr ""
+"GD スター評価プラグインを使用して、商品をユーザーが評価する %_plural% を与え"
+"ます。"
 
 #: ../plugins/mycred-hook-gd-star-rating.php:103
 msgid "Rating"
-msgstr "Rating"
+msgstr "評価"
 
 #: ../plugins/mycred-hook-gd-star-rating.php:116
 msgid "Up / Down Vote"
-msgstr "Up / Down Vote"
+msgstr "アップ / ダウン の投票"
 
 #: ../plugins/mycred-hook-gravityforms.php:18
 msgid "Gravityform Submissions"
-msgstr "Gravityform Submissions"
+msgstr "Gravityform 投稿"
 
 #: ../plugins/mycred-hook-gravityforms.php:19
 msgid "Awards %_plural% for successful form submissions."
-msgstr "Awards %_plural% for successful form submissions."
+msgstr "成功したフォーム投稿に対して %_plural% を与えます。"
 
 #: ../plugins/mycred-hook-invite-anyone.php:18
 msgid "Invite Anyone Plugin"
-msgstr "Invite Anyone Plugin"
+msgstr "誰でも招待プラグイン"
 
 #: ../plugins/mycred-hook-invite-anyone.php:19
 msgid ""
 "Awards %_plural% for sending invitations and/or %_plural% if the invite is "
 "accepted."
 msgstr ""
-"Awards %_plural% for sending invitations and/or %_plural% if the invite is "
-"accepted."
+"%_plural% を与える対象は、送信した招待状 及び/または 招待が許可された場合の "
+"%_plural% に対してです。"
 
 #: ../plugins/mycred-hook-invite-anyone.php:153
 msgid "%plural% for Sending An Invite"
-msgstr "%plural% for Sending An Invite"
+msgstr "招待の送信 %plural%"
 
 #: ../plugins/mycred-hook-invite-anyone.php:169
 msgid ""
 "Maximum number of invites that grants %_plural%. Use zero for unlimited."
 msgstr ""
-"Maximum number of invites that grants %_plural%. Use zero for unlimited."
+"コメント作成者に %_plural% が与えられる招待できる数の上限です。無制限にするに"
+"は 0 を使用します。"
 
 #: ../plugins/mycred-hook-invite-anyone.php:173
 msgid "%plural% for Accepting An Invite"
-msgstr "%plural% for Accepting An Invite"
+msgstr "許可する招待 %plural%"
 
 #: ../plugins/mycred-hook-invite-anyone.php:177
 msgid "%plural% for each invited user that accepts an invitation."
-msgstr "%plural% for each invited user that accepts an invitation."
+msgstr "招待を受け入れたそれぞれのユーザーに対して%plural% 。"
 
 #: ../plugins/mycred-hook-invite-anyone.php:190
 msgid ""
 "Maximum number of accepted invitations that grants %_plural%. Use zero for "
 "unlimited."
 msgstr ""
-"Maximum number of accepted invitations that grants %_plural%. Use zero for "
-"unlimited."
+"コメント作成者に %_plural% が与えられる招待を許可できる数の上限です。無制限に"
+"するには 0 を使用します。"
 
 #: ../plugins/mycred-hook-jetpack.php:18
 msgid "Jetpack Subscriptions"
-msgstr "Jetpack Subscriptions"
+msgstr "Jetpack 字幕"
 
 #: ../plugins/mycred-hook-jetpack.php:19
 msgid ""
 "Awards %_plural% for users signing up for site or comment updates using "
 "Jetpack."
 msgstr ""
-"Awards %_plural% for users signing up for site or comment updates using "
-"Jetpack."
+"ユーザーのサイトへのサインアップまたは Jetpack を使用してコメントの更新をする"
+"のに対して %_plural% を与えます。"
 
 #: ../plugins/mycred-hook-jetpack.php:499
 msgid "Site Subscriptions"
-msgstr "Site Subscriptions"
+msgstr "サイト字幕"
 
 #: ../plugins/mycred-hook-jetpack.php:512
 msgid "Comment Subscriptions"
-msgstr "Comment Subscriptions"
+msgstr "コメント字幕"
 
 #: ../plugins/mycred-hook-simplepress.php:18
 msgid "Simple:Press"
@@ -5717,40 +5737,41 @@ msgstr "Simple:Press"
 
 #: ../plugins/mycred-hook-simplepress.php:19
 msgid "Awards %_plural% for Simple:Press actions."
-msgstr "Awards %_plural% for Simple:Press actions."
+msgstr "Simple:Press アクションに対して %_plural% を与えます。"
 
 #: ../plugins/mycred-hook-simplepress.php:349
 msgid "%plural% for New Topic Post"
-msgstr "%plural% for New Topic Post"
+msgstr "新規トピックの投稿 %plural%"
 
 #: ../plugins/mycred-hook-simplepress.php:363
 msgid "Topic authors can receive %_plural% for posting on their own Topic"
-msgstr "Topic authors can receive %_plural% for posting on their own Topic"
+msgstr ""
+"トピック作成者は自分で投稿したトピックの %_plural% を受け取ることができます。"
 
 #: ../plugins/mycred-hook-simplepress.php:373
 msgid "%plural% for Topic Post Deletion"
-msgstr "%plural% for Topic Post Deletion"
+msgstr "トピック投稿の削除 %plural%"
 
 #: ../plugins/mycred-hook-wp-favorite-posts.php:18
 msgid "WP Favorite Posts"
-msgstr "WP Favorite Posts"
+msgstr "WP で人気の投稿"
 
 #: ../plugins/mycred-hook-wp-favorite-posts.php:19
 msgid "Awards %_plural% for users adding posts to their favorites."
-msgstr "Awards %_plural% for users adding posts to their favorites."
+msgstr "ユーザーがお気に入りに追加した投稿に対して %_plural% を与えます。"
 
 #: ../plugins/mycred-hook-wp-favorite-posts.php:129
 msgid "Adding Content to Favorites"
-msgstr "Adding Content to Favorites"
+msgstr "お気に入りのコンテンツを追加"
 
 #: ../plugins/mycred-hook-wp-favorite-posts.php:142
 msgid "Removing Content from Favorites"
-msgstr "Removing Content from Favorites"
+msgstr "お気に入りからコンテンツを削除"
 
 #: ../plugins/mycred-hook-wp-polls.php:18
 msgid "WP-Polls"
-msgstr "WP-Polls"
+msgstr "WP-人気投票"
 
 #: ../plugins/mycred-hook-wp-polls.php:19
 msgid "Awards %_plural% for users voting in polls."
-msgstr "Awards %_plural% for users voting in polls."
+msgstr "人気投票に投票したユーザーに対して %_plural% を与えます。"
