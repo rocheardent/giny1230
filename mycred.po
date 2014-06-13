@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: myCRED\n"
 "Report-Msgid-Bugs-To: http://mycred.me\n"
 "POT-Creation-Date: 2014-03-20 14:26+0100\n"
-"PO-Revision-Date: 2014-05-31 16:13+0800\n"
+"PO-Revision-Date: 2014-06-13 10:10+0800\n"
 "Last-Translator: Yoshihiro Imamura\n"
 "Language-Team: LANGUAGE <support@mycred.me>\n"
 "Language: ja_JP\n"
@@ -201,7 +201,7 @@ msgstr "サプライズ"
 #: ../abstracts/mycred-abstract-module.php:438
 #: ../includes/mycred-network.php:118
 msgid "click to close"
-msgstr "クリックすると閉じます"
+msgstr "クリックして閉じます"
 
 #: ../abstracts/mycred-abstract-module.php:439
 #: ../includes/mycred-network.php:119
@@ -268,8 +268,8 @@ msgstr "%s 銀行取引"
 msgid ""
 "Setup recurring payouts or offer / charge interest on user account balances."
 msgstr ""
-"定期的配当を設定またはオファーする ／ ユーザーのクレジットボイント口座にの利"
-"子をチャージします。"
+"ユーザーアカウント口座の利息について、定期的な支払いまたは提供/請求を設定しま"
+"す。"
 
 #: ../addons/banking/myCRED-addon-banking.php:171
 msgid "WP-Cron deactivation detected!"
@@ -534,8 +534,7 @@ msgstr "最小 %plural%"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:344
 msgid "Minimum amount of %plural% a user must purchase. Will default to 1."
-msgstr ""
-"ユーザーは%plural% の最小量を購入する必要があります。デフォルト は1です。"
+msgstr "ユーザーは%plural% の最小量を購入する必要があります。既定では1です。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:349
 #: ../addons/coupons/myCRED-addon-coupons.php:315
@@ -1172,9 +1171,9 @@ msgid ""
 "CGI URL is set to the above address and \"Return method\" is set to POST."
 msgstr ""
 "ゲートウェイを機能させるためには、NETbillingアカウントへのログインおよびサイ"
-"トの編集をする必要があります。「デフォルト支払フォームの設定」にて、ポスト"
-"バック CGI URLは上記のアドレスが設定されていることを確認し、「リターンメソッ"
-"ド」はPOSTに設定されていることを確認します。"
+"トの編集をする必要があります。「既定の支払フォームの設定」にて、ポストバック "
+"CGI URLは上記のアドレスが設定されていることを確認し、「リターンメソッド」は"
+"POSTに設定されていることを確認します。"
 
 #: ../addons/buy-creds/gateways/netbilling.php:312
 msgid "Incorrect Credit Card number"
@@ -1281,7 +1280,7 @@ msgstr "ギフト："
 
 #: ../addons/buy-creds/gateways/skrill.php:294
 msgid "(author)"
-msgstr "(著者)"
+msgstr "(著作者)"
 
 #: ../addons/buy-creds/gateways/skrill.php:326
 msgid "Merchant Account Email"
@@ -1358,9 +1357,9 @@ msgid ""
 "When a user selects this option, no %_plural% are awarded! You will need to "
 "manually award these once the bank transfer is completed."
 msgstr ""
-"デフォルトでは、すべてのSkrillマーチャントアカウントは銀行振り込みによるお支"
-"払いを受け入れます。ユーザーがこのオプションを選択した場合、%_plural% は与え"
-"られません。銀行振込が完了すると、手動でこれらを与える必要があります。"
+"既定では、すべてのSkrillマーチャントアカウントは銀行振り込みによるお支払いを"
+"受け入れます。ユーザーがこのオプションを選択した場合、%_plural% は与えられま"
+"せん。銀行振込が完了すると、手動でこれらを与える必要があります。"
 
 #: ../addons/buy-creds/gateways/skrill.php:378
 msgid ""
@@ -1368,9 +1367,9 @@ msgid ""
 "for a Skrill account (if they do not have one already). You can contact "
 "Skrill Merchant Services and request to disable this feature."
 msgstr ""
-"デフォルトでは、Skrillを使用して購入します。（Skrillアカウントを持っていない"
-"場合）ユーザーはSkrillアカウントにサインアップすることになります。Skrillマー"
-"チャントサービスに連絡し、この機能を無効にする要求を行うことができます。"
+"既定では、Skrillを使用して購入します。（Skrillアカウントを持っていない場合）"
+"ユーザーはSkrillアカウントにサインアップすることになります。Skrillマーチャン"
+"トサービスに連絡し、この機能を無効にする要求を行うことができます。"
 
 #: ../addons/buy-creds/gateways/zombaio.php:154
 msgid "Checking Transaction ID"
@@ -1734,7 +1733,7 @@ msgstr "ユーザー残高を変更"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:183
 msgid "user gains %_plural%"
-msgstr "ユーザー利益 %_plural%"
+msgstr "ユーザー収益 %_plural%"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:184
 msgid "user lose %_plural%"
@@ -1821,16 +1820,16 @@ msgid ""
 "Allow WordPress and Third Party Plugins to filter the email subject before "
 "an email is sent."
 msgstr ""
-"Eメールを送信する前に、WordPress と サードパーティー製プラグインは、メールの"
-"件名をフィルタリングすることができます。"
+"Eメールを送信する前に、WordPress とサードパーティー製プラグインは、メールの件"
+"名をフィルタリングすることができます。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:280
 msgid ""
 "Allow WordPress and Third Party Plugins to filter the email content before "
 "an email is sent."
 msgstr ""
-"Eメールを送信する前に、WordPress と サードパーティー製プラグインは、メールの"
-"内容をフィルタリングすることができます。"
+"Eメールを送信する前に、WordPress とサードパーティー製プラグインは、メールの内"
+"容をフィルタリングすることができます。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:283
 msgid ""
@@ -2062,7 +2061,7 @@ msgstr ""
 
 #: ../addons/gateway/carts/mycred-marketpress.php:240
 msgid "Paid"
-msgstr "支払われる"
+msgstr "支払済み"
 
 #: ../addons/gateway/carts/mycred-marketpress.php:243
 #: ../addons/gateway/carts/mycred-woocommerce.php:33
@@ -2763,11 +2762,11 @@ msgstr ""
 
 #: ../addons/ranks/myCRED-addon-ranks.php:226
 msgid "Warning! All ranks will be deleted! This can not be undone!"
-msgstr "警告 ！全ての階級は削除されます。元に戻すことができません。"
+msgstr "警告 ！全てのランクは削除されます。元に戻すことができません。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:227
 msgid "Are you sure you want to re-assign user ranks?"
-msgstr "ユーザーの階級を割り当て直してもよろしいですか？"
+msgstr "ユーザーのランクを割り当て直してもよろしいですか？"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:241
 #: ../addons/ranks/myCRED-addon-ranks.php:247
@@ -2776,42 +2775,42 @@ msgstr "ユーザーの階級を割り当て直してもよろしいですか？
 #: ../addons/ranks/myCRED-addon-ranks.php:944
 #: ../modules/mycred-module-addons.php:213
 msgid "Ranks"
-msgstr "階級"
+msgstr "ランク"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:242
 #: ../addons/ranks/myCRED-addon-ranks.php:443
 #: ../addons/ranks/myCRED-addon-ranks.php:459
 #: ../addons/ranks/myCRED-addon-ranks.php:554
 msgid "Rank"
-msgstr "階級"
+msgstr "ランク"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:244
 msgid "Add New Rank"
-msgstr "新しい階級の追加"
+msgstr "新しいランクの追加"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:245
 msgid "Edit Rank"
-msgstr "階級の編集"
+msgstr "ランクの編集"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:246
 msgid "New Rank"
-msgstr "新しい階級"
+msgstr "新しいランク"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:248
 msgid "View Rank"
-msgstr "階級の表示"
+msgstr "ランクの表示"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:249
 msgid "Search Ranks"
-msgstr "階級を検索"
+msgstr "ランクを検索"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:250
 msgid "No ranks found"
-msgstr "階級は見つかりません"
+msgstr "ランクは見つかりません"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:251
 msgid "No ranks found in Trash"
-msgstr "ゴミ箱には階級は見つかりませんでした"
+msgstr "ゴミ箱にはランクは見つかりませんでした"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:318
 msgid "Completed - Total of %d users effected"
@@ -2824,29 +2823,30 @@ msgstr "ログは空です"
 #: ../addons/ranks/myCRED-addon-ranks.php:514
 #: ../addons/ranks/myCRED-addon-ranks.php:517
 msgid "Rank Updated. View <a href=\"%1$s\">All Ranks</a>."
-msgstr "階級を更新しました。 <a href=\"%1$s\">全階級</a>を参照してください。"
+msgstr ""
+"ランクを更新しました。 <a href=\"%1$s\">全ランク</a>を参照してください。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:519
 msgid "Rank Activated"
-msgstr "階級の有効化"
+msgstr "ランクの有効化"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:520
 msgid "Rank Saved"
-msgstr "階級の保存"
+msgstr "ランクの保存"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:521
 msgid "Rank Submitted for approval. View <a href=\"%1$s\">All Ranks</a>."
 msgstr ""
-"階級の承認を申請しました。<a href=\"%1$s\">全階級</a>を参照してください。"
+"ランクの承認を申請しました。<a href=\"%1$s\">全ランク</a>を参照してください。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:523
 msgid "Rank scheduled for: <strong>%1$s</strong>."
-msgstr "階級のスケジュール: <strong>%1$s</strong>."
+msgstr "ランクのスケジュール: <strong>%1$s</strong>."
 
 #: ../addons/ranks/myCRED-addon-ranks.php:580
 #: ../addons/ranks/myCRED-addon-ranks.php:633
 msgid "Rank Title"
-msgstr "階級のタイトル"
+msgstr "ランクのタイトル"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:581
 msgid "Logo"
@@ -2876,19 +2876,19 @@ msgstr "最大 %plural%"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:646
 msgid "Rank Settings"
-msgstr "階級の設定"
+msgstr "ランクの設定"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:668
 msgid "Minimum %plural% to reach this rank"
-msgstr "この階級に到達する最小 %plural%"
+msgstr "このランクに到達する最小 %plural%"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:672
 msgid "Maximum %plural% to be included in this rank"
-msgstr "この階級に含まれる最大 %plural%"
+msgstr "このランクに含まれる最大 %plural%"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:679
 msgid "All Published Ranks"
-msgstr "全ての公開階級"
+msgstr "全ての公開ランク"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:685
 #: ../addons/ranks/myCRED-addon-ranks.php:687
@@ -2897,11 +2897,11 @@ msgstr "設定されていません"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:692
 msgid "No Ranks found"
-msgstr "階級が見つかりません"
+msgstr "ランクが見つかりません"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:750
 msgid "Rank Features"
-msgstr "階級の特徴"
+msgstr "ランクの特徴"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:754
 msgid "%plural% requirement"
@@ -2940,22 +2940,22 @@ msgid ""
 "If you want to create a template archive for each rank, you must select to "
 "have ranks public. Defaults to disabled."
 msgstr ""
-"各階級のテンプレートのアーカイブを作成する場合、階級の公開を選択する必要があ"
-"ります。既定では無効になっています。"
+"各ランクのテンプレートのアーカイブを作成する場合、ランクの公開を選択する必要"
+"があります。既定では無効になっています。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:770
 msgid "Rank Basis"
-msgstr "階級の基礎"
+msgstr "ランクの基礎"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:773
 msgid "Users are ranked according to their current balance."
-msgstr "ユーザーは現在の残高に応じて階級付けされます。"
+msgstr "ユーザーは現在の残高に応じてランク付けされます。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:776
 msgid ""
 "Users are ranked according to the total amount of %_plural% they have "
 "accumulated."
-msgstr "ユーザーは、蓄積した %_plural% の総量に応じて階級付けされます。"
+msgstr "ユーザーは、蓄積した %_plural% の総量に応じてランク付けされます。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:780
 #: ../addons/ranks/myCRED-addon-ranks.php:785
@@ -2977,7 +2977,7 @@ msgid ""
 "setup your ranks!"
 msgstr ""
 "一度、ユーザーの合計が計算されると、ユーザーは適切な役割に割り当てられます。"
-"この理由から、最初に階級を設定することを強くお勧めします。"
+"この理由から、最初にランクを設定することを強くお勧めします。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:784
 msgid ""
@@ -2995,7 +2995,7 @@ msgstr "アーカイブURL"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:793
 msgid "Ignored if Ranks are not public"
-msgstr "階級がパブリックでない場合は無視されます"
+msgstr "ランクがパブリックでない場合は無視されます"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:796
 msgid "Display Order"
@@ -3014,8 +3014,8 @@ msgid ""
 "Select in what order ranks should be displayed in your admin area and/or "
 "front if ranks are \"Public\""
 msgstr ""
-"階級が\"パブリック\"の場合、階級順を管理エリアおよび/または前面に表示すべきか"
-"選択してください"
+"ランクが\"パブリック\"の場合、ランク順を管理エリアおよび/または前面に表示すべ"
+"きか選択してください"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:823
 #: ../modules/mycred-module-buddypress.php:364
@@ -3040,7 +3040,7 @@ msgstr "\"プロフィール\"タブの下およびプロフィールのヘッ�
 
 #: ../addons/ranks/myCRED-addon-ranks.php:829
 msgid "Rank in BuddyPress"
-msgstr "BuddyPress の階級"
+msgstr "BuddyPress のランク"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:897
 msgid "Script Communication Error"
@@ -3048,11 +3048,11 @@ msgstr "スクリプトの通信エラー"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:947
 msgid "Rank Post Type"
-msgstr "投稿タイプの階級"
+msgstr "投稿タイプのランク"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:951
 msgid "No. of ranks"
-msgstr " 階級数"
+msgstr "ランク数"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:955
 #: ../modules/mycred-module-log.php:372
@@ -3063,11 +3063,11 @@ msgstr "アクション"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:956
 msgid "Remove All Ranks"
-msgstr "全ての階級を削除"
+msgstr "全てのランクを削除"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:956
 msgid "Assign Ranks to Users"
-msgstr "ユーザーに階級を割り当てる"
+msgstr "ユーザーにランクを割り当てる"
 
 #: ../addons/ranks/includes/mycred-rank-functions.php:181
 msgid "mycred_get_users_rank() : Missing required user id"
@@ -3075,12 +3075,12 @@ msgstr "mycred_get_users_rank() : 必要なユーザーIDがありません"
 
 #: ../addons/ranks/includes/mycred-rank-functions.php:191
 msgid "no rank"
-msgstr "階級なし"
+msgstr "ランクなし"
 
 #: ../addons/ranks/includes/mycred-rank-shortcodes.php:58
 #: ../addons/ranks/includes/mycred-rank-shortcodes.php:134
 msgid "No users found with this rank"
-msgstr "この階級のユーザーが見つかりません"
+msgstr "このランクのユーザーが見つかりません"
 
 #: ../addons/ranks/includes/mycred-rank-shortcodes.php:63
 #: ../includes/mycred-shortcodes.php:352 ../includes/mycred-shortcodes.php:355
@@ -3091,7 +3091,7 @@ msgstr "エラー"
 
 #: ../addons/ranks/includes/mycred-rank-shortcodes.php:63
 msgid "Rank ID is required!"
-msgstr "階級 IDが必要です。"
+msgstr "ランクIDが必要です。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:49
 msgid "Purchase of %link_with_title%"
@@ -3119,7 +3119,7 @@ msgstr "お支払いはありません。チャージしてください。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:333
 msgid "Pay Content Author."
-msgstr "コンテンツ著者に支払います。"
+msgstr "コンテンツ著作者に支払います。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:339
 #: ../includes/mycred-overview.php:141 ../includes/mycred-overview.php:148
@@ -3137,15 +3137,15 @@ msgstr "投稿の種類はコンマ区切りリストで販売することがで
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:375
 msgid "Percentage to pay Author"
-msgstr "著者への支払いの割合"
+msgstr "著作者へ支払う割合"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:377
 msgid ""
 "Percentage of the price to pay the author. Can not be zero and is ignored if "
 "authors are not paid."
 msgstr ""
-"著者への支払う金額の割合です。著者に支払われていない場合は無視されますが、0に"
-"することはできません。"
+"著作者へ支払う金額の割合です。著作者に支払われていない場合は無視されますが、0"
+"にすることはできません。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:385
 msgid "Defaults"
@@ -3153,11 +3153,11 @@ msgstr "規定値"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:393
 msgid "Allow authors to change price."
-msgstr "著者は価格を変更することができます。"
+msgstr "著作者は価格を変更することができます。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:402
 msgid "Allow authors to change button label."
-msgstr "著者はボタンのラベルを変更することができます。"
+msgstr "著作者はボタンのラベルを変更することができます。"
 
 #: ../addons/sell-content/myCRED-addon-sell-content.php:406
 msgid "Purchases expire after"
@@ -3826,7 +3826,7 @@ msgstr "\"設定の編集\"できる方を対象から除外します。"
 #: ../includes/mycred-install.php:567
 #: ../modules/mycred-module-settings.php:389
 msgid "Exclude those who can \"Edit Users %plural%\"."
-msgstr "\"ユーザー %plural% の編集\"できる方を対象から除外します。"
+msgstr "\"ユーザー%plural%の編集\"できる方を対象から除外します。"
 
 #: ../includes/mycred-install.php:570
 #: ../modules/mycred-module-settings.php:393
@@ -4497,7 +4497,7 @@ msgstr "アドオンの無効化"
 
 #: ../modules/mycred-module-addons.php:285
 msgid "Add-ons can expand your current installation with further features."
-msgstr "アドオンは現在のインストールのさらなる機能を拡張できます。"
+msgstr "アドオンは、機能を追加することで現在のインストールを拡張できます。"
 
 #: ../modules/mycred-module-addons.php:306
 msgid "You can find more add-ons in our %s."
@@ -4619,83 +4619,83 @@ msgstr "フック"
 
 #: ../modules/mycred-module-hooks.php:87
 msgid "%plural% for registrations"
-msgstr "登録 %plural%"
+msgstr "登録で %plural%"
 
 #: ../modules/mycred-module-hooks.php:88
 msgid "Award %_plural% for users joining your website."
-msgstr "あなたのウェブサイトに参加するユーザーに %_plural% 賞を与えます。"
+msgstr "あなたのウェブサイトに参加するユーザーに %_plural% を与えます。"
 
 #: ../modules/mycred-module-hooks.php:94
 msgid "%plural% for logins"
-msgstr "ログイン %plural%"
+msgstr "ログインで %plural%"
 
 #: ../modules/mycred-module-hooks.php:95
 msgid ""
 "Award %_plural% for logging in to your website. You can also set an optional "
 "limit."
 msgstr ""
-"あなたのウェブサイトにログインする方に %_plural% 賞を与えます。オプションの制"
-"限を設定することもできます。"
+"あなたのウェブサイトにログインする方に %_plural% を与えます。オプションで制限"
+"を設定することもできます。"
 
 #: ../modules/mycred-module-hooks.php:101
 msgid "%plural% for publishing content"
-msgstr "コンテンツの公開 %plural%"
+msgstr "コンテンツ公開で %plural%"
 
 #: ../modules/mycred-module-hooks.php:102
 msgid ""
 "Award %_plural% for publishing content on your website. If your custom post "
 "type is not shown bellow, make sure it is set to \"Public\"."
 msgstr ""
-"あなたのウェブサイトにコンテンツを公開する方に %_plural% 賞を与えます。カスタ"
-"ム投稿の種類が以下に示されていない場合、\"パブリック\"に設定されていることを"
-"確認してください。"
+"あなたのウェブサイトにコンテンツを公開する方に %_plural% を与えます。カスタム"
+"投稿の種類が以下に示されていない場合、\"パブリック\"に設定されていることを確"
+"認してください。"
 
 #: ../modules/mycred-module-hooks.php:108
 msgid "%plural% for comments"
-msgstr "コメント %plural%"
+msgstr "コメントで %plural%"
 
 #: ../modules/mycred-module-hooks.php:108
 msgid "%plural% for Disqus comments"
-msgstr "Disqus コメント %plural%"
+msgstr "Disqus コメントで %plural%"
 
 #: ../modules/mycred-module-hooks.php:109
 msgid "Award %_plural% for making comments."
-msgstr "コメントを作成した方への %_plural% 賞を与えます。"
+msgstr "コメントを作成した方に %_plural% を与えます。"
 
 #: ../modules/mycred-module-hooks.php:115
 msgid "%plural% for clicking on links"
-msgstr "リンクをクリック %plural%"
+msgstr "リンクをクリックで %plural%"
 
 #: ../modules/mycred-module-hooks.php:116
 msgid ""
 "Award %_plural% to users who clicks on links generated by the [mycred_link] "
 "shortcode."
 msgstr ""
-"[mycred_link] ショートコードで生成したリンクをクリックしたユーザーへの "
-"%_plural% 賞を与えます。"
+"[mycred_link] ショートコードで生成したリンクをクリックしたユーザーに %_plural"
+"% を与えます。"
 
 #: ../modules/mycred-module-hooks.php:122
 msgid "%plural% for viewing Videos"
-msgstr "動画を表示 %plural%"
+msgstr "動画表示で %plural%"
 
 #: ../modules/mycred-module-hooks.php:123
 msgid ""
 "Award %_plural% to users who watches videos embedded using the "
 "[mycred_video] shortcode."
 msgstr ""
-"[mycred_video] ショートコードを使用して埋め込んだ動画を見たユーザーへの "
-"%_plural% 賞を与えます。"
+"[mycred_video] ショートコードを使用して埋め込んだ動画を見たユーザーに "
+"%_plural% を与えます。"
 
 #: ../modules/mycred-module-hooks.php:129
 msgid "%plural% for referrals"
-msgstr "紹介 %plural%"
+msgstr "紹介で %plural%"
 
 #: ../modules/mycred-module-hooks.php:130
 msgid ""
 "Award %_plural% to users who refer either visitors and/or new member signups."
 msgstr ""
-"訪問者 及び/または サインアップする新規会員を紹介したユーザーへの %_plural% "
-"賞を与えます。"
+"ビジター 及び/または サインアップする新規会員を紹介したユーザーに %_plural% "
+"を与えます。"
 
 #: ../modules/mycred-module-hooks.php:163
 msgid "%s Hooks"
@@ -4706,8 +4706,8 @@ msgid ""
 "Hooks are instances where %_plural% are awarded or deducted from a user, "
 "depending on their actions around your website."
 msgstr ""
-"フックは %_plural% が、あなたのウェブサイト周りでの行動によって、ユーザーから"
-"与えられたり差し引いたりするインスタンスです。"
+"フックは、あなたのウェブサイト上での行動によって、 %_plural% をユーザーに与え"
+"たり引いたりするインスタンスです。"
 
 #: ../modules/mycred-module-hooks.php:326
 #: ../modules/mycred-module-hooks.php:638
@@ -4850,7 +4850,7 @@ msgid ""
 "%plural% is to be awarded even when comment authors reply to their own "
 "comment."
 msgstr ""
-"%plural% は、コメント作成者に自分のコメントに返信する場合にも与えられます。"
+"%plural% は、自分のコメントに返信する場合でも、コメント投稿者に与えられます。"
 
 #: ../modules/mycred-module-hooks.php:1193
 msgid "Once for each unique URL"
@@ -4865,8 +4865,8 @@ msgid ""
 "The default amount to award for clicking on links. You can override this in "
 "the shortcode."
 msgstr ""
-"リンクをクリックする人に与える既定の金額です。これはショートコードで上書きで"
-"きます。"
+"リンクをクリックする人に与える既定の額です。これはショートコードで上書きでき"
+"ます。"
 
 #: ../modules/mycred-module-hooks.php:1393
 msgid "Custom tags: %url%, %title% or %id%."
@@ -4886,8 +4886,8 @@ msgid ""
 msgstr ""
 "mycred_link ショートコードが使用されているときにIDが設定されていない場合、"
 "href の下で設定された値に基づいて、自動的に一つのショートコードを生成しま"
-"す。\"共有\"コンテンツのためにこの機能を使用している場合、IDによって制限する"
-"ことをお勧めします。"
+"す。\"共有\"コンテンツでこの機能を使用している場合、IDによって制限することを"
+"お勧めします。"
 
 #: ../modules/mycred-module-hooks.php:1406
 #: ../modules/mycred-module-hooks.php:1762
@@ -4900,19 +4900,19 @@ msgstr "動画再生により与える金額"
 
 #: ../modules/mycred-module-hooks.php:1736
 msgid "Award Logic"
-msgstr "付与ロジック"
+msgstr "付与の仕組み"
 
 #: ../modules/mycred-module-hooks.php:1738
 msgid "Select when %_plural% should be awarded or deducted."
-msgstr "%_plural% 付与または差し引く必要があるときに選択します。"
+msgstr "%_plural% を付与または差し引く必要があるときに選択します。"
 
 #: ../modules/mycred-module-hooks.php:1739
 msgid "Play - As soon as video starts playing."
-msgstr "再生 - すぐに動画の再生が開始されます。"
+msgstr "再生 - 動画を再生したらすぐに付与する。"
 
 #: ../modules/mycred-module-hooks.php:1740
 msgid "Full - First when the entire video has played."
-msgstr "フル - 全動画が再生されるときの最初。"
+msgstr "フル -動画が最後まで再生されたときの一度目。"
 
 #: ../modules/mycred-module-hooks.php:1741
 msgid "Interval - For each x number of seconds watched."
@@ -4957,7 +4957,7 @@ msgstr "リンク"
 
 #: ../modules/mycred-module-hooks.php:2206
 msgid "Referring Visitors"
-msgstr "訪問者の参照"
+msgstr "ビジターの参照"
 
 #: ../modules/mycred-module-hooks.php:2230
 #: ../modules/mycred-module-hooks.php:2259
@@ -4971,7 +4971,7 @@ msgstr "サインアップを参照"
 
 #: ../modules/mycred-module-hooks.php:2238
 msgid "Visitors who have Cookies disabled will not award %_plural%."
-msgstr "Cookies を無効化にしている訪問者は %_plural% を与えられません。"
+msgstr "Cookies を無効化にしているビジターには %_plural% を与えられません。"
 
 #: ../modules/mycred-module-hooks.php:2265
 msgid "Registrations are disabled."
@@ -5002,7 +5002,8 @@ msgstr "IPの制限"
 msgid ""
 "The number of times each IP address grants %_plural%. Use zero for unlimited."
 msgstr ""
-"各IPアドレスを %_plural% 付与する回数です。無制限にするには 0 を使用します。"
+"各IPアドレスに対して %_plural% を付与する回数です。無制限にするには 0 を使用"
+"します。"
 
 #: ../modules/mycred-module-hooks.php:2294
 #: ../modules/mycred-module-hooks.php:2327
@@ -5081,7 +5082,7 @@ msgstr "エントリの更新"
 #: ../modules/mycred-module-log.php:290
 #: ../modules/mycred-module-settings.php:424
 msgid "Entries"
-msgstr "複数のエントリ"
+msgstr "のエントリ"
 
 #: ../modules/mycred-module-log.php:305 ../modules/mycred-module-log.php:392
 #: ../modules/mycred-module-log.php:643
@@ -5152,7 +5153,8 @@ msgstr "%s の設定"
 
 #: ../modules/mycred-module-settings.php:321
 msgid "Adjust your core or add-on settings. Follow us on: %s %s"
-msgstr "コアまたはアドオンの設定を調整します。 これらに従ってください: %s %s"
+msgstr ""
+"コアまたはアドオンの設定を調整します。 私たちをフォローしてください: %s %s"
 
 #: ../modules/mycred-module-settings.php:326
 msgid "Core Settings"
@@ -5236,7 +5238,7 @@ msgstr "CSVエクスポート"
 
 #: ../modules/mycred-module-settings.php:465
 msgid "Default"
-msgstr "デフォルト"
+msgstr "既定"
 
 #: ../modules/mycred-module-settings.php:468
 #: ../modules/mycred-module-settings.php:487
