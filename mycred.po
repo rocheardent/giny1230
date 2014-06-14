@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: myCRED\n"
 "Report-Msgid-Bugs-To: http://mycred.me\n"
 "POT-Creation-Date: 2014-03-20 14:26+0100\n"
-"PO-Revision-Date: 2014-06-13 10:10+0800\n"
+"PO-Revision-Date: 2014-06-14 17:06+0800\n"
 "Last-Translator: Yoshihiro Imamura\n"
 "Language-Team: LANGUAGE <support@mycred.me>\n"
 "Language: ja_JP\n"
@@ -42,7 +42,7 @@ msgstr "概要 %s"
 
 #: ../mycred.php:530
 msgid "Awesome People"
-msgstr "素晴らしい人"
+msgstr "素晴らしい人々"
 
 #: ../mycred.php:615 ../mycred.php:639
 #: ../addons/ranks/myCRED-addon-ranks.php:225
@@ -154,7 +154,7 @@ msgstr ""
 
 #: ../abstracts/mycred-abstract-hook.php:79
 msgid "This Hook has no settings"
-msgstr "このフックは設定されていません。"
+msgstr "このフックは設定されていません"
 
 #: ../abstracts/mycred-abstract-hook.php:157
 #: ../modules/mycred-module-hooks.php:1192
@@ -232,10 +232,10 @@ msgid ""
 "interest rate leads to users gaining %_plural% while a negative interest "
 "rate will to users loosing %_plural%."
 msgstr ""
-"ユーザーのC-Point残高  %_plural% に金利を適用しますこのサービスが有効である"
-"間、年利に適応した複利計算で日々積算されます。金利が加算される場合、ユーザー"
-"は%_plural%を増やすことができます。 マイナス金利の場合、ユーザーは %_plural% "
-"を失うことになります。"
+"ユーザーのC-Point残高%_plural%に金利を適用しますこのサービスが有効である間、"
+"年利に適応した複利計算で日々積算されます。金利が加算される場合、ユーザー"
+"は%_plural%を増やすことができます。 マイナス金利の場合、ユーザーは%_plural%を"
+"失うことになります。"
 
 #: ../addons/banking/myCRED-addon-banking.php:110
 msgid "Recurring Payouts"
@@ -246,8 +246,8 @@ msgid ""
 "Give your users %_plural% on a regular basis with the option to set the "
 "number of times you want this payout to run (cycles)."
 msgstr ""
-"この支払いは、実行する回数(サイクル)を設定するオプションを定期的に %_plural% "
-"をユーザーに与えます。"
+"この支払いは、実行する回数(サイクル)を設定するオプションを定期的に%_plural%を"
+"ユーザーに与えます。"
 
 #: ../addons/banking/myCRED-addon-banking.php:156
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:473
@@ -330,7 +330,7 @@ msgstr "毎年"
 
 #: ../addons/banking/services/mycred-bank-service-interest.php:25
 msgid "%plural% interest rate payment"
-msgstr "%plural% 金利配当"
+msgstr "%plural%金利配当"
 
 #: ../addons/banking/services/mycred-bank-service-interest.php:275
 msgid "Interest Rate"
@@ -406,7 +406,7 @@ msgstr "実行されていません"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:219
 msgid "Pay Users"
-msgstr "支払ったユーザー"
+msgstr "ユーザーに支払う"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:222
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:653
@@ -437,7 +437,7 @@ msgstr "無制限にするには -1 を設定します"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:238
 msgid "Last Run / Activated"
-msgstr "最後に実行/活性化"
+msgstr "最後に実行/有効化"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:241
 msgid ""
@@ -446,7 +446,7 @@ msgid ""
 "with a \"Daily\" interval, the first payout will occur first thing in the "
 "morning."
 msgstr ""
-"どのくらいの頻度で %_plural% を行うか選択します。このサービスが有効になってい"
+"どのくらいの頻度で%_plural%を与えるか選択します。このサービスが有効になってい"
 "る場合、最初のお支払いは次の期の始めになることに注意してください。そのため、"
 "頻度を\"毎日\"にしている場合、最初のお支払いは朝一番に発生します。"
 
@@ -457,8 +457,8 @@ msgid ""
 "service will deactivate itself. Use -1 to run unlimited times."
 msgstr ""
 "サイクルでは、このサービスを実行する頻度を選択できます。サイクルが実行される"
-"たびに値がゼロになるまで減少し、値が0になったらサービスは非アクティブになりま"
-"す。無制限に実行するには、-1を使用します。"
+"たびに値がゼロになるまで減少し、値が0になったらサービスは無効になります。無制"
+"限に実行するには、-1を使用します。"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:243
 msgid "Important"
@@ -470,10 +470,9 @@ msgid ""
 "if you deactivate while there are cycles left, this service will continue on "
 "when it gets re-activated. Set cycles to zero to reset."
 msgstr ""
-"このサービスを非アクティブにすることにより、いつでも、お支払いを停止すること"
-"ができます。サイクルが残っている間に非アクティブにする場合、このサービスが再"
-"アクティブ化されたときに継続することに注意してください。リセットするにはサイ"
-"クルに0を設定します。"
+"このサービスを無効にすることにより、いつでも、お支払いを停止することができま"
+"す。サイクルが残っている間に無効にする場合、このサービスが再度有効にされたと"
+"きに継続することに注意してください。リセットするにはサイクルに0を設定します。"
 
 #: ../addons/banking/services/mycred-bank-service-payouts.php:245
 #: ../includes/mycred-install.php:559
@@ -530,11 +529,13 @@ msgstr "buyCRED"
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:340
 #: ../addons/ranks/myCRED-addon-ranks.php:610
 msgid "Minimum %plural%"
-msgstr "最小 %plural%"
+msgstr "最小%plural%"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:344
 msgid "Minimum amount of %plural% a user must purchase. Will default to 1."
-msgstr "ユーザーは%plural% の最小量を購入する必要があります。既定では1です。"
+msgstr ""
+"ユーザーが%plural%を購入する際の最小の値で、このポイント数以上を購入する必要"
+"があります。既定では1です。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:349
 #: ../addons/coupons/myCRED-addon-coupons.php:315
@@ -578,19 +579,19 @@ msgstr "キャンセルページ"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:419
 msgid "Show seperate log for %_plural% purchases."
-msgstr "%_plural% を購入のために別々のログを表示します。"
+msgstr "%_plural%購入のために別々のログを表示します。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:421
 msgid "Gifting"
-msgstr "ギフト"
+msgstr "ギフト購入"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:423
 msgid "Allow users to buy %_plural% for other users."
-msgstr "他のユーザーのために %_plural % を購入するユーザーを許可します。"
+msgstr "他のユーザーのために%_plural%を購入するユーザーを許可します。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:424
 msgid "Allow users to buy %_plural% for content authors."
-msgstr "コンテンツ製作者のために %_plural% を購入するユーザーを許可します。"
+msgstr "コンテンツ製作者のために%_plural%を購入するユーザーを許可します。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:484
 msgid "%s Payment Gateways"
@@ -605,7 +606,7 @@ msgstr "buyCRED の設定"
 msgid ""
 "Select the payment gateways you want to offer your users to buy %plural%."
 msgstr ""
-"%plural% を購入するユーザーに提供したいお支払いゲートウェイを選択します。"
+"%plural%を購入するユーザーに提供したいお支払いゲートウェイを選択します。"
 
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:497
 msgid "Last Payment Notification"
@@ -1094,13 +1095,13 @@ msgstr "ユーザーが購入している商品の説明。"
 #: ../addons/buy-creds/gateways/paypal-standard.php:333
 #: ../addons/buy-creds/gateways/skrill.php:346
 msgid "%plural% Exchange Rate"
-msgstr "%plural% 為替レート"
+msgstr "%plural%為替レート"
 
 #: ../addons/buy-creds/gateways/bitpay.php:286
 #: ../addons/buy-creds/gateways/paypal-standard.php:336
 #: ../addons/buy-creds/gateways/skrill.php:349
 msgid "Select currency"
-msgstr "通貨を選択します"
+msgstr "通貨を選択してください"
 
 #: ../addons/buy-creds/gateways/bitpay.php:289
 msgid "Transaction Speed"
@@ -1158,7 +1159,7 @@ msgstr "インテグリティキーを注文"
 
 #: ../addons/buy-creds/gateways/netbilling.php:257
 msgid "Found under Step 12 on the Fraud Defense page."
-msgstr "詐欺防衛ページのステップ 12の中にあります。"
+msgstr "Fraud Defenseページのステップ 12の中にあります。"
 
 #: ../addons/buy-creds/gateways/netbilling.php:273
 msgid "Postback CGI URL"
@@ -1265,10 +1266,10 @@ msgid ""
 "Make sure the \"Notification URL\" is set to the above address and that you "
 "have selected \"Receive IPN messages (Enabled)\"."
 msgstr ""
-"このゲートウェイを機能させるためには、PayPalアカウントにログインし、\"プロ"
-"フィール\" > \"ツールを販売\" > \"即時支払い通知\"を有効にする必要がありま"
-"す。 \"通知URL\"は上記のアドレスが設定されていることを確認し、\"IPNメッセージ"
-"を受信（有効）\"を選択していることを確認します。"
+"このゲートウェイを機能させるためには、PayPalアカウントにログインし、マイアカ"
+"ウントタブの\"個人設定\" > \"販売ツール\" > \"即時支払い通知\"を有効にする必"
+"要があります。 \"通知URL\"は上記のアドレスが設定されていることを確認し、\"IPN"
+"メッセージを受信する(有効)\"を選択していることを確認します。"
 
 #: ../addons/buy-creds/gateways/skrill.php:284
 msgid "Product:"
@@ -1276,7 +1277,7 @@ msgstr "製品："
 
 #: ../addons/buy-creds/gateways/skrill.php:293
 msgid "Gift to:"
-msgstr "ギフト："
+msgstr "ギフト先："
 
 #: ../addons/buy-creds/gateways/skrill.php:294
 msgid "(author)"
@@ -1284,7 +1285,7 @@ msgstr "(著作者)"
 
 #: ../addons/buy-creds/gateways/skrill.php:326
 msgid "Merchant Account Email"
-msgstr "商アカウントのEメールアドレス"
+msgstr "マーチャントアカウントのEメールアドレス"
 
 #: ../addons/buy-creds/gateways/skrill.php:332
 msgid "Secret Word"
@@ -1294,7 +1295,7 @@ msgstr "秘密の合言葉"
 msgid ""
 "You can set your secret word under \"Merchant Tools\" in your Skrill Account."
 msgstr ""
-"Skrill アカウントの\"マーチャントツール\"の下で、秘密の合言葉を設定できます。"
+"Skrill アカウントの\"Merchant Tools\"の下で、秘密の合言葉を設定できます。"
 
 #: ../addons/buy-creds/gateways/skrill.php:352
 msgid "Confirmation Email"
@@ -1328,7 +1329,7 @@ msgstr ""
 #: ../addons/buy-creds/gateways/skrill.php:366
 #: ../addons/buy-creds/gateways/zombaio.php:306
 msgid "Logo URL"
-msgstr "ロゴ URL"
+msgstr "ロゴURL"
 
 #: ../addons/buy-creds/gateways/skrill.php:368
 msgid ""
@@ -1336,7 +1337,7 @@ msgid ""
 "integration results we recommend you use logos with dimensions up to 200px "
 "in width and 50px in height."
 msgstr ""
-"ゲートウェイの上部に使用したい画像のURLです。最高の結果のために、幅 200 px、"
+"ゲートウェイの上部に使用したい画像のURLです。効果的なロゴとして、幅 200 px、"
 "高さ 50pxの最大寸法のロゴを使用することをオススメします。"
 
 #: ../addons/buy-creds/gateways/skrill.php:371
@@ -1373,19 +1374,19 @@ msgstr ""
 
 #: ../addons/buy-creds/gateways/zombaio.php:154
 msgid "Checking Transaction ID"
-msgstr "取引 IDのチェック"
+msgstr "取引IDのチェック"
 
 #: ../addons/buy-creds/gateways/zombaio.php:160
 msgid "Duplicate Transaction ID"
-msgstr "重複している取引 ID"
+msgstr "重複している取引ID"
 
 #: ../addons/buy-creds/gateways/zombaio.php:288
 msgid "Site ID"
-msgstr "サイト ID"
+msgstr "サイトID"
 
 #: ../addons/buy-creds/gateways/zombaio.php:294
 msgid "GW Password"
-msgstr "GW パスワード"
+msgstr "GWパスワード"
 
 #: ../addons/buy-creds/gateways/zombaio.php:300
 msgid "Pricing ID"
@@ -1393,7 +1394,7 @@ msgstr "IDの価格"
 
 #: ../addons/buy-creds/gateways/zombaio.php:312
 msgid "IP Verification"
-msgstr "IP の検証"
+msgstr "IPの検証"
 
 #: ../addons/buy-creds/gateways/zombaio.php:315
 msgid "Do not verify that callbacks are coming from Zombaio."
@@ -1497,7 +1498,7 @@ msgstr "値"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:158
 msgid "Usage"
-msgstr "使い方"
+msgstr "使用"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:159
 #: ../addons/transfer/myCRED-addon-transfer.php:243
@@ -1533,7 +1534,7 @@ msgstr "有効期限"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:213
 msgid "In %s time"
-msgstr "%s 時間後"
+msgstr "%s 後"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:254
 msgid "Coupon Setup"
@@ -1549,7 +1550,7 @@ msgstr "クーポンの要件"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:312
 msgid "The amount of %plural% this coupon is worth."
-msgstr "このクーポンは、%plural% 分に相当します。"
+msgstr "%plural%がこのクーポンの価値です。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:316
 msgid "Select the point type that this coupon is applied."
@@ -1557,7 +1558,7 @@ msgstr "適用したいクーポンを選択してください。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:321
 msgid "Expire"
-msgstr "有効期限切れ"
+msgstr "有効期限"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:324
 msgid ""
@@ -1576,7 +1577,7 @@ msgid ""
 "will be automatically trashed once this maximum is reached!"
 msgstr ""
 "このクーポンを使用するユーザー全体での最大で使用できる回数です。注意：この最"
-"大数になると、クーポンは自動的にゴミ箱にされます。"
+"大数に到達すると、クーポンは自動的にゴミ箱にされます。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:360
 msgid "User Maximum"
@@ -1591,20 +1592,20 @@ msgid ""
 "Optional minimum balance a user must have in order to use this coupon. Use "
 "zero to disable."
 msgstr ""
-"オプションの最低残高は、このクーポンを使用するためにユーザーが持つ必要がある"
-"最低残高の値です。無効にするには 0 を使用します。"
+"オプションの最低残高は、このクーポンを使用するためにユーザーが所持する必要が"
+"ある最低残高の値です。無効にするには 0 を使用します。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:399
 msgid "Maximum Balance"
-msgstr "最大残高"
+msgstr "最高残高"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:402
 msgid ""
 "Optional maximum balance a user can have in order to use this coupon. Use "
 "zero to disable."
 msgstr ""
-"オプションの最大残高は、このクーポンを使用するためにユーザーが持つことができ"
-"る最大残高の値です。無効にするには 0 を使用します。"
+"オプションの最高残高は、このクーポンを使用するためにユーザーが所持することが"
+"できる最高残高の値です。無効にするには 0 を使用します。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:444
 msgid ""
@@ -1655,14 +1656,14 @@ msgstr ""
 
 #: ../addons/coupons/myCRED-addon-coupons.php:475
 msgid "Maximum Balance Message"
-msgstr "最大残高メッセージ"
+msgstr "最高残高メッセージ"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:479
 msgid ""
 "Message to show when a user does not meet the maximum balance requirement. "
 "(if used)"
 msgstr ""
-"クーポンを使用した際、ユーザーが最大残高要件を満たしていない場合に表示する"
+"クーポンを使用した際、ユーザーが最高残高要件を満たしていない場合に表示する"
 "メッセージです。"
 
 #: ../addons/coupons/myCRED-addon-coupons.php:482
@@ -1733,15 +1734,15 @@ msgstr "ユーザー残高を変更"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:183
 msgid "user gains %_plural%"
-msgstr "ユーザー収益 %_plural%"
+msgstr "ユーザー収益%_plural%"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:184
 msgid "user lose %_plural%"
-msgstr "ユーザー損失 %_plural%"
+msgstr "ユーザー損失%_plural%"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:185
 msgid "users balance reaches zero"
-msgstr "ユーザー残高が 0 に到達"
+msgstr "ユーザー残高が0に到達"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:186
 msgid "users balance goes minus"
@@ -1765,7 +1766,7 @@ msgstr "buyCRED アドオン"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:202
 msgid "user buys %_plural%"
-msgstr "ユーザー購入 %_plural%"
+msgstr "ユーザー購入%_plural%"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:209
 msgid "Transfer Add-on"
@@ -1773,15 +1774,15 @@ msgstr "アドオンの転送"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:210
 msgid "user sends %_plural%"
-msgstr "ユーザー送信 %_plural%"
+msgstr "ユーザー送信%_plural%"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:211
 msgid "user receives %_plural%"
-msgstr "ユーザー受信 %_plural%"
+msgstr "ユーザー受信%_plural%"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:218
 msgid "Ranks Add-on"
-msgstr "アドオンの順位"
+msgstr "ランクアドオン"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:219
 msgid "user is demoted"
@@ -1911,7 +1912,7 @@ msgstr "この通知のインスタンスが見つかりません。"
 #: ../addons/email-notices/myCRED-addon-email-notices.php:645
 #: ../addons/email-notices/myCRED-addon-email-notices.php:647
 msgid "Sent To"
-msgstr "へ送信"
+msgstr "送信先"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:645
 #: ../addons/email-notices/myCRED-addon-email-notices.php:773
@@ -1987,17 +1988,17 @@ msgstr ""
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:902
 msgid "Email Notice Activated"
-msgstr "Eメール通知のアクティブ化"
+msgstr "Eメール通知を公開しました"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:903
 msgid "Email Notice Saved"
-msgstr "Eメール通知を保存"
+msgstr "Eメール通知を保存しました"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:904
 msgid ""
 "Email Notice Submitted for approval. View <a href=\"%1$s\">All Notices</a>."
 msgstr ""
-"承認のためにEメール通知を送信しました。<a href=\"%1$s\">全ての通知</a>を参照"
+"承認のためのEメール通知を送信しました。<a href=\"%1$s\">全ての通知</a>を参照"
 "してください。"
 
 #: ../addons/email-notices/myCRED-addon-email-notices.php:906
@@ -2735,11 +2736,11 @@ msgstr "テンプレート"
 msgid ""
 "Use %entry% to show the log entry in the notice and %amount% for the amount."
 msgstr ""
-"通知及び %amount% の総計のログエントリを表示するには、 %entry% を使用します。"
+"通知及び%amount%の総計のログエントリを表示するには、%entry%を使用します。"
 
 #: ../addons/notifications/myCRED-addon-notifications.php:180
 msgid "Transient Lifespan"
-msgstr "一時の存続期間"
+msgstr "一時的な存続期間"
 
 #: ../addons/notifications/myCRED-addon-notifications.php:184
 msgid ""
@@ -2828,11 +2829,11 @@ msgstr ""
 
 #: ../addons/ranks/myCRED-addon-ranks.php:519
 msgid "Rank Activated"
-msgstr "ランクの有効化"
+msgstr "ランクを有効にしました"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:520
 msgid "Rank Saved"
-msgstr "ランクの保存"
+msgstr "ランクを保存しました"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:521
 msgid "Rank Submitted for approval. View <a href=\"%1$s\">All Ranks</a>."
@@ -2880,11 +2881,11 @@ msgstr "ランクの設定"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:668
 msgid "Minimum %plural% to reach this rank"
-msgstr "このランクに到達する最小 %plural%"
+msgstr "このランクに到達する最小%plural%"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:672
 msgid "Maximum %plural% to be included in this rank"
-msgstr "このランクに含まれる最大 %plural%"
+msgstr "このランクに含まれる最大%plural%"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:679
 msgid "All Published Ranks"
@@ -2955,7 +2956,7 @@ msgstr "ユーザーは現在の残高に応じてランク付けされます。
 msgid ""
 "Users are ranked according to the total amount of %_plural% they have "
 "accumulated."
-msgstr "ユーザーは、蓄積した %_plural% の総量に応じてランク付けされます。"
+msgstr "ユーザーは、蓄積した%_plural%の総量に応じてランク付けされます。"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:780
 #: ../addons/ranks/myCRED-addon-ranks.php:785
@@ -3003,11 +3004,11 @@ msgstr "表示順序"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:803
 msgid "Ascending - Lowest rank to highest"
-msgstr "昇順 - 階級の最低から順番"
+msgstr "昇順 - ランクの最低から順番"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:804
 msgid "Descending - Highest rank to lowest"
-msgstr "降順 - 階級の最高から順番"
+msgstr "降順 - ランクの最高から順番"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:813
 msgid ""
@@ -3339,11 +3340,11 @@ msgstr "受信のログテンプレート"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:222
 msgid "Autofill Recipient"
-msgstr "受信者を自動入力"
+msgstr "受取人を自動入力"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:234
 msgid "Select what user details recipients should be autofilled by."
-msgstr "受信者を自動入力するべきか、ユーザーの詳細を選択します。"
+msgstr "自動入力するユーザーの詳細の受取人を選択します。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:237
 msgid "Reload"
@@ -3355,11 +3356,11 @@ msgstr "転送に成功したページを更新します。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:260
 msgid "Maximum Amount"
-msgstr "最大金額"
+msgstr "最大数"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:262
 msgid "This amount is ignored if no limits are imposed."
-msgstr "制限がない場合、この金額は無視されます。"
+msgstr "制限がない場合、この値は無視されます。"
 
 #: ../addons/transfer/myCRED-addon-transfer.php:265
 msgid "Form Templates"
@@ -4619,83 +4620,83 @@ msgstr "フック"
 
 #: ../modules/mycred-module-hooks.php:87
 msgid "%plural% for registrations"
-msgstr "登録で %plural%"
+msgstr "登録で%plural%付与"
 
 #: ../modules/mycred-module-hooks.php:88
 msgid "Award %_plural% for users joining your website."
-msgstr "あなたのウェブサイトに参加するユーザーに %_plural% を与えます。"
+msgstr "あなたのウェブサイトに参加するユーザーに%_plural%を与えます。"
 
 #: ../modules/mycred-module-hooks.php:94
 msgid "%plural% for logins"
-msgstr "ログインで %plural%"
+msgstr "ログインで%plural%付与"
 
 #: ../modules/mycred-module-hooks.php:95
 msgid ""
 "Award %_plural% for logging in to your website. You can also set an optional "
 "limit."
 msgstr ""
-"あなたのウェブサイトにログインする方に %_plural% を与えます。オプションで制限"
-"を設定することもできます。"
+"あなたのウェブサイトにログインする方に%_plural%を与えます。オプションで制限を"
+"設定することもできます。"
 
 #: ../modules/mycred-module-hooks.php:101
 msgid "%plural% for publishing content"
-msgstr "コンテンツ公開で %plural%"
+msgstr "コンテンツ公開で%plural%付与"
 
 #: ../modules/mycred-module-hooks.php:102
 msgid ""
 "Award %_plural% for publishing content on your website. If your custom post "
 "type is not shown bellow, make sure it is set to \"Public\"."
 msgstr ""
-"あなたのウェブサイトにコンテンツを公開する方に %_plural% を与えます。カスタム"
-"投稿の種類が以下に示されていない場合、\"パブリック\"に設定されていることを確"
-"認してください。"
+"あなたのウェブサイトにコンテンツを公開する方に%_plural%を与えます。カスタム投"
+"稿の種類が以下に示されていない場合、\"パブリック\"に設定されていることを確認"
+"してください。"
 
 #: ../modules/mycred-module-hooks.php:108
 msgid "%plural% for comments"
-msgstr "コメントで %plural%"
+msgstr "コメントで%plural%付与"
 
 #: ../modules/mycred-module-hooks.php:108
 msgid "%plural% for Disqus comments"
-msgstr "Disqus コメントで %plural%"
+msgstr "Disqus コメントで%plural%付与"
 
 #: ../modules/mycred-module-hooks.php:109
 msgid "Award %_plural% for making comments."
-msgstr "コメントを作成した方に %_plural% を与えます。"
+msgstr "コメントを作成した方に%_plural%を与えます。"
 
 #: ../modules/mycred-module-hooks.php:115
 msgid "%plural% for clicking on links"
-msgstr "リンクをクリックで %plural%"
+msgstr "リンクをクリックで%plural%付与"
 
 #: ../modules/mycred-module-hooks.php:116
 msgid ""
 "Award %_plural% to users who clicks on links generated by the [mycred_link] "
 "shortcode."
 msgstr ""
-"[mycred_link] ショートコードで生成したリンクをクリックしたユーザーに %_plural"
-"% を与えます。"
+"[mycred_link] ショートコードで生成したリンクをクリックしたユーザーに%_plural%"
+"を与えます。"
 
 #: ../modules/mycred-module-hooks.php:122
 msgid "%plural% for viewing Videos"
-msgstr "動画表示で %plural%"
+msgstr "動画表示で%plural%付与"
 
 #: ../modules/mycred-module-hooks.php:123
 msgid ""
 "Award %_plural% to users who watches videos embedded using the "
 "[mycred_video] shortcode."
 msgstr ""
-"[mycred_video] ショートコードを使用して埋め込んだ動画を見たユーザーに "
-"%_plural% を与えます。"
+"[mycred_video] ショートコードを使用して埋め込んだ動画を見たユーザーに%_plural"
+"%を与えます。"
 
 #: ../modules/mycred-module-hooks.php:129
 msgid "%plural% for referrals"
-msgstr "紹介で %plural%"
+msgstr "紹介で%plural%付与"
 
 #: ../modules/mycred-module-hooks.php:130
 msgid ""
 "Award %_plural% to users who refer either visitors and/or new member signups."
 msgstr ""
-"ビジター 及び/または サインアップする新規会員を紹介したユーザーに %_plural% "
-"を与えます。"
+"ビジター 及び/または サインアップする新規会員を紹介したユーザーに%_plural%を"
+"与えます。"
 
 #: ../modules/mycred-module-hooks.php:163
 msgid "%s Hooks"
@@ -4706,8 +4707,8 @@ msgid ""
 "Hooks are instances where %_plural% are awarded or deducted from a user, "
 "depending on their actions around your website."
 msgstr ""
-"フックは、あなたのウェブサイト上での行動によって、 %_plural% をユーザーに与え"
-"たり引いたりするインスタンスです。"
+"フックは、あなたのウェブサイト上での行動によって、%_plural%をユーザーに与えた"
+"り引いたりするインスタンスです。"
 
 #: ../modules/mycred-module-hooks.php:326
 #: ../modules/mycred-module-hooks.php:638
@@ -4831,8 +4832,8 @@ msgid ""
 "The number of comments per post that grants %_plural% to the comment author. "
 "Use zero for unlimited."
 msgstr ""
-"コメント作成者に %_plural% が与えられる投稿毎のコメント数の上限です。無制限に"
-"するには 0 を使用します。"
+"コメント作成者に%_plural%が与えられる投稿毎のコメント数の上限です。無制限にす"
+"るには 0 を使用します。"
 
 #: ../modules/mycred-module-hooks.php:1115
 msgid "Limit per day"
@@ -4842,15 +4843,15 @@ msgstr "一日当たりの制限"
 msgid ""
 "Number of comments per day that grants %_plural%. Use zero for unlimited."
 msgstr ""
-"コメント作成者に %_plural% が与えられる１日毎のコメント数の上限です。無制限に"
-"するには 0 を使用します。"
+"コメント作成者に%_plural%が与えられる１日毎のコメント数の上限です。無制限にす"
+"るには 0 を使用します。"
 
 #: ../modules/mycred-module-hooks.php:1122
 msgid ""
 "%plural% is to be awarded even when comment authors reply to their own "
 "comment."
 msgstr ""
-"%plural% は、自分のコメントに返信する場合でも、コメント投稿者に与えられます。"
+"%plural%は、自分のコメントに返信する場合でも、コメント投稿者に与えられます。"
 
 #: ../modules/mycred-module-hooks.php:1193
 msgid "Once for each unique URL"
@@ -4904,7 +4905,7 @@ msgstr "付与の仕組み"
 
 #: ../modules/mycred-module-hooks.php:1738
 msgid "Select when %_plural% should be awarded or deducted."
-msgstr "%_plural% を付与または差し引く必要があるときに選択します。"
+msgstr "%_plural%を付与または差し引く必要があるときに選択します。"
 
 #: ../modules/mycred-module-hooks.php:1739
 msgid "Play - As soon as video starts playing."
@@ -4939,9 +4940,9 @@ msgid ""
 "watches a movie and sometimes a few seconds can drop of the counter due to "
 "buffering or play back errors."
 msgstr ""
-"この値に 0 を設定しないでください。ユーザーが動画を見ている間、時々、数秒の"
-"バッファリングカウンタの低下の可能性やエラーを引き起こすといったことが発生す"
-"る可能性があります。"
+"この値に0を設定しないでください。ユーザーが動画を見ている間、時々、数秒のバッ"
+"ファリングカウンタの低下の可能性やエラーを引き起こすといったことが発生する可"
+"能性があります。"
 
 #: ../modules/mycred-module-hooks.php:1826
 msgid "Affiliate Program"
@@ -5002,8 +5003,8 @@ msgstr "IPの制限"
 msgid ""
 "The number of times each IP address grants %_plural%. Use zero for unlimited."
 msgstr ""
-"各IPアドレスに対して %_plural% を付与する回数です。無制限にするには 0 を使用"
-"します。"
+"各IPアドレスに対して%_plural%を付与する回数です。無制限にするには 0 を使用し"
+"ます。"
 
 #: ../modules/mycred-module-hooks.php:2294
 #: ../modules/mycred-module-hooks.php:2327
