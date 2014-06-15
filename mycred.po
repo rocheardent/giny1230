@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: myCRED\n"
 "Report-Msgid-Bugs-To: http://mycred.me\n"
 "POT-Creation-Date: 2014-03-20 14:26+0100\n"
-"PO-Revision-Date: 2014-06-14 17:06+0800\n"
+"PO-Revision-Date: 2014-06-15 14:50+0800\n"
 "Last-Translator: Yoshihiro Imamura\n"
 "Language-Team: LANGUAGE <support@mycred.me>\n"
 "Language: ja_JP\n"
@@ -212,7 +212,7 @@ msgstr "クリックして開きます"
 #: ../addons/banking/myCRED-addon-banking.php:163
 #: ../addons/buy-creds/myCRED-addon-buy-creds.php:488
 msgid "Settings Updated"
-msgstr "更新の設定"
+msgstr "設定を更新しました"
 
 #: ../addons/banking/myCRED-addon-banking.php:42
 #: ../addons/banking/myCRED-addon-banking.php:43
@@ -1025,7 +1025,7 @@ msgstr "購入品の支払いが行われていません"
 #: ../addons/buy-creds/gateways/skrill.php:178
 #: ../addons/buy-creds/gateways/zombaio.php:218
 msgid "Hanging up on caller"
-msgstr "呼び出し元の電話を切ります"
+msgstr "呼び出し元を停止します"
 
 #: ../addons/buy-creds/gateways/bitpay.php:175
 #: ../addons/buy-creds/gateways/netbilling.php:173
@@ -3004,11 +3004,11 @@ msgstr "表示順序"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:803
 msgid "Ascending - Lowest rank to highest"
-msgstr "昇順 - ランクの最低から順番"
+msgstr "昇順 - ランクの低い順"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:804
 msgid "Descending - Highest rank to lowest"
-msgstr "降順 - ランクの最高から順番"
+msgstr "降順 - ランクの高い順"
 
 #: ../addons/ranks/myCRED-addon-ranks.php:813
 msgid ""
@@ -3800,12 +3800,12 @@ msgstr "設定機能の編集"
 
 #: ../includes/mycred-install.php:550
 msgid "Edit Users %plural% Capability"
-msgstr "ユーザー %plural% 機能の編集"
+msgstr "ユーザー%plural%機能の編集"
 
 #: ../includes/mycred-install.php:554
 #: ../modules/mycred-module-settings.php:376
 msgid "Maximum %plural% payouts"
-msgstr "最大 %plural% 支払い"
+msgstr "%plural%で支払える最大金額"
 
 #: ../includes/mycred-install.php:556
 #: ../modules/mycred-module-settings.php:378
@@ -3817,7 +3817,7 @@ msgid ""
 msgstr ""
 "追加のセキュリティとして、１つのインスタンスでユーザーが収益または損失するこ"
 "とができる最大金額を設定できます。使用した場合、ユーザーが転送、購入、または"
-"お店に滞在することができる最大の量を確認します。無効にするには0を使用します。"
+"お店に使うことができる最大の額を確認します。無効にするには0を使用します。"
 
 #: ../includes/mycred-install.php:563
 #: ../modules/mycred-module-settings.php:385
